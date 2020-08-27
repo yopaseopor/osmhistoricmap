@@ -172,6 +172,58 @@ var config = {
 				return style;
 			}
 		},
+		{
+			group: 'Test',
+			title: 'Mapa del pasado fecha exacta',
+			query: '(nwr[~"^name:....-..-..$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#00FF00',
+			style: function () {
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,255,0,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#00FF00',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		{
+			group: 'Test',
+			title: 'Mapa del pasado por años',
+			query: '(nwr[~"^name:....$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#00FF00',
+			style: function () {
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,255,0,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#00FF00',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
 
 		
 				// Right Ticket
