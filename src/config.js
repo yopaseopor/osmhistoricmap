@@ -168,7 +168,7 @@ var config = {
 		
 		{
 			group: 'Històric',
-			title: 'Mapa del pasado fecha exacta',
+			title: 'Data exacta',
 			query: '(nwr[~"^name:....-..-..$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#3aff00',
@@ -194,7 +194,7 @@ var config = {
 		},
 		{
 			group: 'Històric',
-			title: 'Mapa del pasado por años',
+			title: 'Data aproximada per anys',
 			query: '(nwr[~"^name:....$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#0000ff',
@@ -262,6 +262,35 @@ var config = {
 				});
 				var stroke = new ol.style.Stroke({
 					color: '#ff0000',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 2
+					}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		
+		
+		// Overlay: Històric
+		{
+			group: 'Històric',
+			title: 'Era',
+			query: '(nwr[~"^was(:.*)?$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#710171',
+			style: function () {
+				var fill = new ol.style.Fill({
+					color: 'rgba(113,0,113,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#710171',
 					width: 1.25
 				});
 				var style = new ol.style.Style({
