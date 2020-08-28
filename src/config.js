@@ -127,7 +127,7 @@ var config = {
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'http://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
+				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
 				params: {'LAYERS': 'ovaa10m'}
 			}),
 			visible: false
@@ -137,7 +137,7 @@ var config = {
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'http://geoserveis.icgc.cat/icc_ortoxpres/wms/service?',
+				url: 'https://geoserveis.icgc.cat/icc_ortoxpres/wms/service?',
 				params: {'LAYERS': 'ox3dvolamerica1956'}
 			}),
 			visible: false
@@ -147,7 +147,7 @@ var config = {
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'http://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
+				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
 				params: {'LAYERS': 'orto10c2010', 'STYLES': 'default'}
 			}),
 			visible: false
@@ -157,7 +157,7 @@ var config = {
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'http://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
+				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
 				params: {'LAYERS': 'orto10c2010', 'STYLES': 'default'}
 			}),
 			visible: false
