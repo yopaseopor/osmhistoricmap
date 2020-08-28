@@ -122,7 +122,9 @@ var config = {
 			}),
 			visible: false
   }),
-  new TileLayer({
+  new ol.layer.Tile({
+	  title: 'Esri Sat',
+	iconSrc: imgSrc + 'esri_logo_layer.png',
     extent: [-13884991, 2870341, -7455066, 6338219],
     source: new TileWMS({
       url: 'https://ahocevar.com/geoserver/wms',
