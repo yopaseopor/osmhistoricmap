@@ -128,7 +128,6 @@ var config = {
 			source: new ol.source.XYZ({
 				attributions: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community',
 				url: 'https://www.ign.es/wms/pnoa-historico?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=AMS_1956-1957&STYLES=&SRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}'
-				https://www.ign.es/wms/pnoa-historico?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=AMS_1956-1957&STYLES=&SRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}
 			}),
 			visible: false
 		}),
