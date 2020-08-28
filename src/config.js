@@ -121,16 +121,16 @@ var config = {
 				url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
 			}),
 			visible: false
-		}),
-		new ol.layer.Tile({
-			title: 'Test 1956',
-			iconSrc: imgSrc + 'esri_logo_layer.png',
-			source: new ol.source.XYZ({
-				attributions: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community',
-				url: 'https://www.ign.es/wms/pnoa-historico?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=AMS_1956-1957&STYLES=&SRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}'
-			}),
-			visible: false
-		}),
+  }),
+  new TileLayer({
+    extent: [-13884991, 2870341, -7455066, 6338219],
+    source: new TileWMS({
+      url: 'https://ahocevar.com/geoserver/wms',
+      params: {'LAYERS': 'topp:states', 'TILED': true},
+      serverType: 'geoserver',
+      // Countries have transparency, so do not fade tiles:
+      transition: 0,
+    }),
 		new ol.layer.Tile({
 			title: 'Google Maps',
 			iconSrc: imgSrc + 'gmaps_logo_layer.png',
