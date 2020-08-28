@@ -123,12 +123,22 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: 'Test 1956',
-			iconSrc: imgSrc + 'esri_logo_layer.png',
+			title: '1956-1957 IGN - Vol AMS',
+			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'https://www.ign.es/wms/pnoa-historico?',
 				params: {'LAYERS': 'AMS_1956-1957'}
+			}),
+			visible: false
+		}),
+		new ol.layer.Tile({
+			title: '1997-1998 IGN - Olistat',
+			iconSrc: imgSrc + 'logo_ign.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				url: 'https://www.ign.es/wms/pnoa-historico?',
+				params: {'LAYERS': 'OLISTAT'}
 			}),
 			visible: false
 		}),
