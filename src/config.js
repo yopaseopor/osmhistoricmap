@@ -148,7 +148,7 @@ var config = {
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
-				params: {'LAYERS': 'orto10c2010', 'STYLES': 'default'}
+				params: {'LAYERS': 'orto10c2010'}
 			}),
 			visible: false
 		}),
@@ -158,7 +158,7 @@ var config = {
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
-				params: {'LAYERS': 'orto10c2010', 'STYLES': 'default'}
+				params: {'LAYERS': 'orto10c2010'}
 			}),
 			visible: false
 		}),
