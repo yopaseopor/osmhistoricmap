@@ -131,7 +131,8 @@ var config = {
       params: {'LAYERS': 'topp:states', 'TILED': true},
       serverType: 'geoserver',
       // Countries have transparency, so do not fade tiles:
-      transition: 0,
+      transition: 0,}),
+			visible: false
     }),
 		new ol.layer.Tile({
 			title: 'Google Maps',
