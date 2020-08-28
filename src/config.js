@@ -157,7 +157,7 @@ var config = {
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
+				url: 'http://geoserveis.icgc.cat/icc_ortoxpres/wms/service?',
 				params: {'LAYERS': 'ox3ddarprgbsummer2020'}
 			}),
 			visible: false
