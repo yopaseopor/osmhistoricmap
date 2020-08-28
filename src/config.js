@@ -125,9 +125,10 @@ var config = {
 		new ol.layer.Tile({
 			title: 'Test 1956',
 			iconSrc: imgSrc + 'esri_logo_layer.png',
-			source: new ol.source.XYZ({
+			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community',
-				url: 'https://www.ign.es/wms/pnoa-historico?FORMAT=image/png&TRANSPARENT=TRUE&VERSION=1.1.1&SERVICE=WMS&REQUEST=GetMap&LAYERS=AMS_1956-1957&STYLES=&SRS={proj}&WIDTH={width}&HEIGHT={height}&BBOX={bbox}'
+				url: 'https://www.ign.es/wms/pnoa-historico?',
+				params: {'LAYERS': 'AMS_1956-1957'}
 			}),
 			visible: false
 		}),
