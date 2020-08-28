@@ -233,6 +233,65 @@ var config = {
 				return style;
 			}
 		},
+		
+		
+		// Overlay: Històric
+		{
+			group: 'Històric',
+			title: 'Abandonat',
+			query: '(nwr[~"^abandoned(:.*)?$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#000000',
+			style: function () {
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,0,0,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#000000',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 2
+					}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		
+		
+		// Overlay: Històric
+		{
+			group: 'Històric',
+			title: 'En desús',
+			query: '(nwr[~"^disused(:.*)?$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#ff0000',
+			style: function () {
+				var fill = new ol.style.Fill({
+					color: 'rgba(255,0,0,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#ff0000',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 2
+					}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		
 
 		
 				// Right Ticket
@@ -1701,34 +1760,6 @@ var config = {
 				});
 				var stroke = new ol.style.Stroke({
 					color: '#FF0000',
-					width: 1.25
-				});
-				var style = new ol.style.Style({
-					image: new ol.style.Circle({
-						fill: fill,
-						stroke: stroke,
-						radius: 2
-					}),
-					fill: fill,
-					stroke: stroke
-				});
-				return style;
-			}
-		},
-
-		// Overlay: Històric
-		{
-			group: 'Històric',
-			title: 'Abandonat',
-			query: '(nwr[~"^abandoned(:.*)?$"~"."]({{bbox}});node(w););out meta;',
-			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:#000000',
-			style: function () {
-				var fill = new ol.style.Fill({
-					color: 'rgba(0,0,0,0.4)'
-				});
-				var stroke = new ol.style.Stroke({
-					color: '#000000',
 					width: 1.25
 				});
 				var style = new ol.style.Style({
