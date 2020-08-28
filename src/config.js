@@ -133,7 +133,7 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '1956-1957 ICGC - Vol AMS Sèrie B (BW)',
+			title: '1956-1957 ICGC - Vol AMS Sèrie B (BW)1',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.ImageWMS({
 				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
@@ -143,7 +143,7 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '1956-1957 ICGC - Vol AMS Sèrie B (BW)',
+			title: '1956-1957 ICGC - Vol AMS Sèrie B (BW)2',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
@@ -153,7 +153,7 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '2010 ICGC - 1:1000',
+			title: '2010 ICGC - 1:1000 1',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
@@ -163,7 +163,7 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '2010 ICGC - 1:1000',
+			title: '2010 ICGC - 1:1000 2',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.ImageWMS({
 				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
