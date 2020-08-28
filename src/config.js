@@ -122,19 +122,7 @@ var config = {
 			}),
 			visible: false
   }),
-  new ol.layer.Tile({
-	  title: 'Esri Sat',
-	iconSrc: imgSrc + 'esri_logo_layer.png',
-    source: ol.source.TileWMS({
-      url: 'https://ahocevar.com/geoserver/wms',
-	  extent: [-13884991, 2870341, -7455066, 6338219],
-      params: {'LAYERS': 'topp:states', 'TILED': true},
-      serverType: 'geoserver',
-      // Countries have transparency, so do not fade tiles:
-      transition: 0
-	  }),
-			visible: false
-    }),
+
 		new ol.layer.Tile({
 			title: 'Google Maps',
 			iconSrc: imgSrc + 'gmaps_logo_layer.png',
