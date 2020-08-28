@@ -153,12 +153,12 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '2010 ICGC - 1:1000 1',
+			title: '2020 ICGC - 1:1000 1',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
-				params: {'LAYERS': 'orto10c2010'}
+				params: {'LAYERS': 'ox3ddarprgbsummer2020'}
 			}),
 			visible: false
 		}),
