@@ -133,12 +133,32 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '1956-1957 IGN - Vol AMS (BW)',
+			title: '1956-1957 IGN - Vol AMS Sèrie B (BW)',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'https://www.ign.es/wms/pnoa-historico?',
 				params: {'LAYERS': 'AMS_1956-1957'}
+			}),
+			visible: false
+		}),
+		new ol.layer.Tile({
+			title: '1973-1986 IGN - Interministerial (BW)',
+			iconSrc: imgSrc + 'logo_ign.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				url: 'https://www.ign.es/wms/pnoa-historico?',
+				params: {'LAYERS': 'Interministerial_1973-1986'}
+			}),
+			visible: false
+		}),
+		new ol.layer.Tile({
+			title: '1981-1986 IGN - Nacional (BW)',
+			iconSrc: imgSrc + 'logo_ign.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				url: 'https://www.ign.es/wms/pnoa-historico?',
+				params: {'LAYERS': 'Nacional_1981-1986'}
 			}),
 			visible: false
 		}),
@@ -153,7 +173,7 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '1997-2003 IGN - Sigpac (BW)',
+			title: '1997-2003 IGN - Sigpac',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
@@ -163,12 +183,162 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '1997-2003 IGN - Sigpac (BW)',
+			title: '2004 IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'https://www.ign.es/wms/pnoa-historico?',
-				params: {'LAYERS': 'SIGPAC'}
+				params: {'LAYERS': 'PNOA2004'}
+			}),
+			visible: false
+		}),
+		new ol.layer.Tile({
+			title: '2005 IGN - PNOA',
+			iconSrc: imgSrc + 'logo_ign.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				url: 'https://www.ign.es/wms/pnoa-historico?',
+				params: {'LAYERS': 'PNOA2005'}
+			}),
+			visible: false
+		}),
+		new ol.layer.Tile({
+			title: '2006 IGN - PNOA',
+			iconSrc: imgSrc + 'logo_ign.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				url: 'https://www.ign.es/wms/pnoa-historico?',
+				params: {'LAYERS': 'PNOA2006'}
+			}),
+			visible: false
+		}),
+		new ol.layer.Tile({
+			title: '2007 IGN - PNOA',
+			iconSrc: imgSrc + 'logo_ign.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				url: 'https://www.ign.es/wms/pnoa-historico?',
+				params: {'LAYERS': 'PNOA2007'}
+			}),
+			visible: false
+		}),
+		new ol.layer.Tile({
+			title: '2008 IGN - PNOA',
+			iconSrc: imgSrc + 'logo_ign.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				url: 'https://www.ign.es/wms/pnoa-historico?',
+				params: {'LAYERS': 'PNOA2008'}
+			}),
+			visible: false
+		}),
+		new ol.layer.Tile({
+			title: '2009 IGN - PNOA',
+			iconSrc: imgSrc + 'logo_ign.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				url: 'https://www.ign.es/wms/pnoa-historico?',
+				params: {'LAYERS': 'PNOA2009'}
+			}),
+			visible: false
+		}),
+		new ol.layer.Tile({
+			title: '2010 IGN - PNOA',
+			iconSrc: imgSrc + 'logo_ign.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				url: 'https://www.ign.es/wms/pnoa-historico?',
+				params: {'LAYERS': 'PNOA2010'}
+			}),
+			visible: false
+		}),
+		new ol.layer.Tile({
+			title: '2011 IGN - PNOA',
+			iconSrc: imgSrc + 'logo_ign.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				url: 'https://www.ign.es/wms/pnoa-historico?',
+				params: {'LAYERS': 'PNOA2011'}
+			}),
+			visible: false
+		}),
+		new ol.layer.Tile({
+			title: '2012 IGN - PNOA',
+			iconSrc: imgSrc + 'logo_ign.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				url: 'https://www.ign.es/wms/pnoa-historico?',
+				params: {'LAYERS': 'PNOA2012'}
+			}),
+			visible: false
+		}),
+		new ol.layer.Tile({
+			title: '2013 IGN - PNOA',
+			iconSrc: imgSrc + 'logo_ign.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				url: 'https://www.ign.es/wms/pnoa-historico?',
+				params: {'LAYERS': 'PNOA2013'}
+			}),
+			visible: false
+		}),
+		new ol.layer.Tile({
+			title: '2014 IGN - PNOA',
+			iconSrc: imgSrc + 'logo_ign.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				url: 'https://www.ign.es/wms/pnoa-historico?',
+				params: {'LAYERS': 'PNOA2014'}
+			}),
+			visible: false
+		}),
+		new ol.layer.Tile({
+			title: '2015 IGN - PNOA',
+			iconSrc: imgSrc + 'logo_ign.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				url: 'https://www.ign.es/wms/pnoa-historico?',
+				params: {'LAYERS': 'PNOA2015'}
+			}),
+			visible: false
+		}),
+		new ol.layer.Tile({
+			title: '2016 IGN - PNOA',
+			iconSrc: imgSrc + 'logo_ign.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				url: 'https://www.ign.es/wms/pnoa-historico?',
+				params: {'LAYERS': 'PNOA2016'}
+			}),
+			visible: false
+		}),
+		new ol.layer.Tile({
+			title: '2017 IGN - PNOA',
+			iconSrc: imgSrc + 'logo_ign.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				url: 'https://www.ign.es/wms/pnoa-historico?',
+				params: {'LAYERS': 'PNOA2017'}
+			}),
+			visible: false
+		}),
+		new ol.layer.Tile({
+			title: '2018 IGN - PNOA',
+			iconSrc: imgSrc + 'logo_ign.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				url: 'https://www.ign.es/wms/pnoa-historico?',
+				params: {'LAYERS': 'PNOA2018'}
+			}),
+			visible: false
+		}),
+		new ol.layer.Tile({
+			title: '2019 IGN - PNOA',
+			iconSrc: imgSrc + 'logo_ign.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				url: 'https://www.ign.es/wms/pnoa-historico?',
+				params: {'LAYERS': 'PNOA2019'}
 			}),
 			visible: false
 		}),
