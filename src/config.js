@@ -123,12 +123,22 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '1956-1957 IGN - Vol AMS (BW)',
-			iconSrc: imgSrc + 'logo_ign.png',
+			title: '1945-1946 ICGC - Vol AMS Sèrie A (BW)',
+			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
-				url: 'https://www.ign.es/wms/pnoa-historico?',
-				params: {'LAYERS': 'AMS_1945-1946'}
+				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				url: 'http://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
+				params: {'LAYERS': 'ovaa10m'}
+			}),
+			visible: false
+		}),
+		new ol.layer.Tile({
+			title: '1956-1957 ICGC - Vol AMS Sèrie B (BW)',
+			iconSrc: imgSrc + 'logo_icgc.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				url: 'http://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
+				params: {'LAYERS': 'ovab5m'}
 			}),
 			visible: false
 		}),
