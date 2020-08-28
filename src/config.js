@@ -143,6 +143,16 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
+			title: '1956-1957 ICGC - Vol AMS Sèrie B (BW)',
+			iconSrc: imgSrc + 'logo_icgc.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				url: 'https://geoserveis.icgc.cat/icc_ortoxpres/wms/service?',
+				params: {'LAYERS': 'ox3dvolamerica1956'}
+			}),
+			visible: false
+		}),
+		new ol.layer.Tile({
 			title: '2010 ICGC - 1:1000',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
