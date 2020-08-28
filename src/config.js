@@ -167,21 +167,6 @@ var config = {
 				// Parking vending machine
 		
 		{
-			group: 'Parking_Lanes',
-			title: 'Vending Parking Tickets',
-			query: 'node[vending=parking_tickets]({{bbox}});out meta;',
-			iconSrc: imgSrc + 'icones/ticket_zone_osm.png',
-			style: function () {
-				var style = new ol.style.Style({
-					image: new ol.style.Icon({
-						scale: 0.4,
-						src: imgSrc + 'icones/ticket_zone_osm.png'
-					})
-				});
-				return style;
-			}
-		},
-		{
 			group: 'Històric',
 			title: 'Mapa del pasado fecha exacta',
 			query: '(nwr[~"^name:....-..-..$"~"."]({{bbox}});node(w););out meta;',
@@ -321,7 +306,7 @@ var config = {
 			}
 		},
 		
-
+/*
 		
 				// Right Ticket
 		{
@@ -1275,7 +1260,7 @@ var config = {
 				}
 				var styles = [];
 
-				/* draw the segment line */ 
+				/* draw the segment line */ /*
 				var width = (parseFloat(maxspeed) / 30) + 0.5;
 				var color = linearColorInterpolation([0, 255, 0], [255, 0, 0], Math.min(maxspeed, 120) / 120);
 
@@ -1289,7 +1274,7 @@ var config = {
 
 				// doesn't show speed sign in roundabout and similars
 				if (!feature.get('junction')) {
-					/* show the speed sign */ 
+					/* show the speed sign */ /*
 					var coords = feature.getGeometry().getCoordinates();
 
 					styles.push(new ol.style.Style({
@@ -1802,7 +1787,7 @@ var config = {
 				});
 				return style;
 			}
-		},
+		}, */
 
 		// Overlay: Test
 		{
