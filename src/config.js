@@ -223,7 +223,7 @@ var config = {
 		// Overlay: Històric
 		{
 			group: 'Històric',
-			title: 'Abandonat',
+			title: 'Abandonat (abandoned)',
 			query: '(nwr[~"^abandoned(:.*)?$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#000000',
@@ -252,7 +252,7 @@ var config = {
 		// Overlay: Històric
 		{
 			group: 'Històric',
-			title: 'En desús',
+			title: 'En desús (disused)',
 			query: '(nwr[~"^disused(:.*)?$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#ff0000',
@@ -281,7 +281,7 @@ var config = {
 		// Overlay: Històric
 		{
 			group: 'Històric',
-			title: 'Era',
+			title: 'Era (was)',
 			query: '(nwr[~"^was(:.*)?$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#710171',
@@ -291,6 +291,35 @@ var config = {
 				});
 				var stroke = new ol.style.Stroke({
 					color: '#710171',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 2
+					}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		
+		
+		// Overlay: Històric
+		{
+			group: 'Històric',
+			title: 'Antic(old)',
+			query: '(nwr[~"old"~".*"]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#00fff3',
+			style: function () {
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,255,243,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#00fff3',
 					width: 1.25
 				});
 				var style = new ol.style.Style({
