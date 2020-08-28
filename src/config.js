@@ -163,6 +163,36 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
+			title: '2020 ICGC - 1:1000 2',
+			iconSrc: imgSrc + 'logo_icgc.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				url: 'https://geoserveis.icgc.cat/icc_ortoxpres/wms/service?',
+				params: {'LAYERS': 'ox3ddarprgbsummer2020'}
+			}),
+			visible: false
+		}),
+		new ol.layer.Tile({
+			title: '2020 ICGC - 1:1000 3',
+			iconSrc: imgSrc + 'logo_icgc.png',
+			source: new ol.source.ImageWMS({
+				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				url: 'http://geoserveis.icgc.cat/icc_ortoxpres/wms/service?',
+				params: {'LAYERS': 'ox3ddarprgbsummer2020'}
+			}),
+			visible: false
+		}),
+		new ol.layer.Tile({
+			title: '2020 ICGC - 1:1000 1',
+			iconSrc: imgSrc + 'logo_icgc.png',
+			source: new ol.source.ImageWMS({
+				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				url: 'https://geoserveis.icgc.cat/icc_ortoxpres/wms/service?',
+				params: {'LAYERS': 'ox3ddarprgbsummer2020'}
+			}),
+			visible: false
+		}),
+		new ol.layer.Tile({
 			title: '2010 ICGC - 1:1000 2',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.ImageWMS({
