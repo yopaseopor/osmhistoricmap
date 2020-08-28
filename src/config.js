@@ -292,6 +292,35 @@ var config = {
 			}
 		},
 		
+		
+		// Overlay: Històric
+		{
+			group: 'Històric',
+			title: 'Ruines',
+			query: '(nwr[historic=ruins]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#714601',
+			style: function () {
+				var fill = new ol.style.Fill({
+					color: 'rgba(113,70,1,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#714601',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 2
+					}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		
 
 		
 				// Right Ticket
