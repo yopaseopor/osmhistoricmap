@@ -143,6 +143,16 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
+			title: '2010 ICGC - 1:1000',
+			iconSrc: imgSrc + 'logo_icgc.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				url: 'http://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
+				params: {'LAYERS': 'orto10c2010'}
+			}),
+			visible: false
+		}),
+		new ol.layer.Tile({
 			title: '1956-1957 IGN - Vol AMS Sèrie B (BW)',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
