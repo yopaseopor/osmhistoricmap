@@ -123,7 +123,17 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '1956-1957 IGN - Vol AMS',
+			title: '1956-1957 IGN - Vol AMS (BW)',
+			iconSrc: imgSrc + 'logo_ign.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				url: 'https://www.ign.es/wms/pnoa-historico?',
+				params: {'LAYERS': 'AMS_1945-1946'}
+			}),
+			visible: false
+		}),
+		new ol.layer.Tile({
+			title: '1956-1957 IGN - Vol AMS (BW)',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
@@ -133,12 +143,32 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '1997-1998 IGN - Olistat',
+			title: '1997-1998 IGN - Olistat (BW)',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'https://www.ign.es/wms/pnoa-historico?',
 				params: {'LAYERS': 'OLISTAT'}
+			}),
+			visible: false
+		}),
+		new ol.layer.Tile({
+			title: '1997-2003 IGN - Sigpac (BW)',
+			iconSrc: imgSrc + 'logo_ign.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				url: 'https://www.ign.es/wms/pnoa-historico?',
+				params: {'LAYERS': 'SIGPAC'}
+			}),
+			visible: false
+		}),
+		new ol.layer.Tile({
+			title: '1997-2003 IGN - Sigpac (BW)',
+			iconSrc: imgSrc + 'logo_ign.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				url: 'https://www.ign.es/wms/pnoa-historico?',
+				params: {'LAYERS': 'SIGPAC'}
 			}),
 			visible: false
 		}),
