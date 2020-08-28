@@ -182,7 +182,7 @@ var config = {
 			}
 		},
 		{
-			group: 'Test',
+			group: 'Històric',
 			title: 'Mapa del pasado fecha exacta',
 			query: '(nwr[~"^name:....-..-..$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -208,7 +208,7 @@ var config = {
 			}
 		},
 		{
-			group: 'Test',
+			group: 'Històric',
 			title: 'Mapa del pasado por años',
 			query: '(nwr[~"^name:....$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
