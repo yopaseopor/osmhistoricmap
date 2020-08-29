@@ -138,7 +138,7 @@ var config = {
 			source: new ol.source.ImageWMS({
 				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'https://geoserveis.icgc.cat/icc_ortoxpres/wms/service?',
-				params: {'LAYERS': 'ox3dvolamerica1956'}
+				params: {'LAYERS': 'ox3dvolamerica1956', 'VERSION': '1.1.1'}
 			}),
 			visible: false
 		}),
@@ -148,7 +148,7 @@ var config = {
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'http://geoserveis.icgc.cat/icc_ortoxpres/wms/service?',
-				params: {'LAYERS': 'ox3dvolamerica1956'}
+				params: {'LAYERS': 'ox3dvolamerica1956', 'VERSION': '1.1.1'}
 			}),
 			visible: false
 		}),
@@ -158,7 +158,7 @@ var config = {
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'http://geoserveis.icgc.cat/icc_ortoxpres/wms/service?',
-				params: {'LAYERS': 'ox3ddarprgbsummer2020'}
+				params: {'LAYERS': 'ox3ddarprgbsummer2020', 'VERSION': '1.1.1'}
 			}),
 			visible: false
 		}),
@@ -168,7 +168,7 @@ var config = {
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'https://geoserveis.icgc.cat/icc_ortoxpres/wms/service?',
-				params: {'LAYERS': 'ox3ddarprgbsummer2020'}
+				params: {'LAYERS': 'ox3ddarprgbsummer2020', 'VERSION': '1.1.1'}
 			}),
 			visible: false
 		}),
@@ -178,7 +178,7 @@ var config = {
 			source: new ol.source.ImageWMS({
 				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'http://geoserveis.icgc.cat/icc_ortoxpres/wms/service?',
-				params: {'LAYERS': 'ox3ddarprgbsummer2020'}
+				params: {'LAYERS': 'ox3ddarprgbsummer2020', 'VERSION': '1.1.1'}
 			}),
 			visible: false
 		}),
@@ -188,7 +188,7 @@ var config = {
 			source: new ol.source.ImageWMS({
 				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'https://geoserveis.icgc.cat/icc_ortoxpres/wms/service?',
-				params: {'LAYERS': 'ox3ddarprgbsummer2020'}
+				params: {'LAYERS': 'ox3ddarprgbsummer2020', 'VERSION': '1.1.1'}
 			}),
 			visible: false
 		}),
@@ -198,7 +198,7 @@ var config = {
 			source: new ol.source.ImageWMS({
 				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'http://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
-				params: {'LAYERS': 'orto10c2010'}
+				params: {'LAYERS': 'orto10c2010', 'VERSION': '1.1.1'}
 			}),
 			visible: false
 		}),
