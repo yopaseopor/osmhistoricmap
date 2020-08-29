@@ -128,7 +128,7 @@ var config = {
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
-				params: {'LAYERS': 'ovaa10m'}
+				params: {'LAYERS': 'ovaa10m', 'VERSION': '1.1.1'}
 			}),
 			visible: false
 		}),
