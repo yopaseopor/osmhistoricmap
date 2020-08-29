@@ -133,12 +133,12 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '1956-1957 ICGC - Vol AMS Sèrie B (BW)1',
+			title: '1956-1957 ICGC - Vol AMS Sèrie B (BW)',
 			iconSrc: imgSrc + 'logo_icgc.png',
-			source: new ol.source.ImageWMS({
+			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'https://geoserveis.icgc.cat/icc_ortoxpres/wms/service?',
-				params: {'LAYERS': 'ox3dvolamerica1956', 'VERSION': '1.1.1'}
+				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
+				params: {'LAYERS': 'ovab5m', 'VERSION': '1.1.1'}
 			}),
 			visible: false
 		}),
