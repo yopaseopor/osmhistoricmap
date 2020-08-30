@@ -124,6 +124,17 @@ var config = {
 		}),
 
 		new ol.layer.Tile({
+			title: '1945-1946 ES_IGN - Vol AMS Sèrie A',
+			iconSrc: imgSrc + 'logo_ign.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				url: 'https://fototeca.cnig.es/wms/fototeca.dll?',
+				params: {'LAYERS': 'americano_serie_a'}
+			}),
+			visible: false
+		}),
+
+		new ol.layer.Tile({
 			title: '1956-1957 ES_IGN - Vol AMS Sèrie B',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
