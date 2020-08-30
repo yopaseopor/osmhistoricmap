@@ -35,6 +35,9 @@ var config = {
 	},
 	// Base layers
 	layers: [
+	
+	
+	{
 		new ol.layer.Tile({
 			group: 'Històric',
 			title: 'OpenStreetMap',
@@ -532,6 +535,7 @@ var config = {
 			}),
 			visible: false
 		})
+		}
 	],
 	/**
 	* @type Array
