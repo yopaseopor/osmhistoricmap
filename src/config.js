@@ -124,12 +124,23 @@ var config = {
 		}),
 
 		new ol.layer.Tile({
-			title: '1915 ES_IGN Primera Edición MTN25',
+			title: '1915 ES_IGN 0 Edición MTN50 (Catastrones)',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'https://www.ign.es/wms/primera-edicion-mtn?',
 				params: {'LAYERS': 'catastrones'}
+			}),
+			visible: false
+		}),
+
+		new ol.layer.Tile({
+			title: '1915 ES_IGN 1a Edición MTN25',
+			iconSrc: imgSrc + 'logo_ign.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				url: 'https://www.ign.es/wms/primera-edicion-mtn?',
+				params: {'LAYERS': 'MTN25'}
 			}),
 			visible: false
 		}),
