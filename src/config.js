@@ -36,11 +36,13 @@ var config = {
 	// Base layers
 	layers: [
 		new ol.layer.Tile({
+			group: 'Històric',
 			title: 'OpenStreetMap',
 			iconSrc: imgSrc + 'osm_logo-layer.svg',
 			source: new ol.source.OSM()
 		}),
 		new ol.layer.Tile({
+			group: 'Històric',
 			title: 'OpenStreetMap B&W',
 			iconSrc: imgSrc + 'osmbw_logo-layer.png',
 			source: new ol.source.XYZ({
