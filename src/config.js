@@ -573,6 +573,16 @@ var config = {
 				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
 				params: {'LAYERS': 'orto5m2003', 'VERSION': '1.1.1'}
 			}),
+		}),
+		
+				new ol.layer.Tile({
+			title: '2004 ES_CAT_ICGC - 1:5000',
+			iconSrc: imgSrc + 'logo_icgc.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
+				params: {'LAYERS': 'orto5m2004', 'VERSION': '1.1.1'}
+			}),
 			visible: false
 		}),
 
