@@ -122,88 +122,9 @@ var config = {
 			}),
 			visible: false
 		}),
+
 		new ol.layer.Tile({
-			title: '1945-1946 ICGC - Vol AMS Sèrie A (BW)',
-			iconSrc: imgSrc + 'logo_icgc.png',
-			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
-				params: {'LAYERS': 'ovaa10m', 'VERSION': '1.1.1'}
-			}),
-			visible: false
-		}),
-		new ol.layer.Tile({
-			title: '1956-1957 ICGC - Vol AMS Sèrie B (BW)',
-			iconSrc: imgSrc + 'logo_icgc.png',
-			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
-				params: {'LAYERS': 'ovab5m', 'VERSION': '1.1.1'}
-			}),
-			visible: false
-		}),
-		new ol.layer.Tile({
-			title: '1956-1957 ICGC - Vol AMS Sèrie B (BW)2',
-			iconSrc: imgSrc + 'logo_icgc.png',
-			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'http://geoserveis.icgc.cat/icc_ortoxpres/wms/service?',
-				params: {'LAYERS': 'ox3dvolamerica1956', 'VERSION': '1.1.1'}
-			}),
-			visible: false
-		}),
-		new ol.layer.Tile({
-			title: '2020 ICGC - 1:1000 1',
-			iconSrc: imgSrc + 'logo_icgc.png',
-			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'http://geoserveis.icgc.cat/icc_ortoxpres/wms/service?',
-				params: {'LAYERS': 'ox3ddarprgbsummer2020', 'VERSION': '1.1.1'}
-			}),
-			visible: false
-		}),
-		new ol.layer.Tile({
-			title: '2020 ICGC - 1:1000 2',
-			iconSrc: imgSrc + 'logo_icgc.png',
-			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'https://geoserveis.icgc.cat/icc_ortoxpres/wms/service?',
-				params: {'LAYERS': 'ox3ddarprgbsummer2020', 'VERSION': '1.1.1'}
-			}),
-			visible: false
-		}),
-		new ol.layer.Tile({
-			title: '2020 ICGC - 1:1000 3',
-			iconSrc: imgSrc + 'logo_icgc.png',
-			source: new ol.source.ImageWMS({
-				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'http://geoserveis.icgc.cat/icc_ortoxpres/wms/service?',
-				params: {'LAYERS': 'ox3ddarprgbsummer2020', 'VERSION': '1.1.1'}
-			}),
-			visible: false
-		}),
-		new ol.layer.Tile({
-			title: '2020 ICGC - 1:1000 1',
-			iconSrc: imgSrc + 'logo_icgc.png',
-			source: new ol.source.ImageWMS({
-				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'https://geoserveis.icgc.cat/icc_ortoxpres/wms/service?',
-				params: {'LAYERS': 'ox3ddarprgbsummer2020', 'VERSION': '1.1.1'}
-			}),
-			visible: false
-		}),
-		new ol.layer.Tile({
-			title: '2010 ICGC - 1:1000 2',
-			iconSrc: imgSrc + 'logo_icgc.png',
-			source: new ol.source.ImageWMS({
-				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'http://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
-				params: {'LAYERS': 'orto10c2010', 'VERSION': '1.1.1'}
-			}),
-			visible: false
-		}),
-		new ol.layer.Tile({
-			title: '1956-1957 IGN - Vol AMS Sèrie B (BW)',
+			title: '1956-1957 ES_IGN - Vol AMS Sèrie B (BW)',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
@@ -213,7 +134,7 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '1973-1986 IGN - Interministerial (BW)',
+			title: '1973-1986 ES_IGN - Interministerial (BW)',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
@@ -223,7 +144,7 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '1981-1986 IGN - Nacional (BW)',
+			title: '1981-1986 ES_IGN - Nacional (BW)',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
@@ -233,7 +154,7 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '1997-1998 IGN - Olistat (BW)',
+			title: '1997-1998 ES_IGN - Olistat (BW)',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
@@ -243,7 +164,7 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '1997-2003 IGN - Sigpac',
+			title: '1997-2003 ES_IGN - Sigpac',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
@@ -253,7 +174,7 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '2004 IGN - PNOA',
+			title: '2004 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
@@ -263,7 +184,7 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '2005 IGN - PNOA',
+			title: '2005 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
@@ -273,7 +194,7 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '2006 IGN - PNOA',
+			title: '2006 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
@@ -293,7 +214,7 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '2008 IGN - PNOA',
+			title: '2008 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
@@ -303,7 +224,7 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '2009 IGN - PNOA',
+			title: '2009 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
@@ -313,7 +234,7 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '2010 IGN - PNOA',
+			title: '2010 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
@@ -323,7 +244,7 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '2011 IGN - PNOA',
+			title: '2011 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
@@ -333,7 +254,7 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '2012 IGN - PNOA',
+			title: '2012 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
@@ -353,7 +274,7 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '2014 IGN - PNOA',
+			title: '2014 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
@@ -363,7 +284,7 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '2015 IGN - PNOA',
+			title: '2015 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
@@ -373,7 +294,7 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '2016 IGN - PNOA',
+			title: '2016 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
@@ -383,7 +304,7 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '2017 IGN - PNOA',
+			title: '2017 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
@@ -393,7 +314,7 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '2018 IGN - PNOA',
+			title: '2018 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
@@ -403,7 +324,7 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '2019 IGN - PNOA',
+			title: '2019 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
@@ -412,6 +333,29 @@ var config = {
 			}),
 			visible: false
 		}),
+		
+				new ol.layer.Tile({
+			title: 'ES_CAT_1945-1946 ICGC - Vol AMS Sèrie A (BW)',
+			iconSrc: imgSrc + 'logo_icgc.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
+				params: {'LAYERS': 'ovaa10m', 'VERSION': '1.1.1'}
+			}),
+			visible: false
+		}),
+		
+				new ol.layer.Tile({
+			title: 'ES_CAT_1983 ICGC - 1:5000',
+			iconSrc: imgSrc + 'logo_icgc.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
+				params: {'LAYERS': 'orto5m1983', 'VERSION': '1.1.1'}
+			}),
+			visible: false
+		}),
+
 		new ol.layer.Tile({
 			title: 'Google Maps',
 			iconSrc: imgSrc + 'gmaps_logo_layer.png',
