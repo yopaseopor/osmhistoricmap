@@ -35,17 +35,12 @@ var config = {
 	},
 	// Base layers
 	layers: [
-	
-	
-	{
 		new ol.layer.Tile({
-			group: 'Històric',
 			title: 'OpenStreetMap',
 			iconSrc: imgSrc + 'osm_logo-layer.svg',
 			source: new ol.source.OSM()
 		}),
 		new ol.layer.Tile({
-			group: 'Històric',
 			title: 'OpenStreetMap B&W',
 			iconSrc: imgSrc + 'osmbw_logo-layer.png',
 			source: new ol.source.XYZ({
@@ -56,7 +51,6 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({// OpenStreetMap France https://openstreetmap.fr
-		group: 'Històric2',
 			title: 'OpenStreetMap France',
 			iconSrc: imgSrc + 'osmfr_logo-layer.png',
 			source: new ol.source.OSM({
@@ -66,7 +60,6 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			group: 'Històric2',
 			title: 'OpenMapSurfer',
 			iconSrc: imgSrc + 'openroute_logo_layer.png',
 			source: new ol.source.XYZ({
@@ -535,8 +528,6 @@ var config = {
 			}),
 			visible: false
 		})
-		}
-}
 	],
 	/**
 	* @type Array
