@@ -124,12 +124,12 @@ var config = {
 		}),
 
 		new ol.layer.Tile({
-			title: '1860 ES_IGN - Hojas kilométricas',
+			title: '1915 ES_IGN Primera Edición MTN25',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
-				url: 'https://www.ign.es/wms/hojas-kilometricas?',
-				params: {'LAYERS': 'Mapas'}
+				url: 'https://www.ign.es/wms/primera-edicion-mtn?',
+				params: {'LAYERS': 'catastrones'}
 			}),
 			visible: false
 		}),
