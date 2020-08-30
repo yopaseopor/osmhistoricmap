@@ -204,7 +204,7 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '2007 IGN - PNOA',
+			title: '2007 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
@@ -264,7 +264,7 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '2013 IGN - PNOA',
+			title: '2013 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
@@ -506,6 +506,61 @@ var config = {
 				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
 				params: {'LAYERS': 'orto5m1999', 'VERSION': '1.1.1'}
+			}),
+			visible: false
+		}),
+		
+				new ol.layer.Tile({
+			title: '2000 ES_CAT_ICGC - 1:5000',
+			iconSrc: imgSrc + 'logo_icgc.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
+				params: {'LAYERS': 'orto5m2000', 'VERSION': '1.1.1'}
+			}),
+			visible: false
+		}),
+		
+				new ol.layer.Tile({
+			title: '2000 ES_CAT_ICGC - 1:5000',
+			iconSrc: imgSrc + 'logo_icgc.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
+				params: {'LAYERS': 'orto5m2000', 'VERSION': '1.1.1'}
+			}),
+			visible: false
+		}),
+		
+				new ol.layer.Tile({
+			title: '2001 ES_CAT_ICGC - 1:5000',
+			iconSrc: imgSrc + 'logo_icgc.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
+				params: {'LAYERS': 'orto5m2001', 'VERSION': '1.1.1'}
+			}),
+			visible: false
+		}),
+		
+				new ol.layer.Tile({
+			title: '2002 ES_CAT_ICGC - 1:5000',
+			iconSrc: imgSrc + 'logo_icgc.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
+				params: {'LAYERS': 'orto5m2002', 'VERSION': '1.1.1'}
+			}),
+			visible: false
+		}),
+		
+				new ol.layer.Tile({
+			title: '2003 ES_CAT_ICGC - 1:5000',
+			iconSrc: imgSrc + 'logo_icgc.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
+				params: {'LAYERS': 'orto5m2003', 'VERSION': '1.1.1'}
 			}),
 			visible: false
 		}),
