@@ -536,6 +536,7 @@ var config = {
 			visible: false
 		})
 		}
+}
 	],
 	/**
 	* @type Array
