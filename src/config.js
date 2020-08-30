@@ -124,6 +124,17 @@ var config = {
 		}),
 
 		new ol.layer.Tile({
+			title: '1860 ES_IGN - Hojas kilométricas',
+			iconSrc: imgSrc + 'logo_ign.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				url: 'https://www.ign.es/wms/hojas-kilometricas?',
+				params: {'LAYERS': 'Mapas'}
+			}),
+			visible: false
+		}),
+
+		new ol.layer.Tile({
 			title: '1945-1946 ES_IGN - Vol AMS Sèrie A',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
