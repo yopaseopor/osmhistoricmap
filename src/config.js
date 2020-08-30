@@ -53,6 +53,7 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({// OpenStreetMap France https://openstreetmap.fr
+		group: 'Històric2',
 			title: 'OpenStreetMap France',
 			iconSrc: imgSrc + 'osmfr_logo-layer.png',
 			source: new ol.source.OSM({
@@ -62,6 +63,7 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
+			group: 'Històric2',
 			title: 'OpenMapSurfer',
 			iconSrc: imgSrc + 'openroute_logo_layer.png',
 			source: new ol.source.XYZ({
