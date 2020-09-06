@@ -871,7 +871,7 @@ var config = {
 							scale:0.04
 						}),
 						text: new ol.style.Text({
-							text: 'name:1975'
+							text: maxspeed
 						})
 					}));
 				}
