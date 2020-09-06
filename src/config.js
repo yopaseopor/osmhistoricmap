@@ -842,7 +842,7 @@ var config = {
 			iconSrc: imgSrc + 'icones/maxspeed.svg',
 			style: function (feature) {
 				var maxspeed = feature.get('"name:1975"') || '';
-				if (maxspeed === ''){
+				if ("name:1975" === ''){
 					return undefined;
 				}
 				var styles = [];
