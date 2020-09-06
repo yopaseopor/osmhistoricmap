@@ -841,8 +841,8 @@ var config = {
 			query: '(way[highway=motorway]["name:1975"]({{bbox}});node(w);way[highway=trunk]["name:1975"]({{bbox}});node(w);way[highway=primary]["name:1975"]({{bbox}});node(w);way[highway=secondary]["name:1975"]({{bbox}});node(w);way[highway=tertiary]["name:1975"]({{bbox}});node(w);way[highway=unclassified]["name:1975"]({{bbox}});node(w);way[highway=track]["name:1975"]({{bbox}});node(w);way[highway=residential]["name:1975"]({{bbox}});node(w);way[highway=service]["name:1975"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed.svg',
 			style: function (feature) {
-				var maxspeed = feature.get('"name:1975"') || '';
-				if ("name:1975" === ''){
+				var maxspeed = feature.get('name:1975') || '';
+				if ('name:1975' === ''){
 					return undefined;
 				}
 				var styles = [];
