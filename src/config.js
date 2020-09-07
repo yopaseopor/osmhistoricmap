@@ -949,7 +949,7 @@ var config = {
 		{
 			group: 'Històric',
 			title: 'building',
-			query: '(node({{bbox}});rel(bn)->.foo;way(bn);node(w)->.foo;rel(bw););out;',
+			query: '(nwr[historic=ruins]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#714601',
 			style: function (feature) {
