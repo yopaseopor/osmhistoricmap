@@ -953,7 +953,7 @@ var config = {
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#714601',
 			style: function (feature) {
-				var name = feature.get('name') || '';
+				var name = feature.get('name:1975') || '';
 				var styles = {
 					'amenity': {
 						'parking': new ol.style.Style({
