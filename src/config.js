@@ -817,6 +817,7 @@ var config = {
 				var fill = new ol.style.Fill({
 					color: 'rgba(0,255,243,0.4)'
 				});
+				var name1975 = feature.get('name:1975') || '';
 				var stroke = new ol.style.Stroke({
 					color: '#00fff3',
 					width: 1.25
