@@ -831,6 +831,9 @@ var config = {
 						stroke: stroke,
 						radius: 2
 					}),
+					text: new ol.style.Text({
+							text: name1975
+						}),
 					fill: fill,
 					stroke: stroke
 				});
