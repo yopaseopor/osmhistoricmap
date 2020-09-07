@@ -982,10 +982,10 @@ var config = {
 						})
 					},
 					'highway': {
-						'service': new ol.style.Style({
+						'residential': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
-								width: 2
+								width: 5
 							}),
 							text: new ol.style.Text({
 								text: name,
