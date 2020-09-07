@@ -841,15 +841,15 @@ var config = {
 			query: '(way[highway=motorway]["name:1975"]({{bbox}});node(w);way[highway=trunk]["name:1975"]({{bbox}});node(w);way[highway=primary]["name:1975"]({{bbox}});node(w);way[highway=secondary]["name:1975"]({{bbox}});node(w);way[highway=tertiary]["name:1975"]({{bbox}});node(w);way[highway=unclassified]["name:1975"]({{bbox}});node(w);way[highway=track]["name:1975"]({{bbox}});node(w);way[highway=residential]["name:1975"]({{bbox}});node(w);way[highway=service]["name:1975"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed.svg',
 			style: function (feature) {
-				var maxspeed = feature.get('name:1975') || '';
+				var name1975 = feature.get('name:1975') || '';
 				if ('name:1975' === ''){
 					return undefined;
 				}
 				var styles = [];
 
 				/* draw the segment line */ 
-				var width = (parseFloat(maxspeed) / 30) + 0.5;
-				var color = linearColorInterpolation([0, 255, 0], [255, 0, 0], Math.min(maxspeed, 120) / 120);
+				var width = (parseFloat(name1975) / 30) + 0.5;
+				var color = linearColorInterpolation([0, 255, 0], [255, 0, 0], Math.min(name1975, 120) / 120);
 
 				var stroke = new ol.style.Stroke({
 					color: 'rgb(' + color.join() + ')',
@@ -871,7 +871,7 @@ var config = {
 							scale:0.04
 						}),
 						text: new ol.style.Text({
-							text: maxspeed
+							text: name1975
 						})
 					}));
 				}
@@ -934,6 +934,50 @@ var config = {
 					stroke: stroke
 				});
 				return style;
+			}
+},
+		{
+			group: 'Mobilitat',
+			title: 'Vies amb "maxspeed"',
+			query: '(way[highway=motorway][maxspeed]({{bbox}});node(w);way[highway=trunk][maxspeed]({{bbox}});node(w);way[highway=primary][maxspeed]({{bbox}});node(w);way[highway=secondary][maxspeed]({{bbox}});node(w);way[highway=tertiary][maxspeed]({{bbox}});node(w);way[highway=unclassified][maxspeed]({{bbox}});node(w);way[highway=track][maxspeed]({{bbox}});node(w);way[highway=residential][maxspeed]({{bbox}});node(w);way[highway=service][maxspeed]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'icones/maxspeed.svg',
+			style: function (feature) {
+				var maxspeed = feature.get('maxspeed') || '';
+				if (maxspeed === ''){
+					return undefined;
+				}
+				var styles = [];
+
+				/* draw the segment line */ /*
+				var width = (parseFloat(maxspeed) / 30) + 0.5;
+				var color = linearColorInterpolation([0, 255, 0], [255, 0, 0], Math.min(maxspeed, 120) / 120);
+
+				var stroke = new ol.style.Stroke({
+					color: 'rgb(' + color.join() + ')',
+					width: width
+				});
+				styles.push(new ol.style.Style({
+					stroke: stroke
+				}));
+
+				// doesn't show speed sign in roundabout and similars
+				if (!feature.get('junction')) {
+					/* show the speed sign */ /*
+					var coords = feature.getGeometry().getCoordinates();
+
+					styles.push(new ol.style.Style({
+						geometry: new ol.geom.Point(new ol.geom.LineString(coords).getCoordinateAt(0.5)), // show the image in the middle of the segment
+						image: new ol.style.Icon({
+							src: imgSrc + 'icones/maxspeed_empty.svg',
+							scale:0.04
+						}),
+						text: new ol.style.Text({
+							text: maxspeed
+						})
+					}));
+				}
+
+				return styles;
 			}
 		},
 		
