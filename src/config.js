@@ -838,7 +838,7 @@ var config = {
 		{
 			group: 'Històric',
 			title: '1975',
-			query: '(nwr["name:1975"]({{bbox}});node(w););out meta;',
+			query: '(node["name:1975"]({{bbox}});node(w);way["name:1975"]({{bbox}});node(w);relation["name:1975"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed.svg',
 			style: function (feature) {
 				var name1975 = feature.get('name:1975') || '';
