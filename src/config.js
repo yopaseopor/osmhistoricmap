@@ -817,6 +817,35 @@ var config = {
 				var fill = new ol.style.Fill({
 					color: 'rgba(0,255,243,0.4)'
 				});
+				var stroke = new ol.style.Stroke({
+					color: '#00fff3',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 2
+					}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		
+		
+		// Overlay: Històric
+		{
+			group: 'Test',
+			title: 'Antic(old)',
+			query: '(nwr[~"old"~".*"]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#00fff3',
+			style: function () {
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,255,243,0.4)'
+				});
 				var name1975 = feature.get('name:1975') || '';
 				if ('name:1975' === ''){
 					return undefined;
@@ -921,6 +950,8 @@ var config = {
 			group: 'Històric',
 			title: 'building',
 			query: '(node({{bbox}});rel(bn)->.foo;way(bn);node(w)->.foo;rel(bw););out;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#714601',
 			style: function (feature) {
 				var name = feature.get('name') || '';
 				var styles = {
