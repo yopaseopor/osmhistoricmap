@@ -948,7 +948,7 @@ var config = {
 },
 		{
 			group: 'Històric',
-			title: 'building',
+			title: '1975',
 			query: '(nwr["name:1975"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#714601',
@@ -985,7 +985,17 @@ var config = {
 						'residential': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
-								width: 5
+								width: 6
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'living_street': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 6
 							}),
 							text: new ol.style.Text({
 								text: name,
