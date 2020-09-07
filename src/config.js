@@ -818,6 +818,9 @@ var config = {
 					color: 'rgba(0,255,243,0.4)'
 				});
 				var name1975 = feature.get('name:1975') || '';
+				if ('name:1975' === ''){
+					return undefined;
+				}
 				var stroke = new ol.style.Stroke({
 					color: '#00fff3',
 					width: 1.25
