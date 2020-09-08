@@ -1037,12 +1037,12 @@ var config = {
 },
 		{
 			group: 'Històric',
-			title: '1970x',
-			query: '(nwr["name:197.*"]({{bbox}});node(w););out meta;',
+			title: '1976',
+			query: '(nwr["name:1976"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#714601',
 			style: function (feature) {
-				var name = feature.get('name:197.*') || '';
+				var name = feature.get('name:1976') || '';
 				var styles = {
 					'amenity': {
 						'parking': new ol.style.Style({
