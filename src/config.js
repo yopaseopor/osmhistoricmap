@@ -1023,20 +1023,6 @@ var config = {
 							})
 						})
 					},
-					'amenity': {
-						'bank': new ol.style.Style({
-							image: new ol.style.Circle({
-								radius: 2,
-								fill: new ol.style.Fill({
-									color: 'rgba(140, 208, 95, 1.0)'
-								}),
-							text: new ol.style.Text({
-								text: name
-							}),
-								stroke: null
-							})
-						})
-					},
 					'natural': {
 						'tree': new ol.style.Style({
 							image: new ol.style.Circle({
