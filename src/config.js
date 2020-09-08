@@ -949,11 +949,11 @@ var config = {
 		{
 			group: 'Històric',
 			title: '1970s',
-			query: '(nwr["[~"name"~".*"]"]({{bbox}});node(w););out meta;',
+			query: '(nwr[~"old"~".*"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#714601',
 			style: function (feature) {
-				var name = feature.get('[~"name"~".*"]') || '';
+				var name = feature.get('~"old"~".*"') || '';
 				var styles = {
 					'amenity': {
 						'parking': new ol.style.Style({
@@ -1020,6 +1020,20 @@ var config = {
 							}),
 							fill: new ol.style.Fill({
 								color: 'rgba(140, 208, 95, 0.3)'
+							})
+						})
+					},
+					'amenity': {
+						'bank': new ol.style.Style({
+							image: new ol.style.Circle({
+								radius: 2,
+								fill: new ol.style.Fill({
+									color: 'rgba(140, 208, 95, 1.0)'
+								}),
+							text: new ol.style.Text({
+								text: name
+							}),
+								stroke: null
 							})
 						})
 					},
