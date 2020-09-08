@@ -945,7 +945,7 @@ var config = {
 				});
 				return style;
 			}
-},
+		},
 		{
 			group: 'Històric',
 			title: '1975',
@@ -1034,15 +1034,28 @@ var config = {
 							})
 						})
 					}
-},
+				};
+				for (var key in styles) {
+					var value = feature.get(key);
+					if (value !== undefined) {
+						for (var regexp in styles[key]) {
+							if (new RegExp(regexp).test(value)) {
+								return styles[key][regexp];
+							}
+						}
+					}
+				}
+				return null;
+			} 
+		},
 		{
 			group: 'Històric',
-			title: '1976',
-			query: '(nwr["name:1976"]({{bbox}});node(w););out meta;',
+			title: '1975',
+			query: '(nwr["name:1975"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#714601',
 			style: function (feature) {
-				var name = feature.get('name:1976') || '';
+				var name = feature.get('name:1975') || '';
 				var styles = {
 					'amenity': {
 						'parking': new ol.style.Style({
