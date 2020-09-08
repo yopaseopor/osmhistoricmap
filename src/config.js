@@ -1155,7 +1155,7 @@ var config = {
 			title: 'building',
 			query: '(node({{bbox}});rel(bn)->.foo;way(bn);node(w)->.foo;rel(bw););out;',
 			style: function (feature) {
-				var name = feature.get('name') || '';
+				var name = feature.get('name:1975') || '';
 				var styles = {
 					'amenity': {
 						'parking': new ol.style.Style({
