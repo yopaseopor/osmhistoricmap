@@ -948,7 +948,7 @@ var config = {
 		},
 		{
 			group: 'Històric',
-			title: '1975',
+			title: '1970s',
 			query: '(nwr["name:197.*"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#714601',
