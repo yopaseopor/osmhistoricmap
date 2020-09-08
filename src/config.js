@@ -1151,7 +1151,7 @@ var config = {
 			} 
 		},
 		{
-			group: 'Test',
+			group: 'Històric',
 			title: 'building',
 			query: '(node({{bbox}});rel(bn)->.foo;way(bn);node(w)->.foo;rel(bw););out;',
 			style: function (feature) {
