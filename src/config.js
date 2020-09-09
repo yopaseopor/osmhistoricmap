@@ -1153,7 +1153,7 @@ var config = {
 		{
 			group: 'Històric',
 			title: '1979',
-			query: '(nwr[~"^name(:.*)?$"~"."]({{bbox}});node(w););out meta;',
+			query: '(node({{bbox}});rel(bn)->.foo;way(bn);node(w)->.foo;rel(bw););out;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#714601',
 			style: function (feature) {
