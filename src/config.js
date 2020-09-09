@@ -1117,10 +1117,11 @@ var config = {
 						'.*': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
-								width: 3
+								width: 8
 							}),
 							text: new ol.style.Text({
-								text: name
+								text: name,
+								placement: 'line'
 							})
 						})
 					},
