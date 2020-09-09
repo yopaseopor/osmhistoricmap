@@ -1152,7 +1152,7 @@ var config = {
 		},
 		{
 			group: 'Històric',
-			title: '1979',
+			title: '1976',
 			query: '(node({{bbox}});rel(bn)->.foo;way(bn);node(w)->.foo;rel(bw););out;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#714601',
