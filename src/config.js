@@ -1154,7 +1154,6 @@ var config = {
 			group: 'Històric',
 			title: '1975',
 			query: '(nwr[~"^name:.*$"~"."]({{bbox}});node(w););out meta;',
-			~"^name:.*$"~"."
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#714601',
 			style: function (feature) {
