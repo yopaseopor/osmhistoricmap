@@ -1087,7 +1087,7 @@ var config = {
 						'residential': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
+								width: 8
 							}),
 							text: new ol.style.Text({
 								text: name,
@@ -1097,7 +1097,17 @@ var config = {
 						'living_street': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
+								width: 8
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'pedestrian': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 8
 							}),
 							text: new ol.style.Text({
 								text: name,
