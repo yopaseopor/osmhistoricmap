@@ -1152,12 +1152,12 @@ var config = {
 		},
 		{
 			group: 'Històric',
-			title: '1977',
+			title: '1978',
 			query: '(node({{bbox}});rel(bn)->.foo;way(bn);node(w)->.foo;rel(bw););out;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#714601',
 			style: function (feature) {
-				var name = feature.get('name~"^197.*"') || '';
+				var name = feature.get('name~"[0-9]+"') || '';
 				var styles = {
 					'amenity': {
 						'parking': new ol.style.Style({
