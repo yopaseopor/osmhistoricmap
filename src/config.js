@@ -1050,7 +1050,7 @@ var config = {
 		},
 		{
 			group: 'Històric',
-			title: '1974',
+			title: '1975',
 			query: '(nwr["name:1975"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#714601',
@@ -1152,12 +1152,12 @@ var config = {
 		},
 		{
 			group: 'Històric',
-			title: '1977',
+			title: '1979',
 			query: '(nwr[~"^name(:.*)?$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#714601',
 			style: function (feature) {
-				var name = feature.get('name') || '';
+				var name = feature.get('name:') || '';
 				var styles = {
 					'amenity': {
 						'parking': new ol.style.Style({
