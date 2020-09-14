@@ -1040,15 +1040,30 @@ var config = {
 								stroke: null
 							})
 						})
-					},
-					'place': {
-						'locality': new ol.style.Style({
-							image: new ol.style.Circle({
-								radius: 2,
-								fill: new ol.style.Fill({
-									color: 'rgba(140, 208, 95, 1.0)'
-								}),
-								stroke: new ol.style.Stroke({
+										},
+					'highway': {
+						'residential': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 6
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'living_street': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 6
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'.*': new ol.style.Style({
+							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
 								width: 3
 							}),
