@@ -2,10 +2,10 @@
  * OSM Cat config
  */
  
- feature.prototype.re_get = function(r) {
+  feature.prototype.re_get = function(r) {
     var k = this.getKeys().filter(function(t){return t.match(key_regex)}).pop()
     return this.get(k) || ''
-}
+	}
 
 var imgSrc = 'src/img/';
 
@@ -1009,6 +1009,16 @@ var config = {
 								placement: 'line'
 							})
 						}),
+						'tertiary': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 6
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
 						'.*': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
@@ -1038,37 +1048,6 @@ var config = {
 									color: 'rgba(140, 208, 95, 1.0)'
 								}),
 								stroke: null
-							})
-						})
-										},
-					'highway': {
-						'residential': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
-							}),
-							text: new ol.style.Text({
-								text: name,
-								placement: 'line'
-							})
-						}),
-						'living_street': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
-							}),
-							text: new ol.style.Text({
-								text: name,
-								placement: 'line'
-							})
-						}),
-						'.*': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
-								width: 3
-							}),
-							text: new ol.style.Text({
-								text: name
 							})
 						})
 					}
