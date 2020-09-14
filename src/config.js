@@ -948,12 +948,14 @@ var config = {
 		},
 		{
 			group: 'Històric',
-			title: '1970',
-			query: '(nwr[~"name"~".*"]({{bbox}});node(w););out meta;',
+			title: '1970-1979',
+			query: '(nwr[~"^name:197[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#714601',
 			style: function (feature) {
-				var name = feature.get('~name~.*') || '';
+				var key_regex = /^name:197[0-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
 				var styles = {
 					'amenity': {
 						'parking': new ol.style.Style({
@@ -1168,7 +1170,7 @@ var config = {
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#714601',
 			style: function (feature) {
-				var name = feature.get('~"^name:197.$"~"."') || '';	
+				var name = feature.get('name~"^197.$"') || '';			
 				var styles = {
 					'amenity': {
 						'parking': new ol.style.Style({
