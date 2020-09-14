@@ -1010,8 +1010,7 @@ var config = {
 								width: 3
 							}),
 							text: new ol.style.Text({
-								text: name,
-								placement: 'line'
+								text: name
 							})
 						})
 					},
