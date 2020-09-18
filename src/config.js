@@ -1341,7 +1341,7 @@ var config = {
 			iconStyle: 'background-color:#714601',
 			style: function (feature) {
 				var key_regex = /^name:201[0-9]$/
-				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "addr:housenumber"
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var styles = {
 					'amenity': {
@@ -1385,7 +1385,7 @@ var config = {
 							})
 						})
 					},
-					'shop:201.': {
+					'shop': {
 						'.*': new ol.style.Style({
 							zIndex: 100,
 							stroke: new ol.style.Stroke({
