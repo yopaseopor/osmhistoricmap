@@ -1336,12 +1336,12 @@ var config = {
 		{
 			group: 'Històric',
 			title: '2010-2019',
-			query: '(nwr[~"^name:201[0-9]$"~"."]({{bbox}});node(w););out meta;',
+			query: '(node({{bbox}});rel(bn)->.foo;way(bn);node(w)->.foo;rel(bw););out;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#714601',
 			style: function (feature) {
 				var key_regex = /^name:201[0-9]$/
-				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "entrance"
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var styles = {
 					'amenity': {
