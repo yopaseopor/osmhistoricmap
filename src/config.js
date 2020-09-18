@@ -1385,7 +1385,7 @@ var config = {
 							})
 						})
 					},
-					'shop': {
+					'shop:201.': {
 						'.*': new ol.style.Style({
 							zIndex: 100,
 							stroke: new ol.style.Stroke({
