@@ -1335,7 +1335,7 @@ var config = {
 		},
 		{
 			group: 'Històric',
-			title: '2013-2019',
+			title: '2010-2019',
 			query: '(nwr[~"^name:201[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#714601',
@@ -1355,7 +1355,7 @@ var config = {
 							})
 						})
 					},
-					'building': {
+					'~"^name:201[0-9]$"~"."': {
 						'.*': new ol.style.Style({
 							zIndex: 100,
 							stroke: new ol.style.Stroke({
