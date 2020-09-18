@@ -1335,7 +1335,7 @@ var config = {
 		},
 		{
 			group: 'Històric',
-			title: '2011-2019',
+			title: '2012-2019',
 			query: '(nwr[~"^name:201[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#714601',
