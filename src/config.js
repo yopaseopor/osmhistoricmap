@@ -664,11 +664,11 @@ var config = {
 
 
 		
-				// Parking vending machine
+				
 		
 		{
-			group: 'Històric',
-			title: 'Data exacta',
+			group: 'Generic',
+			title: 'Exact date',
 			query: '(nwr[~"^name:....-..-..$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#3aff00',
@@ -693,8 +693,8 @@ var config = {
 			}
 		},
 		{
-			group: 'Històric',
-			title: 'Data aproximada per anys',
+			group: 'Generic',
+			title: 'Date per years',
 			query: '(nwr[~"^name:....$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#0000ff',
@@ -719,7 +719,7 @@ var config = {
 			}
 		},
 		{
-			group: 'Històric',
+			group: 'Test',
 			title: '1960',
 			query: '(nwr[~"^name:197[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -751,7 +751,7 @@ var config = {
 			}
 		},
 		{
-			group: 'Històric',
+			group: 'Centuries',
 			title: '1600-1699',
 			query: '(nwr[~"^name:16[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -784,7 +784,7 @@ var config = {
 			}
 		},
 		{
-			group: 'Històric',
+			group: 'Centuries',
 			title: '1700-1799',
 			query: '(nwr[~"^name:17[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -817,7 +817,7 @@ var config = {
 			}
 		},
 		{
-			group: 'Històric',
+			group: 'Centuries',
 			title: '1800-1899',
 			query: '(nwr[~"^name:18[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -850,7 +850,7 @@ var config = {
 			}
 		},
 		{
-			group: 'Històric',
+			group: 'Centuries',
 			title: '1900-1999',
 			query: '(nwr[~"^name:19[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -883,7 +883,7 @@ var config = {
 			}
 		},
 		{
-			group: 'Històric',
+			group: 'Centuries',
 			title: '2000-2020',
 			query: '(nwr[~"^name:20[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -916,237 +916,7 @@ var config = {
 			}
 		},
 		{
-			group: 'Històric',
-			title: '2000-2021',
-			query: '(nwr[~"^name:20[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
-			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:#ef7cff',
-			style: function (feature) {
-				var key_regex = /^name:20[0-9][0-9]$/
-				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
-				var name = feature.get(name_key) || '';	
-var styles = {
-					'amenity': {
-						'.*': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(170, 170, 170, 1.0)',
-								width: 5
-							}),
-							fill: new ol.style.Fill({
-								color: 'rgba(170, 170, 170, 1.0)'
-							}),
-							text: new ol.style.Text({
-								text: name,
-								placement: 'point'
-							})
-						})
-					},
-					'highway': {
-						'.*': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
-							}),
-							text: new ol.style.Text({
-								text: name,
-								placement: 'line'
-							})
-						})
-					},
-					'shop': {
-						'.*': new ol.style.Style({
-							image: new ol.style.Circle({
-								radius: 2,
-								fill: new ol.style.Fill({
-									color: 'rgba(140, 208, 95, 1.0)'
-								}),
-							stroke: null
-							}),
-							text: new ol.style.Text({
-								text: name
-							})
-						})
-					}
-				};
-				for (var key in styles) {
-					var value = feature.get(key);
-					if (value !== undefined) {
-						for (var regexp in styles[key]) {
-							if (new RegExp(regexp).test(value)) {
-								return styles;
-							}
-						}
-					}
-				}
-			}
-		},
-		{
-			group: 'Històric',
-			title: '2000-2020 perso',
-			query: '(nwr[~"^name:20[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
-			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:#714601',
-			style: function (feature) {
-				var key_regex = /^name:20[0-9][0-9]$/
-				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
-				var name = feature.get(name_key) || '';
-				var styles = {
-					'amenity': {
-						'.*': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(170, 170, 170, 1.0)',
-								width: 5
-							}),
-							fill: new ol.style.Fill({
-								color: 'rgba(170, 170, 170, 1.0)'
-							}),
-							text: new ol.style.Text({
-								text: name,
-								placement: 'point'
-							})
-						})
-					},
-					'highway': {
-						'.*': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
-							}),
-							text: new ol.style.Text({
-								text: name,
-								placement: 'line'
-							})
-						})
-					},
-					'shop': {
-						'.*': new ol.style.Style({
-							image: new ol.style.Circle({
-								radius: 2,
-								fill: new ol.style.Fill({
-									color: 'rgba(140, 208, 95, 1.0)'
-								}),
-							stroke: null
-							}),
-							text: new ol.style.Text({
-								text: name
-							})
-						})
-					}
-				};
-				for (var key in styles) {
-					var value = feature.get(key);
-					if (value !== undefined) {
-						for (var regexp in styles[key]) {
-							if (new RegExp(regexp).test(value)) {
-								return styles[key][regexp];
-							}
-						}
-					}
-				}
-			} 
-		 
-		},
-		{
-			group: 'Històric',
-			title: '2000-2020 carrers',
-			query: '(nwr[~"^name:20[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
-			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:#714601',
-			style: function (feature) {
-				var key_regex = /^name:20[0-9][0-9]$/
-				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
-				var name = feature.get(name_key) || '';
-				var styles = {
-					'amenity': {
-						'parking': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(170, 170, 170, 1.0)',
-								width: 1
-							}),
-							fill: new ol.style.Fill({
-								color: 'rgba(170, 170, 170, 0.3)'
-							})
-						})
-					},
-					'highway': {
-						'.*': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
-							}),
-							text: new ol.style.Text({
-								text: name,
-								placement: 'line'
-							})
-						})
-					},
-					'place': {
-						'.*': new ol.style.Style({
-							zIndex: 100,
-							stroke: new ol.style.Stroke({
-								color: 'rgba(246, 99, 79, 1.0)',
-								width: 1
-							}),
-							fill: new ol.style.Fill({
-								color: 'rgba(246, 99, 79, 0.3)'
-							}),
-							text: new ol.style.Text({
-								text: name
-							})
-						})
-					},
-					'landuse': {
-						'forest|grass|allotments': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(140, 208, 95, 1.0)',
-								width: 1
-							}),
-							fill: new ol.style.Fill({
-								color: 'rgba(140, 208, 95, 0.3)'
-							})
-						})
-					},
-					'landuse': {
-						'forest|grass|allotments': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(140, 208, 95, 1.0)',
-								width: 1
-							}),
-							fill: new ol.style.Fill({
-								color: 'rgba(140, 208, 95, 0.3)'
-							})
-						})
-					},
-					'shop': {
-						'.*': new ol.style.Style({
-							image: new ol.style.Circle({
-								radius: 2,
-								fill: new ol.style.Fill({
-									color: 'rgba(140, 208, 95, 1.0)'
-								}),
-							stroke: null
-							}),
-							text: new ol.style.Text({
-								text: name
-							})
-						})
-					}
-				};
-				for (var key in styles) {
-					var value = feature.get(key);
-					if (value !== undefined) {
-						for (var regexp in styles[key]) {
-							if (new RegExp(regexp).test(value)) {
-								return styles[key][regexp];
-							}
-						}
-					}
-				}
-			} 
-		 
-		},
-		{
-			group: 'Històric',
+			group: 'Decades',
 			title: '1900-1909',
 			query: '(nwr[~"^name:190[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1178,7 +948,7 @@ var styles = {
 			}
 		},
 		{
-			group: 'Històric',
+			group: 'Decades',
 			title: '1910-1919',
 			query: '(nwr[~"^name:191[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1210,7 +980,7 @@ var styles = {
 			}
 		},
 		{
-			group: 'Històric',
+			group: 'Decades',
 			title: '1920-1929',
 			query: '(nwr[~"^name:192[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1242,7 +1012,7 @@ var styles = {
 			}
 		},
 		{
-			group: 'Històric',
+			group: 'Decades',
 			title: '1930-1939',
 			query: '(nwr[~"^name:193[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1274,7 +1044,7 @@ var styles = {
 			}
 		},
 		{
-			group: 'Històric',
+			group: 'Decades',
 			title: '1940-1949',
 			query: '(nwr[~"^name:194[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1306,7 +1076,7 @@ var styles = {
 			}
 		},
 		{
-			group: 'Històric',
+			group: 'Decades',
 			title: '1950-1959',
 			query: '(nwr[~"^name:195[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1338,7 +1108,7 @@ var styles = {
 			}
 		},
 		{
-			group: 'Històric',
+			group: 'Decades',
 			title: '1960-1969',
 			query: '(nwr[~"^name:196[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1370,7 +1140,7 @@ var styles = {
 			}
 		},
 		{
-			group: 'Històric',
+			group: 'Decades',
 			title: '1970-1979',
 			query: '(nwr[~"^name:197[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1402,7 +1172,7 @@ var styles = {
 			}
 		},
 		{
-			group: 'Històric',
+			group: 'Decades',
 			title: '1980-1989',
 			query: '(nwr[~"^name:198[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1434,7 +1204,7 @@ var styles = {
 			}
 		},
 		{
-			group: 'Històric',
+			group: 'Decades',
 			title: '1990-1999',
 			query: '(nwr[~"^name:199[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1466,7 +1236,7 @@ var styles = {
 			}
 		},
 		{
-			group: 'Històric',
+			group: 'Decades',
 			title: '2000-2009',
 			query: '(nwr[~"^name:200[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1498,7 +1268,7 @@ var styles = {
 			}
 		},
 		{
-			group: 'Històric',
+			group: 'Decades',
 			title: '2010-2019',
 			query: '(nwr[~"^name:201[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1530,7 +1300,7 @@ var styles = {
 			}
 		},
 		{
-			group: 'Històric',
+			group: 'Decades',
 			title: '2010-2019',
 			query: '(nwr[~"^name:201[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1562,7 +1332,7 @@ var styles = {
 			}
 		},
 		{
-			group: 'Històric',
+			group: 'Decades',
 			title: '2020-2029',
 			query: '(nwr[~"^name:202[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1597,8 +1367,8 @@ var styles = {
 		
 		// Overlay: Històric
 		{
-			group: 'Històric',
-			title: 'Abandonat (abandoned)',
+			group: 'Generic',
+			title: 'Abandoned',
 			query: '(nwr[~"^abandoned(:.*)?$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#000000',
@@ -1626,8 +1396,8 @@ var styles = {
 		
 		// Overlay: Històric
 		{
-			group: 'Històric',
-			title: 'En desús (disused)',
+			group: 'Generic',
+			title: 'Disused',
 			query: '(nwr[~"^disused(:.*)?$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#ff0000',
@@ -1655,8 +1425,8 @@ var styles = {
 		
 		// Overlay: Històric
 		{
-			group: 'Històric',
-			title: 'Era (was)',
+			group: 'Generic',
+			title: 'Was',
 			query: '(nwr[~"^was(:.*)?$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#710171',
@@ -1684,8 +1454,8 @@ var styles = {
 		
 		// Overlay: Històric
 		{
-			group: 'Històric',
-			title: 'Antic(old)',
+			group: 'Generic',
+			title: 'Old',
 			query: '(nwr[~"old"~".*"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#00fff3',
@@ -1797,8 +1567,8 @@ var styles = {
 		
 		// Overlay: Històric
 		{
-			group: 'Històric',
-			title: 'Ruines',
+			group: 'Generic',
+			title: 'Ruins',
 			query: '(nwr[historic=ruins]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#714601',
@@ -1823,8 +1593,8 @@ var styles = {
 			}
 		},
 		{
-			group: 'Històric',
-			title: '1970-1979 carrers',
+			group: 'Topics',
+			title: 'Spanish Dictatorship names 1939-1975',
 			query: '(nwr[~"^name:197[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#714601',
@@ -1963,7 +1733,7 @@ var styles = {
 		 
 		},
 		{
-			group: 'Històric',
+			group: 'Test',
 			title: '1975',
 			query: '(nwr["name:1975"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -2076,7 +1846,7 @@ var styles = {
 			} 
 		},
 		{
-			group: 'Històric',
+			group: 'Test',
 			title: '1977',
 			query: '(node({{bbox}});rel(bn)->.foo;way(bn);node(w)->.foo;rel(bw););out;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -2178,7 +1948,7 @@ var styles = {
 			} 
 		},
 		{
-			group: 'Històric',
+			group: 'Test',
 			title: 'building',
 			query: '(node({{bbox}});rel(bn)->.foo;way(bn);node(w)->.foo;rel(bw););out;',
 			style: function (feature) {
