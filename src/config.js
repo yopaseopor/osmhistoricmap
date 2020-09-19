@@ -1,6 +1,11 @@
 /**
  * OSM Cat config
  */
+ 
+Feature.prototype.re_get = function(r) {
+    var k = this.getKeys().filter(function(t){return t.match(key_regex)}).pop()
+    return this.get(k) || ''
+}
 
 var imgSrc = 'src/img/';
 
@@ -1335,14 +1340,14 @@ var config = {
 		},
 		{
 			group: 'Històric',
-			title: '2010-2019',
+			title: '2012-2019',
 			query: '(nwr[~"^name:201[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#714601',
 			style: function (feature) {
 				var key_regex = /^name:201[0-9]$/
-				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "entrance"
-				var name = feature.get(name_key) || 'name';
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
 				var styles = {
 					'amenity': {
 						'parking': new ol.style.Style({
@@ -1355,7 +1360,7 @@ var config = {
 							})
 						})
 					},
-					'~"^name:201[0-9]$"~"."': {
+					'building': {
 						'.*': new ol.style.Style({
 							zIndex: 100,
 							stroke: new ol.style.Stroke({
