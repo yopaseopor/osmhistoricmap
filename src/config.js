@@ -973,7 +973,7 @@ var styles = {
 					if (value !== undefined) {
 						for (var regexp in styles[key]) {
 							if (new RegExp(regexp).test(value)) {
-								return styles[key][regexp];
+								return styles;
 							}
 						}
 					}
