@@ -1773,6 +1773,16 @@ var config = {
 								placement: 'line'
 							})
 						}),
+						'pedestrian': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 6
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
 						'tertiary': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
