@@ -917,7 +917,7 @@ var config = {
 		},
 		{
 			group: 'Històric',
-			title: '2000-2019',
+			title: '2000-2021',
 			query: '(nwr[~"^name:20[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#ef7cff',
