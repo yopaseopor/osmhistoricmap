@@ -782,7 +782,7 @@ var config = {
 				});
 				return style;
 			}
-		}
+		},
 		{
 			group: 'Centuries',
 			title: '1100-1199',
