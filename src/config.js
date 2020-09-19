@@ -1019,8 +1019,8 @@ var config = {
 							})
 						})
 					},
-					'natural': {
-						'tree': new ol.style.Style({
+					'shop': {
+						'.*': new ol.style.Style({
 							image: new ol.style.Circle({
 								radius: 2,
 								fill: new ol.style.Fill({
