@@ -2,10 +2,7 @@
  * OSM Cat config
  */
  
-feature.prototype.re_get = function(r) {
-    var k = this.getKeys().filter(function(t){return t.match(key_regex)}).pop()
-    return this.get(k) || ''
-}
+
 
 var imgSrc = 'src/img/';
 
@@ -1347,7 +1344,7 @@ var config = {
 			style: function (feature) {
 				var key_regex = /^name:201[0-9]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
-				var name = feature.re_get("^name:201[0-9]$") || '';
+				var name = feature.get(name_key) || '';
 				var styles = {
 					'amenity': {
 						'parking': new ol.style.Style({
