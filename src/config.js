@@ -1001,7 +1001,16 @@ var config = {
 						})
 					}
 				};
-				
+				for (var key in styles) {
+					var value = feature.get(key);
+					if (value !== undefined) {
+						for (var regexp in styles[key]) {
+							if (new RegExp(regexp).test(value)) {
+								return styles[key][regexp];
+							}
+						}
+					}
+				}
 			} 
 		 
 		},
