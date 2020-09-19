@@ -1,7 +1,7 @@
 /**
  * OSM Cat config
  */
- 
+ {
 Feature.prototype.re_get = function(r) {
     var k = this.getKeys().filter(function(t){return t.match(key_regex)}).pop()
     return this.get(k) || ''
