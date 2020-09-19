@@ -746,8 +746,8 @@ var config = {
 		},
 		{
 			group: 'Per date',
-			title: 'Interval of years',
-			query: '(nwr[~"^name:....-....$"~"."]({{bbox}});node(w););out meta;',
+			title: 'Exact Interval of years',
+			query: '(nwr[~"^name:....-..-..-....-..-..$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#0000ff',
 			style: function () {
