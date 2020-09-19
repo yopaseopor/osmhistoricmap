@@ -1347,7 +1347,7 @@ var config = {
 			style: function (feature) {
 				var key_regex = /^name:201[0-9]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
-				var name = feature.get(name_key) || '';
+				var name = feature.re_get("^name:201[0-9]$") || '';
 				var styles = {
 					'amenity': {
 						'parking': new ol.style.Style({
