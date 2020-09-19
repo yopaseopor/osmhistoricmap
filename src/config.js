@@ -755,7 +755,7 @@ var config = {
 			title: '1800-1899',
 			query: '(nwr[~"^name:18[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:#0000ff',
+			iconStyle: 'background-color:#7ca0ff',
 			style: function (feature) {
 				var key_regex = /^name:18[0-9][0-9]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
@@ -764,7 +764,7 @@ var config = {
 					color: 'rgba(0,0,255,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: '#0000ff',
+					color: '#7ca0ff',
 					width: 1.25
 				});
 				var style = new ol.style.Style({
@@ -774,7 +774,8 @@ var config = {
 						radius: 5
 					}),
 							text: new ol.style.Text({
-								text: name
+								text: name,
+								placement: 'line'
 							}),
 					fill: fill,
 					stroke: stroke
