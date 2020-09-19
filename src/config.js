@@ -765,7 +765,7 @@ var config = {
 				});
 				var stroke = new ol.style.Stroke({
 					color: '#7ca0ff',
-					width: 1.25
+					width: 5
 				});
 				var style = new ol.style.Style({
 					image: new ol.style.Circle({
