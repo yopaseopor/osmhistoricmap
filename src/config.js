@@ -996,8 +996,7 @@ var config = {
 							stroke: null
 							}),
 							text: new ol.style.Text({
-								text: name,
-								placement: 'point'
+								text: name
 							})
 						})
 					}
