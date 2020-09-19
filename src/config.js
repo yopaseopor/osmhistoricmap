@@ -963,10 +963,10 @@ var config = {
 						'.*': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(170, 170, 170, 1.0)',
-								width: 1
+								width: 5
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(170, 170, 170, 0.3)'
+								color: 'rgba(170, 170, 170, 1.0)'
 							}),
 							text: new ol.style.Text({
 								text: name,
