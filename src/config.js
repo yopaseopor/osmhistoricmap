@@ -907,7 +907,7 @@ var config = {
 					}),
 							text: new ol.style.Text({
 								text: name,
-								placement: 'line'
+								placement: 'point'
 							}),
 					fill: fill,
 					stroke: stroke
