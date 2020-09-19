@@ -1563,7 +1563,65 @@ var config = {
 		},
 		
 		
-		// Overlay: Històric
+		// Overlay: Generic
+		{
+			group: 'Generic',
+			title: 'Proposed',
+			query: '(nwr[~"^proposed(:.*)?$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#00d8ff',
+			style: function () {
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,0,0,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#00d8ff',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 2
+					}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		
+		
+		// Overlay: Generic
+		{
+			group: 'Generic',
+			title: 'Construction',
+			query: '(nwr[~"^construction(:.*)?$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#00ffd1',
+			style: function () {
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,0,0,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#00ffd1',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 2
+					}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		
+		
+		// Overlay: Generic
 		{
 			group: 'Generic',
 			title: 'Abandoned',
@@ -1598,13 +1656,13 @@ var config = {
 			title: 'Disused',
 			query: '(nwr[~"^disused(:.*)?$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:#ff0000',
+			iconStyle: 'background-color:#d4ff00',
 			style: function () {
 				var fill = new ol.style.Fill({
 					color: 'rgba(255,0,0,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: '#ff0000',
+					color: '#d4ff00',
 					width: 1.25
 				});
 				var style = new ol.style.Style({
@@ -1663,6 +1721,93 @@ var config = {
 				});
 				var stroke = new ol.style.Stroke({
 					color: '#00fff3',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 2
+					}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		
+		
+		// Overlay: Generic
+		{
+			group: 'Generic',
+			title: 'Demolished',
+			query: '(nwr[~"^demolished(:.*)?$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#ffcd00',
+			style: function () {
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,0,0,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#ffcd00',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 2
+					}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		
+		
+		// Overlay: Generic
+		{
+			group: 'Generic',
+			title: 'Removed',
+			query: '(nwr[~"^removed(:.*)?$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#ff7000',
+			style: function () {
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,0,0,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#ff7000',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 2
+					}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		
+		
+		// Overlay: Generic
+		{
+			group: 'Generic',
+			title: 'Razed',
+			query: '(nwr[~"^razed(:.*)?$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#ff0000',
+			style: function () {
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,0,0,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#ff0000',
 					width: 1.25
 				});
 				var style = new ol.style.Style({
