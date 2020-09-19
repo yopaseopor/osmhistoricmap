@@ -1561,6 +1561,38 @@ var config = {
 				return style;
 			}
 		},
+		{
+			group: 'Generic',
+			title: 'All with name and year',
+			query: '(nwr[~"^name:[0-9][0-9][0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#0000ff',
+			style: function (feature) {
+				var key_regex = /^name:[0-9][0-9][0-9][0-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,0,255,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#0000ff',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name
+							}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
 		
 		
 		// Overlay: Generic
@@ -1714,13 +1746,13 @@ var config = {
 			title: 'Old',
 			query: '(nwr[~"old"~".*"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:#00fff3',
+			iconStyle: 'background-color:#7000ff',
 			style: function () {
 				var fill = new ol.style.Fill({
 					color: 'rgba(0,255,243,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: '#00fff3',
+					color: '#7000ff',
 					width: 1.25
 				});
 				var style = new ol.style.Style({
