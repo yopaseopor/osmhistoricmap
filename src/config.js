@@ -947,7 +947,8 @@ var config = {
 								text: name,
 								placement: 'line'
 							})
-						}),
+						})
+					},
 					'place': {
 						'.*': new ol.style.Style({
 							zIndex: 100,
@@ -957,57 +958,6 @@ var config = {
 							}),
 							fill: new ol.style.Fill({
 								color: 'rgba(246, 99, 79, 0.3)'
-							}),
-							text: new ol.style.Text({
-								text: name
-							})
-						})
-					},
-					'highway': {
-						'residential': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
-							}),
-							text: new ol.style.Text({
-								text: name,
-								placement: 'line'
-							})
-						}),
-						'living_street': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
-							}),
-							text: new ol.style.Text({
-								text: name,
-								placement: 'line'
-							})
-						}),
-						'pedestrian': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
-							}),
-							text: new ol.style.Text({
-								text: name,
-								placement: 'line'
-							})
-						}),
-						'tertiary': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
-							}),
-							text: new ol.style.Text({
-								text: name,
-								placement: 'line'
-							})
-						}),
-						'.*': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
-								width: 3
 							}),
 							text: new ol.style.Text({
 								text: name
