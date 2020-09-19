@@ -937,21 +937,17 @@ var config = {
 							})
 						})
 					},
-					'building': {
+					'highway': {
 						'.*': new ol.style.Style({
-							zIndex: 100,
 							stroke: new ol.style.Stroke({
-								color: 'rgba(246, 99, 79, 1.0)',
-								width: 1
-							}),
-							fill: new ol.style.Fill({
-								color: 'rgba(246, 99, 79, 0.3)'
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 6
 							}),
 							text: new ol.style.Text({
-								text: name
+								text: name,
+								placement: 'line'
 							})
-						})
-										},
+						}),
 					'place': {
 						'.*': new ol.style.Style({
 							zIndex: 100,
@@ -1015,6 +1011,17 @@ var config = {
 							}),
 							text: new ol.style.Text({
 								text: name
+							})
+						})
+					},
+					'landuse': {
+						'forest|grass|allotments': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(140, 208, 95, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(140, 208, 95, 0.3)'
 							})
 						})
 					},
