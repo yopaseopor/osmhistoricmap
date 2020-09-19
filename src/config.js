@@ -924,28 +924,60 @@ var config = {
 			style: function (feature) {
 				var key_regex = /^name:20[0-9][0-9]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
-				var name = feature.get(name_key) || '';				
-				var fill = new ol.style.Fill({
-					color: 'rgba(0,0,255,0.4)'
-				});
-				var stroke = new ol.style.Stroke({
-					color: '#ef7cff',
-					width: 5
-				});
-				var style = new ol.style.Style({
-					image: new ol.style.Circle({
-						fill: fill,
-						stroke: stroke,
-						radius: 5
-					}),
+				var name = feature.get(name_key) || '';	
+var styles = {
+					'amenity': {
+						'.*': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(170, 170, 170, 1.0)',
+								width: 5
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(170, 170, 170, 1.0)'
+							}),
 							text: new ol.style.Text({
 								text: name,
 								placement: 'point'
+							})
+						})
+					},
+					'highway': {
+						'.*': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 6
 							}),
-					fill: fill,
-					stroke: stroke
-				});
-				return style;
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						})
+					},
+					'shop': {
+						'.*': new ol.style.Style({
+							image: new ol.style.Circle({
+								radius: 2,
+								fill: new ol.style.Fill({
+									color: 'rgba(140, 208, 95, 1.0)'
+								}),
+							stroke: null
+							}),
+							text: new ol.style.Text({
+								text: name
+							})
+						})
+					}
+				};
+				for (var key in styles) {
+					var value = feature.get(key);
+					if (value !== undefined) {
+						for (var regexp in styles[key]) {
+							if (new RegExp(regexp).test(value)) {
+								return styles[key][regexp];
+							}
+						}
+					}
+				}
 			}
 		},
 		{
@@ -983,43 +1015,6 @@ var config = {
 							text: new ol.style.Text({
 								text: name,
 								placement: 'line'
-							})
-						})
-					},
-					'place': {
-						'.*': new ol.style.Style({
-							zIndex: 100,
-							stroke: new ol.style.Stroke({
-								color: 'rgba(246, 99, 79, 1.0)',
-								width: 1
-							}),
-							fill: new ol.style.Fill({
-								color: 'rgba(246, 99, 79, 0.3)'
-							}),
-							text: new ol.style.Text({
-								text: name
-							})
-						})
-					},
-					'landuse': {
-						'forest|grass|allotments': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(140, 208, 95, 1.0)',
-								width: 1
-							}),
-							fill: new ol.style.Fill({
-								color: 'rgba(140, 208, 95, 0.3)'
-							})
-						})
-					},
-					'landuse': {
-						'forest|grass|allotments': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(140, 208, 95, 1.0)',
-								width: 1
-							}),
-							fill: new ol.style.Fill({
-								color: 'rgba(140, 208, 95, 0.3)'
 							})
 						})
 					},
