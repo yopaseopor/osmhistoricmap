@@ -764,8 +764,9 @@ var config = {
 						stroke: stroke,
 						radius: 5
 					}),
-							text: new ol.style.Text({
-								text: name
+						text: new ol.style.Text({
+						text: name,
+						placement: 'line'
 							}),
 					fill: fill,
 					stroke: stroke
