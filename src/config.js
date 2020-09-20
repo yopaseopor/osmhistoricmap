@@ -2172,6 +2172,7 @@ var config = {
 			} 
 		 
 		},
+		{
 			group: 'Topics',
 			title: 'ES_1939-1975 Spanish Dictatorship names',
 			query: '(nwr[~"^name:197[0-9]$"~"."]({{bbox}});node(w););out meta;',
