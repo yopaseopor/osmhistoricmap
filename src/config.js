@@ -719,8 +719,8 @@ var config = {
 			}
 		},
 		{
-			group: 'Per date',
-			title: 'Interval of years',
+			group: 'Test',
+			title: 'Interval of years - simple',
 			query: '(nwr[~"^name:....-....$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#0000ff',
@@ -746,10 +746,10 @@ var config = {
 		},
 		{
 			group: 'Per date',
-			title: 'Interval of years2',
+			title: 'Interval of years',
 			query: '(nwr[~"^name:....-....$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:#0000ff',
+			iconStyle: 'background-color:#e1ffff',
 			style: function (feature) {
 				var key_regex = /^name:[0-9][0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
@@ -758,8 +758,8 @@ var config = {
 					color: 'rgba(0,0,255,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: '#0000ff',
-					width: 1.25
+					color: '#e1ffff',
+					width: 5
 				});
 				var style = new ol.style.Style({
 					image: new ol.style.Circle({
