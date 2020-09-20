@@ -1911,6 +1911,52 @@ var config = {
 		},
 		
 		// Overlay: Històric
+		{
+			group: 'Topics',
+			title: 'Old Ref',
+			query: '(nwr[~"old_ref"~".*"]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'icones/maxspeed.svg',
+			style: function (feature) {
+				var name1975 = feature.get('old_ref') || '';
+				if ('old_ref' === ''){
+					return undefined;
+				}
+				var styles = [];
+
+				/* draw the segment line */ 
+				var width = (parseFloat(name1975) / 30) + 0.5;
+				var color = linearColorInterpolation([0, 255, 0], [255, 0, 0], Math.min(name1975, 120) / 120);
+
+				var stroke = new ol.style.Stroke({
+					color: 'rgb(' + color.join() + ')',
+					width: width
+				});
+				styles.push(new ol.style.Style({
+					stroke: stroke
+				}));
+
+				// doesn't show speed sign in roundabout and similars
+				if (!feature.get('junction')) {
+					/* show the speed sign */ 
+					var coords = feature.getGeometry().getCoordinates();
+
+					styles.push(new ol.style.Style({
+						geometry: new ol.geom.Point(new ol.geom.LineString(coords).getCoordinateAt(0.5)), // show the image in the middle of the segment
+						image: new ol.style.Icon({
+							src: imgSrc + 'icones/maxspeed_empty.svg',
+							scale:0.04
+						}),
+						text: new ol.style.Text({
+							text: name1975
+						})
+					}));
+				}
+
+				return styles;
+			}
+		},
+		
+		// Overlay: Històric
 		/*{
 			group: 'Històric',
 			title: '1975',
