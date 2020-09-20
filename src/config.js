@@ -2070,7 +2070,7 @@ var config = {
 			style: function (feature) {
 				var key_regex = /^name:193"~".*$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
-				var name = feature.get(key_regex) || '';
+				var name = feature.get(name_key) || '';
 				var styles = {
 					'amenity': {
 						'parking': new ol.style.Style({
