@@ -750,7 +750,10 @@ var config = {
 			query: '(nwr[~"^name:....-....$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#0000ff',
-			style: function () {
+			style: function (feature) {
+				var key_regex = /^name:[0-9][0-9][0-9][0-9]-[0-9][0-9][0-9][0-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
 					color: 'rgba(0,0,255,0.4)'
 				});
@@ -765,8 +768,7 @@ var config = {
 						radius: 5
 					}),
 						text: new ol.style.Text({
-						text: name,
-						placement: 'line'
+						text: name
 							}),
 					fill: fill,
 					stroke: stroke
