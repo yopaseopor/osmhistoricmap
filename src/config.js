@@ -2032,7 +2032,6 @@ var config = {
 				return style;
 			}
 		},
-		},
 		{
 			group: 'Topics',
 			title: 'ES_1932-1939 II Spanish Republic',
