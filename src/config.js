@@ -747,7 +747,7 @@ var config = {
 		{
 			group: 'Per date',
 			title: 'Interval of years',
-			query: '(nwr[~"^name:....-....$"~"."]({{bbox}});node(w););out meta;',
+			query: '(nwr[~"^name:....-....$"~"."]({{bbox}}););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#e1ffff',
 			style: function (feature) {
