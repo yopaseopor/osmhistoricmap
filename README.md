@@ -2,18 +2,19 @@
 
 Based on ideas of `https://osm-catalan.github.io/osmcatmap/` and `https://github.com/Ripollx/osmcatmap2` .
 Developed with [OpenLayers](https://openlayers.org/) library  and with API from [Overpass Turbo](https://wiki.openstreetmap.org/wiki/Overpass_turbo) available on [Overpass Turbo website](https://overpass-turbo.eu/).
+
 OSM Historic Map shows you all the tags refered to past, present and future nodes using [lifecycle prefix tags](https://overpass-turbo.eu/). 
 
-*was
-*abandoned
-*razed
-*proposed
-*construction
-*old
-*name:date
-*demolished
-*removed
-*disused
+* was
+* abandoned
+* razed
+* proposed
+* construction
+* old
+* name:date
+* demolished
+* removed
+* disused
 
 
 ## Using
