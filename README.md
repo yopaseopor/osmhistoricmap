@@ -1,20 +1,28 @@
-# Comunitat OpenStreetMap Catalunya
+# OSM Historic Map
 
-Desenvolupament basat en l'idea de `https://osm-catalan.github.io/osmcatmap/`.
-Desenvolupat amb la llibreria de [OpenLayers](https://openlayers.org/) i amb la API de [Overpass Turbo](https://wiki.openstreetmap.org/wiki/Overpass_turbo) disponible en la web de [Overpass Turbo](https://overpass-turbo.eu/).
+Based on ideas of `https://osm-catalan.github.io/osmcatmap/` and `https://github.com/Ripollx/osmcatmap2` .
+Developed with [OpenLayers](https://openlayers.org/) library  and with API from [Overpass Turbo](https://wiki.openstreetmap.org/wiki/Overpass_turbo) available on [Overpass Turbo website](https://overpass-turbo.eu/).
+OSM Historic Map shows you all the tags refered to past, present and future nodes using [lifecycle prefix tags](https://overpass-turbo.eu/). 
 
-## Utilitzar
+*was
+*abandoned
+*razed
+*proposed
+*construction
+*old
+*name:date
+*demolished
+*removed
+*disused
 
-Desde la versió 2 ja no es requereix node per utilitzar la llibreria OpenLayers modificada.
 
-Directament es pot modificar la página editant els arxius corresponents:
-* index.html conté l'esquelet de la página.
-* index.js conté l'orquestador per utilitzar OpenLayers (només es requereix modificar per afegir noves funcionalitats).
-* config.js conté la definició de les capes, idioma i característiques que es volen mostrar.
+## Using
 
-## Exemple
+You can modify the page editing these files:
+* index.html contains the structure of the page.
+* index.js contains the orchestrator to use OpenLayers (only modify if toy want to add new functionalities).
+* config.js contains definition of layers, languages and characteristics you want to show.
 
-Es pot executar el codi actual a [GitHub Pages](https://ripollx.github.io/osmcatmap2/)
+## Demo
 
-## Versions anteriors
-S'ha conservat la versió anterior [Release v1.0.0](https://github.com/Ripollx/osmcatmap2/tree/v1.0.0).
+You can see it [here](https://yopaseopor.github.io/osmhistoricmap)
