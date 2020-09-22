@@ -64,7 +64,7 @@ var config = {
 			title: 'OpenMapSurfer',
 			iconSrc: imgSrc + 'openroute_logo_layer.png',
 			source: new ol.source.XYZ({
-				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap</a>, powered by <a href="https://mapsurfernet.com/" target="_blank">MapSurfer.NET</a>',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>, powered by <a href="https://mapsurfernet.com/" target="_blank">MapSurfer.NET</a>',
 				url: 'https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/{z}/{x}/{y}.png'
 			}),
 			visible: false
@@ -118,7 +118,7 @@ var config = {
 			title: 'Esri Sat',
 			iconSrc: imgSrc + 'esri_logo_layer.png',
 			source: new ol.source.XYZ({
-				attributions: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community',
 				url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
 			}),
 			visible: false
@@ -128,7 +128,7 @@ var config = {
 			title: '1870-1950 ES_IGN 0 Planimetrías (Minutas cartográficas)',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'https://www.ign.es/wms/minutas-cartograficas?',
 				params: {'LAYERS': 'Minutas'}
 			}),
@@ -139,7 +139,7 @@ var config = {
 			title: '1915 ES_IGN 0 Edición MTN50 (Catastrones)',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'https://www.ign.es/wms/primera-edicion-mtn?',
 				params: {'LAYERS': 'catastrones'}
 			}),
@@ -150,7 +150,7 @@ var config = {
 			title: 'ES_IGN 1a Edición MTN25',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'https://www.ign.es/wms/primera-edicion-mtn?',
 				params: {'LAYERS': 'MTN25'}
 			}),
@@ -161,7 +161,7 @@ var config = {
 			title: 'ES_IGN 1a Edición MTN50',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'https://www.ign.es/wms/primera-edicion-mtn?',
 				params: {'LAYERS': 'MTN50'}
 			}),
@@ -172,7 +172,7 @@ var config = {
 			title: '1945-1946 ES_IGN - Vol AMS Sèrie A',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'https://fototeca.cnig.es/wms/fototeca.dll?',
 				params: {'LAYERS': 'americano_serie_a'}
 			}),
@@ -183,7 +183,7 @@ var config = {
 			title: '1956-1957 ES_IGN - Vol AMS Sèrie B',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'https://www.ign.es/wms/pnoa-historico?',
 				params: {'LAYERS': 'AMS_1956-1957'}
 			}),
@@ -193,7 +193,7 @@ var config = {
 			title: '1973-1986 ES_IGN - Interministerial',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'https://www.ign.es/wms/pnoa-historico?',
 				params: {'LAYERS': 'Interministerial_1973-1986'}
 			}),
@@ -203,7 +203,7 @@ var config = {
 			title: '1981-1986 ES_IGN - Nacional',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'https://www.ign.es/wms/pnoa-historico?',
 				params: {'LAYERS': 'Nacional_1981-1986'}
 			}),
@@ -213,7 +213,7 @@ var config = {
 			title: '1997-1998 ES_IGN - Olistat',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'https://www.ign.es/wms/pnoa-historico?',
 				params: {'LAYERS': 'OLISTAT'}
 			}),
@@ -223,7 +223,7 @@ var config = {
 			title: '1997-2003 ES_IGN - Sigpac',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'https://www.ign.es/wms/pnoa-historico?',
 				params: {'LAYERS': 'SIGPAC'}
 			}),
@@ -233,7 +233,7 @@ var config = {
 			title: '2004 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'https://www.ign.es/wms/pnoa-historico?',
 				params: {'LAYERS': 'PNOA2004'}
 			}),
@@ -243,7 +243,7 @@ var config = {
 			title: '2005 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'https://www.ign.es/wms/pnoa-historico?',
 				params: {'LAYERS': 'PNOA2005'}
 			}),
@@ -253,7 +253,7 @@ var config = {
 			title: '2006 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'https://www.ign.es/wms/pnoa-historico?',
 				params: {'LAYERS': 'PNOA2006'}
 			}),
@@ -263,7 +263,7 @@ var config = {
 			title: '2007 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'https://www.ign.es/wms/pnoa-historico?',
 				params: {'LAYERS': 'PNOA2007'}
 			}),
@@ -273,7 +273,7 @@ var config = {
 			title: '2008 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'https://www.ign.es/wms/pnoa-historico?',
 				params: {'LAYERS': 'PNOA2008'}
 			}),
@@ -283,7 +283,7 @@ var config = {
 			title: '2009 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'https://www.ign.es/wms/pnoa-historico?',
 				params: {'LAYERS': 'PNOA2009'}
 			}),
@@ -293,7 +293,7 @@ var config = {
 			title: '2010 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'https://www.ign.es/wms/pnoa-historico?',
 				params: {'LAYERS': 'PNOA2010'}
 			}),
@@ -303,7 +303,7 @@ var config = {
 			title: '2011 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'https://www.ign.es/wms/pnoa-historico?',
 				params: {'LAYERS': 'PNOA2011'}
 			}),
@@ -313,7 +313,7 @@ var config = {
 			title: '2012 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'https://www.ign.es/wms/pnoa-historico?',
 				params: {'LAYERS': 'PNOA2012'}
 			}),
@@ -323,7 +323,7 @@ var config = {
 			title: '2013 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'https://www.ign.es/wms/pnoa-historico?',
 				params: {'LAYERS': 'PNOA2013'}
 			}),
@@ -333,7 +333,7 @@ var config = {
 			title: '2014 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'https://www.ign.es/wms/pnoa-historico?',
 				params: {'LAYERS': 'PNOA2014'}
 			}),
@@ -343,7 +343,7 @@ var config = {
 			title: '2015 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'https://www.ign.es/wms/pnoa-historico?',
 				params: {'LAYERS': 'PNOA2015'}
 			}),
@@ -353,7 +353,7 @@ var config = {
 			title: '2016 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'https://www.ign.es/wms/pnoa-historico?',
 				params: {'LAYERS': 'PNOA2016'}
 			}),
@@ -363,7 +363,7 @@ var config = {
 			title: '2017 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'https://www.ign.es/wms/pnoa-historico?',
 				params: {'LAYERS': 'PNOA2017'}
 			}),
@@ -373,7 +373,7 @@ var config = {
 			title: '2018 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'https://www.ign.es/wms/pnoa-historico?',
 				params: {'LAYERS': 'PNOA2018'}
 			}),
@@ -383,7 +383,7 @@ var config = {
 			title: '2019 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; IGN &mdash; Source: IGN',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'https://www.ign.es/wms/pnoa-historico?',
 				params: {'LAYERS': 'PNOA2019'}
 			}),
@@ -394,7 +394,7 @@ var config = {
 			title: '1945-1946 ES_CAT_ICGC - Vol AMS Sèrie A',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
 				params: {'LAYERS': 'ovaa10m', 'VERSION': '1.1.1'}
 			}),
@@ -405,7 +405,7 @@ var config = {
 			title: '1983 ES_CAT_ICGC - 1:5000',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
 				params: {'LAYERS': 'orto5m1983', 'VERSION': '1.1.1'}
 			}),
@@ -416,7 +416,7 @@ var config = {
 			title: '1984 ES_CAT_ICGC - 1:5000',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
 				params: {'LAYERS': 'orto5m1984', 'VERSION': '1.1.1'}
 			}),
@@ -427,7 +427,7 @@ var config = {
 			title: '1986 ES_CAT_ICGC - 1:5000',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
 				params: {'LAYERS': 'orto5m1986', 'VERSION': '1.1.1'}
 			}),
@@ -438,7 +438,7 @@ var config = {
 			title: '1987 ES_CAT_ICGC - 1:5000',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
 				params: {'LAYERS': 'orto5m1987', 'VERSION': '1.1.1'}
 			}),
@@ -449,7 +449,7 @@ var config = {
 			title: '1988 ES_CAT_ICGC - 1:5000',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
 				params: {'LAYERS': 'orto5m1988', 'VERSION': '1.1.1'}
 			}),
@@ -460,7 +460,7 @@ var config = {
 			title: '1989 ES_CAT_ICGC - 1:5000',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
 				params: {'LAYERS': 'orto5m1989', 'VERSION': '1.1.1'}
 			}),
@@ -471,7 +471,7 @@ var config = {
 			title: '1990 ES_CAT_ICGC - 1:5000',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
 				params: {'LAYERS': 'orto5m1990', 'VERSION': '1.1.1'}
 			}),
@@ -482,7 +482,7 @@ var config = {
 			title: '1991 ES_CAT_ICGC - 1:5000',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
 				params: {'LAYERS': 'orto5m1991', 'VERSION': '1.1.1'}
 			}),
@@ -493,7 +493,7 @@ var config = {
 			title: '1992 ES_CAT_ICGC - 1:5000',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
 				params: {'LAYERS': 'orto5m1992', 'VERSION': '1.1.1'}
 			}),
@@ -504,7 +504,7 @@ var config = {
 			title: '1994 ES_CAT_ICGC - 1:5000',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
 				params: {'LAYERS': 'orto5m1994', 'VERSION': '1.1.1'}
 			}),
@@ -515,7 +515,7 @@ var config = {
 			title: '1995 ES_CAT_ICGC - 1:5000',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
 				params: {'LAYERS': 'orto5m1995', 'VERSION': '1.1.1'}
 			}),
@@ -526,7 +526,7 @@ var config = {
 			title: '1996 ES_CAT_ICGC - 1:5000',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
 				params: {'LAYERS': 'orto5m1996', 'VERSION': '1.1.1'}
 			}),
@@ -537,7 +537,7 @@ var config = {
 			title: '1997 ES_CAT_ICGC - 1:5000',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
 				params: {'LAYERS': 'orto5m1997', 'VERSION': '1.1.1'}
 			}),
@@ -548,7 +548,7 @@ var config = {
 			title: '1998 ES_CAT_ICGC - 1:5000',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
 				params: {'LAYERS': 'orto5m1998', 'VERSION': '1.1.1'}
 			}),
@@ -559,7 +559,7 @@ var config = {
 			title: '1999 ES_CAT_ICGC - 1:5000',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
 				params: {'LAYERS': 'orto5m1999', 'VERSION': '1.1.1'}
 			}),
@@ -570,7 +570,7 @@ var config = {
 			title: '2000 ES_CAT_ICGC - 1:5000',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
 				params: {'LAYERS': 'orto5m2000', 'VERSION': '1.1.1'}
 			}),
@@ -581,7 +581,7 @@ var config = {
 			title: '2000 ES_CAT_ICGC - 1:5000',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
 				params: {'LAYERS': 'orto5m2000', 'VERSION': '1.1.1'}
 			}),
@@ -592,7 +592,7 @@ var config = {
 			title: '2001 ES_CAT_ICGC - 1:5000',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
 				params: {'LAYERS': 'orto5m2001', 'VERSION': '1.1.1'}
 			}),
@@ -603,7 +603,7 @@ var config = {
 			title: '2002 ES_CAT_ICGC - 1:5000',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
 				params: {'LAYERS': 'orto5m2002', 'VERSION': '1.1.1'}
 			}),
@@ -614,7 +614,7 @@ var config = {
 			title: '2003 ES_CAT_ICGC - 1:5000',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
 				params: {'LAYERS': 'orto5m2003', 'VERSION': '1.1.1'}
 			}),
@@ -624,7 +624,7 @@ var config = {
 			title: '2004 ES_CAT_ICGC - 1:5000',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Tiles &copy; ICGC &mdash; Source: ICGC',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
 				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
 				params: {'LAYERS': 'orto5m2004', 'VERSION': '1.1.1'}
 			}),
@@ -635,7 +635,7 @@ var config = {
 			title: 'Google Maps',
 			iconSrc: imgSrc + 'gmaps_logo_layer.png',
 			source: new ol.source.XYZ({
-				attributions: '&copy; <a href="https://www.google.com/maps/" target="_blank">Google Maps</a>',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,&copy; <a href="https://www.google.com/maps/" target="_blank">Google Maps</a>',
 				url: 'https://mt{0-3}.google.com/vt/lyrs=m&z={z}&x={x}&y={y}'
 			}),
 			visible: false
@@ -644,7 +644,7 @@ var config = {
 			title: 'Google Sat',
 			iconSrc: imgSrc + 'gmaps_logo_layer.png',
 			source: new ol.source.XYZ({
-				attributions: '&copy; <a href="https://www.google.com/maps/" target="_blank">Google Maps</a>',
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,&copy; <a href="https://www.google.com/maps/" target="_blank">Google Maps</a>',
 				url: 'https://mt{0-3}.google.com/vt/lyrs=s&z={z}&x={x}&y={y}'
 			}),
 			visible: false
