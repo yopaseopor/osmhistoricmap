@@ -75,7 +75,6 @@ var config = {
 			source: new ol.source.OSM()
 }),
            new ol.layer.Vector({
-              title: 'added Layer',
               source: new ol.source.GeoJSON({
                  projection : 'EPSG:4326',
                  url: 'https://raw.githubusercontent.com/yopaseopor/osmhistoricmap/master/src/img/base/test.geojson'
