@@ -724,16 +724,6 @@ var config = {
 			query: '(nwr[~"^name:....$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#0000ff',
-			
-			var layer1=new ol.layer.Vector({
-   source: new ol.source.GeoJSON ({
-           url: 'base/test.geojson',
-           defaultProjection :'EPSG:4326', projection: 'EPSG:3857'
-   }),
-   name: 'NAME 1',
-   style: style_1()
-}),
-			
 			style: function () {
 				var fill = new ol.style.Fill({
 					color: 'rgba(0,0,255,0.4)'
