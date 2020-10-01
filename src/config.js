@@ -60,20 +60,7 @@ var config = {
 			}),
 			visible: false
 		}),
-		new ol.layer.Tile({// OpenStreetMap France https://openstreetmap.fr
-			title: 'OpenStreetMap France2',
-			iconSrc: imgSrc + 'osmfr_logo-layer.png',
-			source: new ol.source.OSM()
-           }),
-           new ol.layer.Vector({
-              title: 'added Layer',
-              source: new ol.source.GeoJSON({
-                 projection : 'EPSG:4326',
-                 url: 'mygeojson.json'              })
-           })
-			}),
-			visible: false
-		}),
+
 		new ol.layer.Tile({
 			title: 'OpenMapSurfer',
 			iconSrc: imgSrc + 'openroute_logo_layer.png',
