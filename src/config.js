@@ -69,7 +69,8 @@ var config = {
               title: 'added Layer',
               source: new ol.source.GeoJSON({
                  projection : 'EPSG:4326',
-                 url: 'mygeojson.json'
+                 url: 'mygeojson.json'              })
+           })
 			}),
 			visible: false
 		}),
