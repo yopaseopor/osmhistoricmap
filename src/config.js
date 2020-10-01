@@ -73,14 +73,14 @@ var config = {
 		new ol.layer.Tile({
 			title: 'OpenMapSurfer',
 			iconSrc: imgSrc + 'openroute_logo_layer.png',
-source: new ol.source.OSM()
+			source: new ol.source.OSM()
            }),
            new ol.layer.Vector({
               title: 'added Layer',
               source: new ol.source.GeoJSON({
                  projection : 'EPSG:4326',
                  url: 'mygeojson.json'
-              })
+              }),
 			visible: false
 		}),
 		new ol.layer.Tile({
