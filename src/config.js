@@ -70,20 +70,6 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: 'OpenMapSurfer',
-			iconSrc: imgSrc + 'openroute_logo_layer.png',
-			source: new ol.source.OSM()
-}),
-           new ol.layer.Vector({
-              source: new ol.source.GeoJSON({
-                 projection : 'EPSG:4326',
-                 url: 'https://raw.githubusercontent.com/yopaseopor/osmhistoricmap/master/src/img/base/test.geojson'
-              })
-           })
-              }),
-			visible: false
-		}),
-		new ol.layer.Tile({
 			title: 'OpenCycleMap',
 			iconSrc: imgSrc + 'opencycle_logo_layer.png',
 			source: new ol.source.XYZ({
