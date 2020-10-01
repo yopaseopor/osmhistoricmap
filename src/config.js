@@ -60,7 +60,6 @@ var config = {
 			}),
 			visible: false
 		}),
-
 		new ol.layer.Tile({
 			title: 'OpenMapSurfer',
 			iconSrc: imgSrc + 'openroute_logo_layer.png',
@@ -68,6 +67,20 @@ var config = {
 				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>, powered by <a href="https://mapsurfernet.com/" target="_blank">MapSurfer.NET</a>',
 				url: 'https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/{z}/{x}/{y}.png'
 			}),
+			visible: false
+		}),
+
+		new ol.layer.Tile({
+			title: 'OpenMapSurfer',
+			iconSrc: imgSrc + 'openroute_logo_layer.png',
+source: new ol.source.OSM()
+           }),
+           new ol.layer.Vector({
+              title: 'added Layer',
+              source: new ol.source.GeoJSON({
+                 projection : 'EPSG:4326',
+                 url: 'mygeojson.json'
+              })
 			visible: false
 		}),
 		new ol.layer.Tile({
