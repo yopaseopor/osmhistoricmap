@@ -720,6 +720,42 @@ var config = {
 		},
 		{
 			group: 'Test',
+			title: 'Exact year',
+			query: '(nwr[~"^name:....$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#0000ff',
+			
+			var layer1=new ol.layer.Vector({
+   source: new ol.source.GeoJSON ({
+           url: 'base/test.geojson',
+           defaultProjection :'EPSG:4326', projection: 'EPSG:3857'
+   }),
+   name: 'NAME 1',
+   style: style_1()
+}),
+			
+			style: function () {
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,0,255,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#0000ff',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		{
+			group: 'Test',
 			title: 'Interval of years - simple',
 			query: '(nwr[~"^name:....-....$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
