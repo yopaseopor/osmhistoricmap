@@ -81,8 +81,6 @@ var config = {
 
          defaultDataProjection :'EPSG:4326', 
          projection: 'EPSG:3857'
-              }),
-			visible: false
 		}),
 		new ol.layer.Tile({
 			title: 'OpenCycleMap',
