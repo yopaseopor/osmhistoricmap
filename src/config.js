@@ -42,24 +42,21 @@ var config = {
 			source: new ol.source.OSM()
 		}),
 		new ol.layer.Tile({
-              source: new ol.source.OSM()
-           }),
-           new ol.layer.Vector({
-              title: 'added Layer',
-              source: new ol.source.GeoJSON({
-                 projection : 'EPSG:4326',
-                 url: 'mygeojson.json'
-              }),
-           }),
-			visible: false
-		}),
-		new ol.layer.Tile({
 			title: 'OpenStreetMap B&W',
 			iconSrc: imgSrc + 'osmbw_logo-layer.png',
 			source: new ol.source.XYZ({
 				attributions: '&copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap</a>',
 				//url: 'https://toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png'
 				url: 'https://tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png'
+			}),
+			visible: false
+		}),
+		new ol.layer.Tile({// OpenStreetMap France https://openstreetmap.fr
+			title: 'OpenStreetMap France',
+			iconSrc: imgSrc + 'osmfr_logo-layer.png',
+			source: new ol.source.OSM({
+				attributions: '&copy; <a href="https://www.openstreetmap.fr/" target="_blank">OpenStreetMap France</a>',
+				url: 'https://{a-c}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png'
 			}),
 			visible: false
 		}),
