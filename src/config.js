@@ -42,6 +42,18 @@ var config = {
 			source: new ol.source.OSM()
 		}),
 		new ol.layer.Tile({
+              source: new ol.source.OSM()
+           }),
+           new ol.layer.Vector({
+              title: 'added Layer',
+              source: new ol.source.GeoJSON({
+                 projection : 'EPSG:4326',
+                 url: 'mygeojson.json'
+              })
+           }),
+			visible: false
+		}),
+		new ol.layer.Tile({
 			title: 'OpenStreetMap B&W',
 			iconSrc: imgSrc + 'osmbw_logo-layer.png',
 			source: new ol.source.XYZ({
