@@ -79,7 +79,7 @@ var config = {
               title: 'added Layer',
               source: new ol.source.GeoJSON({
                  projection : 'EPSG:4326',
-                 url: 'mygeojson.json'
+                 url: 'https://raw.githubusercontent.com/yopaseopor/osmhistoricmap/master/src/img/base/test.geojson'
               }),
 			visible: false
 		}),
