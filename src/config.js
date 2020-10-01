@@ -73,14 +73,16 @@ var config = {
 			title: 'OpenMapSurfer',
 			iconSrc: imgSrc + 'openroute_logo_layer.png',
 			source: new ol.source.OSM()
-           }),
-           new ol.source.Vector({
-
-      url: 'https://raw.githubusercontent.com/yopaseopor/osmhistoricmap/master/src/img/base/test.geojson',
-      format: new ol.format.GeoJSON({
-
-         defaultDataProjection :'EPSG:4326', 
-         projection: 'EPSG:3857'
+}),
+           new ol.layer.Vector({
+              title: 'added Layer',
+              source: new ol.source.GeoJSON({
+                 projection : 'EPSG:4326',
+                 url: 'https://raw.githubusercontent.com/yopaseopor/osmhistoricmap/master/src/img/base/test.geojson'
+              })
+           })
+              }),
+			visible: false
 		}),
 		new ol.layer.Tile({
 			title: 'OpenCycleMap',
