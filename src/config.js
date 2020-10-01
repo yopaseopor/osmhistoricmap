@@ -70,6 +70,8 @@ var config = {
               source: new ol.source.GeoJSON({
                  projection : 'EPSG:4326',
                  url: 'mygeojson.json'
+				   })
+           })
 			}),
 			visible: false
 		}),
