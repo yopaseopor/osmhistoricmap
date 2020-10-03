@@ -834,12 +834,8 @@ var config = {
 			query: '(nwr[~"^name:197[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#0000ff',
-  style: function (feature) {
-    style.getText().setText(feature.get('name'));
-    return style;
-  },
-});
-
+			style: function (feature) {
+				
 var vectorLayer = new ol.layer.Vector({
     source: new ol.source.Vector({
         format: new ol.format.GeoJSON(),
