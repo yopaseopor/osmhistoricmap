@@ -847,12 +847,7 @@ var vectorLayer = new ol.layer.Vector({
         format: new ol.format.GeoJSON(),
         url: 'https://raw.githubusercontent.com/yopaseopor/osmhistoricmap/master/src/img/base/test.geojson'
     }),
-  style: function (feature) {
-    style.getText().setText(feature.get('name'));
-    return style;
-  },
-});
-				var stroke = new ol.style.Stroke({
+  var stroke = new ol.style.Stroke({
 					color: '#0000ff',
 					width: 1.25
 				});
