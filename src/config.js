@@ -78,6 +78,21 @@ var config = {
 			}),
 			visible: false
 		}),
+		new ol.layer.Tile({// OpenStreetMap France https://openstreetmap.fr
+			title: 'OpenStreetMap France2',
+			iconSrc: imgSrc + 'osmfr_logo-layer.png',
+			source: new ol.source.OSM({
+				attributions: '&copy; <a href="https://www.openstreetmap.fr/" target="_blank">OpenStreetMap France</a>',
+				url: 'https://{a-c}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png'
+			}),
+			 new ol.layer.Vector({
+            source: new ol.source.Vector({
+                format: new ol.format.GeoJSON(),
+                url: 'export.geojson'
+            })
+        })
+			visible: false
+		}),
 		new ol.layer.Tile({
 			title: 'Topotresc',
 			iconSrc: imgSrc + 'topotresc_layer.png',
