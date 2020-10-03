@@ -30,13 +30,7 @@ $(function () {
 				vectorProperties = overlay,
 				vector;
 
-		if (overlay['geojson'] !== undefined) {
-      var vectorSource = new ol.source.Vector({
-        format: new ol.format.GeoJSON(),
-        url: overlay['geojson']
-      })
-    } else {
-			var vectorSource = new ol.source.Vector({ 
+		var vectorSource = new ol.source.Vector({
 			format: new ol.format.OSMXML2(),
 			loader: function (extent, resolution, projection) {
 				loading.show();
@@ -97,7 +91,7 @@ $(function () {
 			},
 			strategy: ol.loadingstrategy.bbox
 		});
-	}
+
 		vectorProperties['source'] = vectorSource;
 		vectorProperties['visible'] = false;
 
