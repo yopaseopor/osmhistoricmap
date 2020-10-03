@@ -842,11 +842,11 @@ var config = {
 					color: 'rgba(0,0,255,0.4)'
 				});
 
-var vectorLayer = new VectorLayer({
-  source: new VectorSource({
-    url: 'data/geojson/countries.geojson',
-    format: new GeoJSON(),
-  }),
+var vectorLayer = new ol.layer.Vector({
+    source: new ol.source.Vector({
+        format: new ol.format.GeoJSON(),
+        url: 'https://raw.githubusercontent.com/yopaseopor/osmhistoricmap/master/src/img/base/test.geojson'
+    }),
   style: function (feature) {
     style.getText().setText(feature.get('name'));
     return style;
