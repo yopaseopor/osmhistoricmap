@@ -832,8 +832,6 @@ var config = {
 			group: 'Test',
 			title: '1960',
 			query: '(nwr[~"^name:197[0-9]$"~"."]({{bbox}});node(w););out meta;',
-			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:#0000ff',
 			style: function (feature) {
 				var key_regex = /^name:197[0-9]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
