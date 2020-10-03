@@ -843,7 +843,25 @@ var config = {
           }))
       })
     },
-  {
+		{
+			group: 'Test',
+			title: 'Vending Parking Tickets',
+			geojson: 'https://raw.githubusercontent.com/yopaseopor/osmhistoricmap/master/src/img/base/test.geojson',
+			iconSrc: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_B1a.png',
+			style: function () {
+				var style = new ol.style.Style({
+					image: new ol.style.Icon({
+						scale: 0.4,
+						src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R2.png'
+					})
+				});
+				return style;
+			}
+		},
+
+		
+				// Right Ticket
+		{
    group: 'Test',
    title: '1962',
    query: '(nwr[~"^name:197[0-9]$"~"."]({{bbox}});node(w););out meta;',
