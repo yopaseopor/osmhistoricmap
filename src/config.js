@@ -70,6 +70,22 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
+			title: 'OpenMapSurfer2',
+			iconSrc: imgSrc + 'openroute_logo_layer.png',
+			source: new ol.source.XYZ({
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>, powered by <a href="https://mapsurfernet.com/" target="_blank">MapSurfer.NET</a>',
+				url: 'https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/{z}/{x}/{y}.png'
+			}),
+			var vector = new ol.layer.Vector({
+title: 'cities',
+source: new ol.source.GeoJSON({
+url: 'cities.json',
+projection: 'EPSG:3857'
+})
+});
+			visible: false
+		}),
+		new ol.layer.Tile({
 			title: 'OpenCycleMap',
 			iconSrc: imgSrc + 'opencycle_logo_layer.png',
 			source: new ol.source.XYZ({
