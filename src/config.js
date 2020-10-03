@@ -841,6 +841,17 @@ var config = {
 				var fill = new ol.style.Fill({
 					color: 'rgba(0,0,255,0.4)'
 				});
+
+var vectorLayer = new VectorLayer({
+  source: new VectorSource({
+    url: 'data/geojson/countries.geojson',
+    format: new GeoJSON(),
+  }),
+  style: function (feature) {
+    style.getText().setText(feature.get('name'));
+    return style;
+  },
+});
 				var stroke = new ol.style.Stroke({
 					color: '#0000ff',
 					width: 1.25
