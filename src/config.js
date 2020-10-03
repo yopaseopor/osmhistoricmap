@@ -1295,17 +1295,6 @@ var config = {
 					fill: fill,
 					stroke: stroke
 				});
-
-var vectorLayer = new VectorLayer({
-  source: new VectorSource({
-    url: 'data/geojson/countries.geojson',
-    format: new GeoJSON(),
-  }),
-  style: function (feature) {
-    style.getText().setText(feature.get('name'));
-    return style;
-  },
-});
 				return style;
 			}
 		},
