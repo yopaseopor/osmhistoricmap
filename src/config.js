@@ -90,7 +90,7 @@ var config = {
                 format: new ol.format.GeoJSON(),
                 url: 'export.geojson'
             })
-        })
+        }),
 			visible: false
 		}),
 		new ol.layer.Tile({
