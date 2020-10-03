@@ -829,6 +829,19 @@ var config = {
 			}
 		},
 		{
+		  group: 'Test',
+		  title: 'geojson',
+		  geojson: 'https://raw.githubusercontent.com/yopaseopor/osmhistoricmap/master/src/img/base/test.geojson',
+		  style: new ol.style.Style({
+          image: new ol.style.Circle( /** @type {olx.style.IconOptions} */ ({
+              radius: 20,
+              fill: new ol.style.Fill({
+                  color: '#ffff00'
+              })
+          }))
+      })
+		},
+		{
 			group: 'Test',
 			title: '1961',
 			query: '(nwr[~"^name:197[0-9]$"~"."]({{bbox}});node(w););out meta;',
@@ -842,24 +855,6 @@ var config = {
 					color: 'rgba(0,0,255,0.4)'
 				});
 
-var vectorLayer = new ol.layer.Vector({
-    source: new ol.source.Vector({
-        format: new ol.format.GeoJSON(),
-        url: 'export.geojson'
-    }),
-	    style: new ol.style.Style({
-        image: new ol.style.Circle( /** @type {olx.style.IconOptions} */ ({
-            radius: 20,
-            fill: new ol.style.Fill({
-                color: '#ffff00'
-            })
-        }))
-    }),
-  style: function (feature) {
-    style.getText().setText(feature.get('name'));
-    return style;
-  },
-});
 				var stroke = new ol.style.Stroke({
 					color: '#0000ff',
 					width: 1.25
