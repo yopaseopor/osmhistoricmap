@@ -870,7 +870,50 @@ var vectorLayer = new ol.layer.Vector({
 				});
 				return style;
 			}
-		},
+},
+  {
+   group: 'Test',
+   title: '1960',
+   query: '(nwr[~"^name:197[0-9]$"~"."]({{bbox}});node(w););out meta;',
+   iconSrc: imgSrc + 'base/circle.svg',
+   iconStyle: 'background-color:#0000ff',
+   style: function (feature) {
+    var key_regex = /^name:197[0-9]$/
+    var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+    var name = feature.get(name_key) || '';
+    var fill = new ol.style.Fill({
+     color: 'rgba(0,0,255,0.4)'
+    });
+
+var vectorLayer = new ol.layer.Vector({
+    source: new ol.source.Vector({
+        format: new ol.format.GeoJSON(),
+        url: 'https://raw.githubusercontent.com/yopaseopor/osmhistoricmap/master/src/img/base/test.geojson'
+    }),
+  style: function (feature) {
+    style.getText().setText(feature.get('highway'));
+    return style;
+  },
+});
+    var stroke = new ol.style.Stroke({
+     color: '#0000ff',
+     width: 1.25
+    });
+    var style = new ol.style.Style({
+     image: new ol.style.Circle({
+      fill: fill,
+      stroke: stroke,
+      radius: 5
+     }),
+       text: new ol.style.Text({
+        text: name
+       }),
+     fill: fill,
+     stroke: stroke
+    });
+    return style;
+   }
+  },
 		{
 			group: 'Centuries',
 			title: '1000-1099',
