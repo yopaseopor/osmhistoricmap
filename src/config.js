@@ -842,7 +842,7 @@ var config = {
     source: new ol.source.Vector({
         format: new ol.format.GeoJSON(),
         url: 'export.geojson'
-    }),
+    })
 				var fill = new ol.style.Fill({
 					color: 'rgba(0,0,255,0.4)'
 				});
