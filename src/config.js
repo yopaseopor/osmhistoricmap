@@ -69,10 +69,12 @@ var config = {
 			}),
 			visible: false
 		}),
-new ol.layer.Tile({
-			title: 'OpenStreetMap2',
-			iconSrc: imgSrc + 'osm_logo-layer.svg',
-			source: new ol.source.OSM()
+		new ol.layer.Tile({// OpenStreetMap France https://openstreetmap.fr
+			title: 'OpenStreetMap France2',
+			iconSrc: imgSrc + 'osmfr_logo-layer.png',
+			source: new ol.source.OSM({
+				attributions: '&copy; <a href="https://www.openstreetmap.fr/" target="_blank">OpenStreetMap France</a>',
+				url: 'https://{a-c}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png'
 			}),
 			visible: false
 		}),
