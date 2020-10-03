@@ -843,26 +843,14 @@ var vectorLayer = new ol.layer.Vector({
         format: new ol.format.GeoJSON(),
         url: 'export.geojson'
     }),
-  style: function (feature) {
-    style.getText().setText(feature.get('name'));
-    return style;
-  },
-});
-				var stroke = new ol.style.Stroke({
-					color: '#0000ff',
-					width: 1.25
-				});
-				var style = new ol.style.Style({
-					image: new ol.style.Circle({
-						fill: fill,
-						stroke: stroke,
-						radius: 5
-					}),
-							text: new ol.style.Text({
-								text: name
-							}),
-					fill: fill,
-					stroke: stroke
+    style: new ol.style.Style({
+        image: new ol.style.Circle( /** @type {olx.style.IconOptions} */ ({
+            radius: 20,
+            fill: new ol.style.Fill({
+                color: '#ffff00'
+            })
+        }))
+    })
 				});
 				return style;
 			}
