@@ -832,19 +832,20 @@ var config = {
 			group: 'Test',
 			title: '1960',
 			query: '(nwr[~"^name:197[0-9]$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#0000ff',
 			style: function (feature) {
 				var key_regex = /^name:197[0-9]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
-				var fill = new ol.style.Fill({
-					color: 'rgba(0,0,255,0.4)'
-				});
-
-var vectorLayer = new ol.layer.Vector({
+				var vectorLayer = new ol.layer.Vector({
     source: new ol.source.Vector({
         format: new ol.format.GeoJSON(),
         url: 'export.geojson'
     }),
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,0,255,0.4)'
+				});
   style: function (feature) {
     style.getText().setText(feature.get('name'));
     return style;
