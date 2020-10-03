@@ -847,14 +847,6 @@ var vectorLayer = new ol.layer.Vector({
         format: new ol.format.GeoJSON(),
         url: 'export.geojson'
     }),
-	    style: new ol.style.Style({
-        image: new ol.style.Circle( /** @type {olx.style.IconOptions} */ ({
-            radius: 20,
-            fill: new ol.style.Fill({
-                color: '#ffff00'
-            })
-        }))
-    }),
   style: function (feature) {
     style.getText().setText(feature.get('name'));
     return style;
