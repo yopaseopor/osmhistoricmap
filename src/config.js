@@ -831,6 +831,8 @@ var config = {
 	{
       group: 'Test',
       title: 'geojson',
+	  iconSrc: imgSrc + 'base/circle.svg',
+	  iconStyle: 'background-color:#0000ff',
       geojson: 'https://raw.githubusercontent.com/yopaseopor/osmhistoricmap/master/src/img/base/test.geojson',
       style: new ol.style.Style({
           image: new ol.style.Circle( /** @type {olx.style.IconOptions} */ ({
@@ -854,17 +856,6 @@ var config = {
     var fill = new ol.style.Fill({
      color: 'rgba(0,0,255,0.4)'
     });
-
-var vectorLayer = new ol.layer.Vector({
-    source: new ol.source.Vector({
-        format: new ol.format.GeoJSON(),
-        url: 'https://raw.githubusercontent.com/yopaseopor/osmhistoricmap/master/src/img/base/test.geojson'
-    }),
-  style: function (feature) {
-    style.getText().setText(feature.get('highway'));
-    return style;
-  },
-});
     var stroke = new ol.style.Stroke({
      color: '#0000ff',
      width: 1.25
