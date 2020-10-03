@@ -847,16 +847,7 @@ var vectorLayer = new ol.layer.Vector({
         format: new ol.format.GeoJSON(),
         url: 'export.geojson'
     }),
-  style: function (feature) {
-    style.getText().setText(feature.get('name'));
-    return style;
-  },
-});
-				var stroke = new ol.style.Stroke({
-					color: '#0000ff',
-					width: 1.25
-				});
-				var style = new ol.style.Style({
+  style: new ol.style.Style({
 					image: new ol.style.Circle({
 						fill: fill,
 						stroke: stroke,
