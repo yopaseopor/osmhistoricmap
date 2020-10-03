@@ -848,7 +848,7 @@ var vectorLayer = new ol.layer.Vector({
         url: 'https://raw.githubusercontent.com/yopaseopor/osmhistoricmap/master/src/img/base/test.geojson'
     }),
   style: function (feature) {
-    style.getText().setText(feature.get('highway'));
+    style.getText().setText(feature.get('name'));
     return style;
   },
 });
