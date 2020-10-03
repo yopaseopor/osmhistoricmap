@@ -1283,17 +1283,6 @@ var config = {
 					color: '#0000ff',
 					width: 1.25
 				});
-
-var vectorLayer = new VectorLayer({
-  source: new VectorSource({
-    url: 'data/geojson/countries.geojson',
-    format: new GeoJSON(),
-  }),
-  style: function (feature) {
-    style.getText().setText(feature.get('name'));
-    return style;
-  },
-});
 				var style = new ol.style.Style({
 					image: new ol.style.Circle({
 						fill: fill,
