@@ -69,17 +69,6 @@ var config = {
 			}),
 			visible: false
 		}),
-		new ol.layer.Tile({// OpenStreetMap France https://openstreetmap.fr
-			title: 'OpenStreetMap France3',
-			iconSrc: imgSrc + 'osmfr_logo-layer.png',
-			     source: new ol.source.GeoJSON({
-                 projection : 'EPSG:4326',
-                 url: 'export.json'
-              })
-           })
-  }),
-			visible: false
-		}),
 		new ol.layer.Tile({
 			title: 'OpenCycleMap',
 			iconSrc: imgSrc + 'opencycle_logo_layer.png',
