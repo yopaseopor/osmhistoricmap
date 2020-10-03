@@ -830,7 +830,7 @@ var config = {
 		},
 	{
       group: 'Test',
-      title: 'geojson',
+      title: 'Prum',
 	  iconSrc: imgSrc + 'base/circle.svg',
 	  iconStyle: 'background-color:#0000ff',
       geojson: 'https://raw.githubusercontent.com/yopaseopor/osmhistoricmap/master/src/img/base/test.geojson',
