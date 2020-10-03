@@ -838,14 +838,15 @@ var config = {
 				var key_regex = /^name:197[0-9]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
-				var vectorLayer = new ol.layer.Vector({
-    source: new ol.source.Vector({
-        format: new ol.format.GeoJSON(),
-        url: 'export.geojson'
-    })
 				var fill = new ol.style.Fill({
 					color: 'rgba(0,0,255,0.4)'
 				});
+
+var vectorLayer = new ol.layer.Vector({
+    source: new ol.source.Vector({
+        format: new ol.format.GeoJSON(),
+        url: 'export.geojson'
+    }),
   style: function (feature) {
     style.getText().setText(feature.get('name'));
     return style;
