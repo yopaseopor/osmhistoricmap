@@ -69,15 +69,16 @@ var config = {
 			}),
 			visible: false
 		}),
-		new ol.layer.Tile({// OpenStreetMap France https://openstreetmap.fr
-			title: 'OpenStreetMap France3',
-			iconSrc: imgSrc + 'osmfr_logo-layer.png',
-			source: new ol.source.OSM({
-				attributions: '&copy; <a href="https://www.openstreetmap.fr/" target="_blank">OpenStreetMap France</a>',
-				url: 'https://{a-c}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png'
-			}),
-			visible: false
-		}),
+		new ol.layer.Vector({
+        source: new ol.source.Vector({
+          url:'export.geojson',
+          // If you want to use a static file, change the previous row to
+          // url: 'data/bptlandmarks.json',
+          format: new ol.format.GeoJSON()
+        }),
+        style: pointStyle,
+        opacity: 0.6
+});
 		new ol.layer.Tile({
 			title: 'OpenCycleMap',
 			iconSrc: imgSrc + 'opencycle_logo_layer.png',
