@@ -78,7 +78,7 @@ var config = {
         }),
         style: pointStyle,
         opacity: 0.6
-});
+}),
 		new ol.layer.Tile({
 			title: 'OpenCycleMap',
 			iconSrc: imgSrc + 'opencycle_logo_layer.png',
