@@ -69,6 +69,13 @@ var config = {
 			}),
 			visible: false
 		}),
+new ol.layer.Tile({
+			title: 'OpenStreetMap2',
+			iconSrc: imgSrc + 'osm_logo-layer.svg',
+			source: new ol.source.OSM()
+			}),
+			visible: false
+		}),
 		new ol.layer.Tile({
 			title: 'OpenCycleMap',
 			iconSrc: imgSrc + 'opencycle_logo_layer.png',
