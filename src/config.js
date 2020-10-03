@@ -845,10 +845,10 @@ var config = {
 var vectorLayer = new ol.layer.Vector({
     source: new ol.source.Vector({
         format: new ol.format.GeoJSON(),
-        url: 'http://yourserver.com/yourgeojsonfile.js'
+        url: 'https://raw.githubusercontent.com/yopaseopor/osmhistoricmap/master/src/img/base/test.geojson'
     }),
   style: function (feature) {
-    style.getText().setText(feature.get('name'));
+    style.getText().setText(feature.get('highway'));
     return style;
   },
 });
