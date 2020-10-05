@@ -630,6 +630,29 @@ var config = {
 			}),
 			visible: false
 		}),
+
+				new ol.layer.Tile({
+			title: '1712 - Plano de la ciudad, castillo - Zaragoza',
+			iconSrc: imgSrc + 'osmbw_logo-layer.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; Archivo Municipal del <a href="https://www.zaragoza.es/" target="_blank">Ayuntamiento de Zaragoza</a>',
+				url: 'http://idezar.zaragoza.es/geoserver/historicos/wms?',
+				params: {'LAYERS': 'AMZ_4-2_0024', 'VERSION': '1.3.0'}
+			}),
+			visible: false
+		}),
+		
+		
+				new ol.layer.Tile({
+			title: '1769 - Vista de Zaragoza por Septentrión - Carlos Casanova - Zaragoza',
+			iconSrc: imgSrc + 'osmbw_logo-layer.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; Archivo Municipal del <a href="https://www.zaragoza.es/" target="_blank">Ayuntamiento de Zaragoza</a>',
+				url: 'http://idezar.zaragoza.es/geoserver/historicos/wms?',
+				params: {'LAYERS': 'AMZ_4-2_0696', 'VERSION': '1.3.0'}
+			}),
+			visible: false
+		}),
 		
 				new ol.layer.Tile({
 			title: '1809 - Plano topográfico - Clemente Noguera - Zaragoza',
@@ -638,6 +661,182 @@ var config = {
 				attributions: 'Map data &copy; Archivo Municipal del <a href="https://www.zaragoza.es/" target="_blank">Ayuntamiento de Zaragoza</a>',
 				url: 'http://idezar.zaragoza.es/geoserver/historicos/wms?',
 				params: {'LAYERS': 'AMZ_4-2_0005', 'VERSION': '1.3.0'}
+			}),
+			visible: false
+		}),
+		
+				new ol.layer.Tile({
+			title: '1852 - Plano de Zaragoza - Yarza y Gironza - Zaragoza',
+			iconSrc: imgSrc + 'osmbw_logo-layer.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; Archivo Municipal del <a href="https://www.zaragoza.es/" target="_blank">Ayuntamiento de Zaragoza</a>',
+				url: 'http://idezar.zaragoza.es/geoserver/historicos/wms?',
+				params: {'LAYERS': 'AMZ_4-2_0275', 'VERSION': '1.3.0'}
+			}),
+			visible: false
+		}),
+		
+				new ol.layer.Tile({
+			title: '1861 - Plano de Zaragoza - Yarza y Gironza - Zaragoza',
+			iconSrc: imgSrc + 'osmbw_logo-layer.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; Archivo Municipal del <a href="https://www.zaragoza.es/" target="_blank">Ayuntamiento de Zaragoza</a>',
+				url: 'http://idezar.zaragoza.es/geoserver/historicos/wms?',
+				params: {'LAYERS': 'AMZ_4-2_0274', 'VERSION': '1.3.0'}
+			}),
+			visible: false
+		}),
+		
+				new ol.layer.Tile({
+			title: '1863 - Plano de Zaragoza - Imprenta y litografía de Agustín Peiró - Zaragoza',
+			iconSrc: imgSrc + 'osmbw_logo-layer.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; Archivo Municipal del <a href="https://www.zaragoza.es/" target="_blank">Ayuntamiento de Zaragoza</a>',
+				url: 'http://idezar.zaragoza.es/geoserver/historicos/wms?',
+				params: {'LAYERS': 'AMZ_4-2_0697', 'VERSION': '1.3.0'}
+			}),
+			visible: false
+		}),
+		
+				new ol.layer.Tile({
+			title: '1872 - Plano de Zaragoza - Estado Mayor del Ejército - Zaragoza',
+			iconSrc: imgSrc + 'osmbw_logo-layer.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; Archivo Municipal del <a href="https://www.zaragoza.es/" target="_blank">Ayuntamiento de Zaragoza</a>',
+				url: 'http://idezar.zaragoza.es/geoserver/historicos/wms?',
+				params: {'LAYERS': 'AMZ_4-2_0459', 'VERSION': '1.3.0'}
+			}),
+			visible: false
+		}),
+		
+				new ol.layer.Tile({
+			title: '1880 - Plano de Zaragoza - Dionisio Casañal y Zapatero - Zaragoza',
+			iconSrc: imgSrc + 'osmbw_logo-layer.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; Archivo Municipal del <a href="https://www.zaragoza.es/" target="_blank">Ayuntamiento de Zaragoza</a>',
+				url: 'http://idezar.zaragoza.es/geoserver/historicos/wms?',
+				params: {'LAYERS': 'AMZ_4-2_0075', 'VERSION': '1.3.0'}
+			}),
+			visible: false
+		}),
+		
+				new ol.layer.Tile({
+			title: '1899 - Plano de Zaragoza - Dionisio Casañal y Zapatero - Zaragoza',
+			iconSrc: imgSrc + 'osmbw_logo-layer.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; Archivo Municipal del <a href="https://www.zaragoza.es/" target="_blank">Ayuntamiento de Zaragoza</a>',
+				url: 'http://idezar.zaragoza.es/geoserver/historicos/wms?',
+				params: {'LAYERS': 'AMZ_4-2_0072', 'VERSION': '1.3.0'}
+			}),
+			visible: false
+		}),
+		
+				new ol.layer.Tile({
+			title: '1900 - Plano de Zaragoza - A. Martín editor - Zaragoza',
+			iconSrc: imgSrc + 'osmbw_logo-layer.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; Archivo Municipal del <a href="https://www.zaragoza.es/" target="_blank">Ayuntamiento de Zaragoza</a>',
+				url: 'http://idezar.zaragoza.es/geoserver/historicos/wms?',
+				params: {'LAYERS': 'AMZ_4-2_0751', 'VERSION': '1.3.0'}
+			}),
+			visible: false
+		}),
+		
+				new ol.layer.Tile({
+			title: '1908 - Plano de Zaragoza - Dionisio Casañal y Zapatero - Zaragoza',
+			iconSrc: imgSrc + 'osmbw_logo-layer.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; Archivo Municipal del <a href="https://www.zaragoza.es/" target="_blank">Ayuntamiento de Zaragoza</a>',
+				url: 'http://idezar.zaragoza.es/geoserver/historicos/wms?',
+				params: {'LAYERS': 'AMZ_4-2_0080', 'VERSION': '1.3.0'}
+			}),
+			visible: false
+		}),
+		
+				new ol.layer.Tile({
+			title: '1925 - Plano parcelario de Zaragoza - Miguel Ángel Navarro y Pérez - Zaragoza',
+			iconSrc: imgSrc + 'osmbw_logo-layer.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; Archivo Municipal del <a href="https://www.zaragoza.es/" target="_blank">Ayuntamiento de Zaragoza</a>',
+				url: 'http://idezar.zaragoza.es/geoserver/historicos/wms?',
+				params: {'LAYERS': 'AMZ_4-2_0476', 'VERSION': '1.3.0'}
+			}),
+			visible: false
+		}),
+		
+				new ol.layer.Tile({
+			title: '1935 - Plano-guía de plano parcelario de Zaragoza - Instituto Geográfico y Catastral - Zaragoza',
+			iconSrc: imgSrc + 'osmbw_logo-layer.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; Archivo Municipal del <a href="https://www.zaragoza.es/" target="_blank">Ayuntamiento de Zaragoza</a>',
+				url: 'http://idezar.zaragoza.es/geoserver/historicos/wms?',
+				params: {'LAYERS': 'AMZ_4-2_0451', 'VERSION': '1.3.0'}
+			}),
+			visible: false
+		}),
+		
+				new ol.layer.Tile({
+			title: '1938 - Plano de Zaragoza - Regino Borobio y José Beltrán - Zaragoza',
+			iconSrc: imgSrc + 'osmbw_logo-layer.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; Archivo Municipal del <a href="https://www.zaragoza.es/" target="_blank">Ayuntamiento de Zaragoza</a>',
+				url: 'http://idezar.zaragoza.es/geoserver/historicos/wms?',
+				params: {'LAYERS': 'AMZ_4-2_0565', 'VERSION': '1.3.0'}
+			}),
+			visible: false
+		}),
+		
+				new ol.layer.Tile({
+			title: '1950 - Plano gráfico informativo - Ayuntamiento y Antonio Margalé - Zaragoza',
+			iconSrc: imgSrc + 'osmbw_logo-layer.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; Archivo Municipal del <a href="https://www.zaragoza.es/" target="_blank">Ayuntamiento de Zaragoza</a>',
+				url: 'http://idezar.zaragoza.es/geoserver/historicos/wms?',
+				params: {'LAYERS': 'Planimetria-42', 'VERSION': '1.3.0'}
+			}),
+			visible: false
+		}),
+		
+				new ol.layer.Tile({
+			title: '1958 - Plano Guía del plano de Zaragoza - José Beltrán Navarro - Zaragoza',
+			iconSrc: imgSrc + 'osmbw_logo-layer.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; Archivo Municipal del <a href="https://www.zaragoza.es/" target="_blank">Ayuntamiento de Zaragoza</a>',
+				url: 'http://idezar.zaragoza.es/geoserver/historicos/wms?',
+				params: {'LAYERS': 'AMZ_4-2_0421', 'VERSION': '1.3.0'}
+			}),
+			visible: false
+		}),
+		
+				new ol.layer.Tile({
+			title: '1977 - Plano-Guía de arquitectura - Juan Antonio Carmona - Zaragoza',
+			iconSrc: imgSrc + 'osmbw_logo-layer.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; Archivo Municipal del <a href="https://www.zaragoza.es/" target="_blank">Ayuntamiento de Zaragoza</a>',
+				url: 'http://idezar.zaragoza.es/geoserver/historicos/wms?',
+				params: {'LAYERS': 'BMZ_F00021-38_0001', 'VERSION': '1.3.0'}
+			}),
+			visible: false
+		}),
+		
+				new ol.layer.Tile({
+			title: '1993 - Callejero - Ayuntamiento - Zaragoza',
+			iconSrc: imgSrc + 'osmbw_logo-layer.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; Archivo Municipal del <a href="https://www.zaragoza.es/" target="_blank">Ayuntamiento de Zaragoza</a>',
+				url: 'http://idezar.zaragoza.es/geoserver/historicos/wms?',
+				params: {'LAYERS': 'AMZ_4-2_0649', 'VERSION': '1.3.0'}
+			}),
+			visible: false
+		}),
+		
+				new ol.layer.Tile({
+			title: '2004 - Callejero - Ayuntamiento - Zaragoza',
+			iconSrc: imgSrc + 'osmbw_logo-layer.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; Archivo Municipal del <a href="https://www.zaragoza.es/" target="_blank">Ayuntamiento de Zaragoza</a>',
+				url: 'http://idezar.zaragoza.es/geoserver/historicos/wms?',
+				params: {'LAYERS': 'AMZ_4-2_0926', 'VERSION': '1.3.0'}
 			}),
 			visible: false
 		}),
