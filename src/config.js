@@ -630,6 +630,17 @@ var config = {
 			}),
 			visible: false
 		}),
+		
+				new ol.layer.Tile({
+			title: '1809 - Plano topográfico - Clemente Noguera - Zaragoza',
+			iconSrc: imgSrc + 'osmbw_logo-layer.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; Archivo Municipal del <a href="https://www.zaragoza.es/" target="_blank">Ayuntamiento de Zaragoza</a>',
+				url: 'http://idezar.zaragoza.es/geoserver/historicos/wms?',
+				params: {'LAYERS': 'AMZ_4-2_0005', 'VERSION': '1.3.0'}
+			}),
+			visible: false
+		}),
 
 		new ol.layer.Tile({
 			title: 'Google Maps',
