@@ -2422,7 +2422,7 @@ var vectorLayer = new ol.layer.Vector({
 		{
 			group: 'Topics',
 			title: 'ES_1932-1939 II Spanish Republic',
-			query: '(nwr[~"^name:193"~".*"]({{bbox}});node(w););out meta;',
+			query: '(nwr[~"^name:193[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#714601',
 			style: function (feature) {
