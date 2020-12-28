@@ -2426,7 +2426,7 @@ var vectorLayer = new ol.layer.Vector({
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#714601',
 			style: function (feature) {
-				var key_regex = /^name:193"~".*$/
+				var key_regex = /^name:193[0-9]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var styles = {
