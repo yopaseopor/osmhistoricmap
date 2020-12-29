@@ -2902,6 +2902,36 @@ var vectorLayer = new ol.layer.Vector({
 								placement: 'line'
 							})
 						}),
+							'disused': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 236, 0, 0.5)',
+								width: 7
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+							'razed': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 35, 0, 0.5)',
+								width: 7
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+							'abandoned': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 208, 200, 0.5)',
+								width: 7
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
 							'.*': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
