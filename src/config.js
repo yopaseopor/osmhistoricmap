@@ -2846,7 +2846,7 @@ var vectorLayer = new ol.layer.Vector({
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#714601',
 			style: function (feature) {
-				var key_regex = /^name:name:1961-1989_11_09$/
+				var key_regex = /6651797/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var styles = {
