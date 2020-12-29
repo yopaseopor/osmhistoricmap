@@ -2844,14 +2844,14 @@ var vectorLayer = new ol.layer.Vector({
 			title: 'US_MA-NY_1970 Amtrak Railroad Historic',
 			query: '(nwr[~"^old_name:197[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:#714601',
+			iconStyle: 'background-color:#FF8B00',
 			style: function (feature) {
 				var key_regex = /^old_name:197[0-9]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var styles = {
 					'amenity': {
-						'parking': new ol.style.Style({
+						'.*': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(170, 170, 170, 1.0)',
 								width: 1
@@ -2892,10 +2892,10 @@ var vectorLayer = new ol.layer.Vector({
 						})
 					},
 					'railway': {
-						'residential': new ol.style.Style({
+						'rail': new ol.style.Style({
 							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
+								color: 'rgba(255, 139, 0, 0.5)',
+								width: 7
 							}),
 							text: new ol.style.Text({
 								text: name,
@@ -2909,28 +2909,6 @@ var vectorLayer = new ol.layer.Vector({
 							}),
 							text: new ol.style.Text({
 								text: name
-							})
-						})
-					},
-					'landuse': {
-						'forest|grass|allotments': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(140, 208, 95, 1.0)',
-								width: 1
-							}),
-							fill: new ol.style.Fill({
-								color: 'rgba(140, 208, 95, 0.3)'
-							})
-						})
-					},
-					'natural': {
-						'tree': new ol.style.Style({
-							image: new ol.style.Circle({
-								radius: 2,
-								fill: new ol.style.Fill({
-									color: 'rgba(140, 208, 95, 1.0)'
-								}),
-								stroke: null
 							})
 						})
 					}
@@ -2952,11 +2930,11 @@ var vectorLayer = new ol.layer.Vector({
 		{
 			group: 'Topics',
 			title: 'US_WA 1875-1895 Old names Seattle',
-			query: '(nwr[~"^name:1875-1895$"~"."]({{bbox}});node(w););out meta;',
+			query: '(nwr[~"^old_name:1875-1895$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#714601',
 			style: function (feature) {
-				var key_regex = /^name:1875-1895$/
+				var key_regex = /^old_name:1875-1895$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var styles = {
