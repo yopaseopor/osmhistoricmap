@@ -1182,7 +1182,6 @@ var vectorLayer = new ol.layer.Vector({
 					}),
 							text: new ol.style.Text({
 								text: name,
-								placement: 'line'
 							}),
 					fill: fill,
 					stroke: stroke
@@ -1215,7 +1214,6 @@ var vectorLayer = new ol.layer.Vector({
 					}),
 							text: new ol.style.Text({
 								text: name,
-								placement: 'line'
 							}),
 					fill: fill,
 					stroke: stroke
@@ -1248,7 +1246,6 @@ var vectorLayer = new ol.layer.Vector({
 					}),
 							text: new ol.style.Text({
 								text: name,
-								placement: 'line'
 							}),
 					fill: fill,
 					stroke: stroke
@@ -1281,7 +1278,6 @@ var vectorLayer = new ol.layer.Vector({
 					}),
 							text: new ol.style.Text({
 								text: name,
-								placement: 'line'
 							}),
 					fill: fill,
 					stroke: stroke
@@ -1314,7 +1310,6 @@ var vectorLayer = new ol.layer.Vector({
 					}),
 							text: new ol.style.Text({
 								text: name,
-								placement: 'line'
 							}),
 					fill: fill,
 					stroke: stroke
@@ -1347,7 +1342,6 @@ var vectorLayer = new ol.layer.Vector({
 					}),
 							text: new ol.style.Text({
 								text: name,
-								placement: 'line'
 							}),
 					fill: fill,
 					stroke: stroke
@@ -1380,7 +1374,6 @@ var vectorLayer = new ol.layer.Vector({
 					}),
 							text: new ol.style.Text({
 								text: name,
-								placement: 'line'
 							}),
 					fill: fill,
 					stroke: stroke
@@ -1413,7 +1406,6 @@ var vectorLayer = new ol.layer.Vector({
 					}),
 							text: new ol.style.Text({
 								text: name,
-								placement: 'line'
 							}),
 					fill: fill,
 					stroke: stroke
@@ -1446,7 +1438,6 @@ var vectorLayer = new ol.layer.Vector({
 					}),
 							text: new ol.style.Text({
 								text: name,
-								placement: 'line'
 							}),
 					fill: fill,
 					stroke: stroke
@@ -1479,7 +1470,6 @@ var vectorLayer = new ol.layer.Vector({
 					}),
 							text: new ol.style.Text({
 								text: name,
-								placement: 'line'
 							}),
 					fill: fill,
 					stroke: stroke
