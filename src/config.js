@@ -3151,15 +3151,45 @@ var vectorLayer = new ol.layer.Vector({
 		 
 		},
 		{
+			group: 'Test',
+			title: 'Exact year',
+			query: '(nwr[~"^name:....$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#0000ff',
+			style: function () {
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,0,255,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#0000ff',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		{
 			group: 'Topics',
 			title: 'DE_1961-1989_11_09 Berliner Mauer',
 			query: '(relation(6651797)({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#714601',
-			style: function (feature) {
-				var key_regex = /^name:196[0-9]-198[0-9]_11_09$/
-				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
-				var name = feature.get(name_key) || '';
+			style: function () {
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,0,255,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#0000ff',
+					width: 1.25
+				});
 				var styles = {
 					'amenity': {
 						'parking': new ol.style.Style({
