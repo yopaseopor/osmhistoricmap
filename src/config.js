@@ -3153,7 +3153,7 @@ var vectorLayer = new ol.layer.Vector({
 		{
 			group: 'Topics',
 			title: 'DE_1961-1989_11_09 Berliner Mauer',
-			query: '(nwr[~"^name:196[0-9]-198[0-9]_11_09$"~"."]({{bbox}});node(w););out meta;',
+			query: '(relation(6651797)({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#714601',
 			style: function (feature) {
