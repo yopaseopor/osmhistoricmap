@@ -1961,12 +1961,12 @@ var vectorLayer = new ol.layer.Vector({
 				// Overlay: 5 years
 		{
 			group: '5-years 50',
-			title: '1000-1099',
-			query: '(nwr[~"^name:10[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
+			title: '1970-1974',
+			query: '(nwr[~"^name:197[0-4]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#753f4f',
 			style: function (feature) {
-				var key_regex = /^name:10[0-9][0-9]$/
+				var key_regex = /^name:197[0-4]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
@@ -1993,12 +1993,12 @@ var vectorLayer = new ol.layer.Vector({
 		},
 		{
 			group: '5-years 50',
-			title: '1100-1199',
-			query: '(nwr[~"^name:11[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
+			title: '1975-1979',
+			query: '(nwr[~"^name:197[5-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#bb5c78',
 			style: function (feature) {
-				var key_regex = /^name:11[0-9][0-9]$/
+				var key_regex = /^name:197[5-9]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
@@ -2025,12 +2025,12 @@ var vectorLayer = new ol.layer.Vector({
 		},
 		{
 			group: '5-years 50',
-			title: '1200-1299',
-			query: '(nwr[~"^name:12[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
+			title: '1980-1984',
+			query: '(nwr[~"^name:198[0-4]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#ff987c',
 			style: function (feature) {
-				var key_regex = /^name:12[0-9][0-9]$/
+				var key_regex = /^name:198[0-4]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
@@ -2057,12 +2057,12 @@ var vectorLayer = new ol.layer.Vector({
 		},
 		{
 			group: '5-years 50',
-			title: '1300-1399',
-			query: '(nwr[~"^name:13[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
+			title: '1985-1989',
+			query: '(nwr[~"^name:198[5-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#ffd17c',
 			style: function (feature) {
-				var key_regex = /^name:13[0-9][0-9]$/
+				var key_regex = /^name:198[5-9]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
@@ -2089,12 +2089,12 @@ var vectorLayer = new ol.layer.Vector({
 		},
 		{
 			group: '5-years 50',
-			title: '1400-1499',
-			query: '(nwr[~"^name:14[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
+			title: '1990-1994',
+			query: '(nwr[~"^name:199[0-4]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#fffb7c',
 			style: function (feature) {
-				var key_regex = /^name:14[0-9][0-9]$/
+				var key_regex = /^name:199[0-4]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
@@ -2121,12 +2121,12 @@ var vectorLayer = new ol.layer.Vector({
 		},
 		{
 			group: '5-years 50',
-			title: '1500-1599',
-			query: '(nwr[~"^name:15[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
+			title: '1995-1999',
+			query: '(nwr[~"^name:199[5-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#beff7c',
 			style: function (feature) {
-				var key_regex = /^name:15[0-9][0-9]$/
+				var key_regex = /^name:199[5-9]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
@@ -2153,12 +2153,12 @@ var vectorLayer = new ol.layer.Vector({
 		},
 		{
 			group: '5-years 50',
-			title: '1600-1699',
-			query: '(nwr[~"^name:16[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
+			title: '2000-2004',
+			query: '(nwr[~"^name:200[0-4]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#7cffa6',
 			style: function (feature) {
-				var key_regex = /^name:16[0-9][0-9]$/
+				var key_regex = /^name:200[0-4]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
@@ -2185,12 +2185,12 @@ var vectorLayer = new ol.layer.Vector({
 		},
 		{
 			group: '5-years 50',
-			title: '1700-1799',
-			query: '(nwr[~"^name:17[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
+			title: '2005-2009',
+			query: '(nwr[~"^name:200[5-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#7cfff5',
 			style: function (feature) {
-				var key_regex = /^name:17[0-9][0-9]$/
+				var key_regex = /^name:200[5-9]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
@@ -2217,12 +2217,12 @@ var vectorLayer = new ol.layer.Vector({
 		},
 		{
 			group: '5-years 50',
-			title: '1800-1899',
-			query: '(nwr[~"^name:18[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
+			title: '2010-2014',
+			query: '(nwr[~"^name:201[0-4]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#7ca0ff',
 			style: function (feature) {
-				var key_regex = /^name:18[0-9][0-9]$/
+				var key_regex = /^name:201[0-4]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
@@ -2249,12 +2249,12 @@ var vectorLayer = new ol.layer.Vector({
 		},
 		{
 			group: '5-years 50',
-			title: '1900-1999',
-			query: '(nwr[~"^name:19[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
+			title: '2015-2019',
+			query: '(nwr[~"^name:201[5-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#8e7cff',
 			style: function (feature) {
-				var key_regex = /^name:19[0-9][0-9]$/
+				var key_regex = /^name:201[5-9]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
@@ -2281,12 +2281,12 @@ var vectorLayer = new ol.layer.Vector({
 		},
 		{
 			group: '5-years 50',
-			title: '2020-2025',
-			query: '(nwr[~"^name:202[0-5]$"~"."]({{bbox}});node(w););out meta;',
+			title: '2020-2024',
+			query: '(nwr[~"^name:202[0-4]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#ef7cff',
 			style: function (feature) {
-				var key_regex = /^name:202[0-5]$/
+				var key_regex = /^name:202[0-4]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
