@@ -1521,38 +1521,6 @@ var vectorLayer = new ol.layer.Vector({
 			}
 		},
 		{
-			group: 'Decades',
-			title: '1900-1909',
-			query: '(nwr[~"^name:190[0-9]$"~"."]({{bbox}});node(w););out meta;',
-			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:#0000ff',
-			style: function (feature) {
-				var key_regex = /^name:190[0-9]$/
-				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
-				var name = feature.get(name_key) || '';
-				var fill = new ol.style.Fill({
-					color: 'rgba(0,0,255,0.4)'
-				});
-				var stroke = new ol.style.Stroke({
-					color: '#0000ff',
-					width: 1.25
-				});
-				var style = new ol.style.Style({
-					image: new ol.style.Circle({
-						fill: fill,
-						stroke: stroke,
-						radius: 5
-					}),
-							text: new ol.style.Text({
-								text: name
-							}),
-					fill: fill,
-					stroke: stroke
-				});
-				return style;
-			}
-		},
-		{
 			group: 'Test',
 			title: '1900-1909',
 			query: '(nwr[~"^name:190[0-9]$"~"."]({{bbox}});node(w););out meta;',
@@ -1586,19 +1554,51 @@ var vectorLayer = new ol.layer.Vector({
 		},
 		{
 			group: 'Decades',
+			title: '1900-1909',
+			query: '(nwr[~"^name:190[0-9]$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#E0E0F8',
+			style: function (feature) {
+				var key_regex = /^name:190[0-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(224,224,248,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#E0E0F8',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name
+							}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		{
+			group: 'Decades',
 			title: '1910-1919',
 			query: '(nwr[~"^name:191[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:#0000ff',
+			iconStyle: 'background-color:#CECEF6',
 			style: function (feature) {
 				var key_regex = /^name:191[0-9]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba(0,0,255,0.4)'
+					color: 'rgba(206,206,246,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: '#0000ff',
+					color: '#CECEF6',
 					width: 1.25
 				});
 				var style = new ol.style.Style({
@@ -1621,16 +1621,16 @@ var vectorLayer = new ol.layer.Vector({
 			title: '1920-1929',
 			query: '(nwr[~"^name:192[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:#0000ff',
+			iconStyle: 'background-color:#A9A9F5',
 			style: function (feature) {
 				var key_regex = /^name:192[0-9]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba(0,0,255,0.4)'
+					color: 'rgba(169,169,245,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: '#0000ff',
+					color: '#A9A9F5',
 					width: 1.25
 				});
 				var style = new ol.style.Style({
@@ -1653,16 +1653,16 @@ var vectorLayer = new ol.layer.Vector({
 			title: '1930-1939',
 			query: '(nwr[~"^name:193[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:#0000ff',
+			iconStyle: 'background-color:#8181F7',
 			style: function (feature) {
 				var key_regex = /^name:193[0-9]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba(0,0,255,0.4)'
+					color: 'rgba(129,129,247,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: '#0000ff',
+					color: '#8181F7',
 					width: 1.25
 				});
 				var style = new ol.style.Style({
@@ -1685,16 +1685,16 @@ var vectorLayer = new ol.layer.Vector({
 			title: '1940-1949',
 			query: '(nwr[~"^name:194[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:#0000ff',
+			iconStyle: 'background-color:#5858FA',
 			style: function (feature) {
 				var key_regex = /^name:194[0-9]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba(0,0,255,0.4)'
+					color: 'rgba(88,88,250,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: '#0000ff',
+					color: '#5858FA',
 					width: 1.25
 				});
 				var style = new ol.style.Style({
@@ -1717,16 +1717,16 @@ var vectorLayer = new ol.layer.Vector({
 			title: '1950-1959',
 			query: '(nwr[~"^name:195[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:#0000ff',
+			iconStyle: 'background-color:#2E2EFE',
 			style: function (feature) {
 				var key_regex = /^name:195[0-9]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba(0,0,255,0.4)'
+					color: 'rgba(46,46,254,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: '#0000ff',
+					color: '#2E2EFE',
 					width: 1.25
 				});
 				var style = new ol.style.Style({
@@ -1781,16 +1781,16 @@ var vectorLayer = new ol.layer.Vector({
 			title: '1970-1979',
 			query: '(nwr[~"^name:197[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:#0000ff',
+			iconStyle: 'background-color:#0101DF',
 			style: function (feature) {
 				var key_regex = /^name:197[0-9]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba(0,0,255,0.4)'
+					color: 'rgba(1,1,223,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: '#0000ff',
+					color: '#0101DF',
 					width: 1.25
 				});
 				var style = new ol.style.Style({
@@ -1813,16 +1813,16 @@ var vectorLayer = new ol.layer.Vector({
 			title: '1980-1989',
 			query: '(nwr[~"^name:198[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:#0000ff',
+			iconStyle: 'background-color:#0404B4',
 			style: function (feature) {
 				var key_regex = /^name:198[0-9]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba(0,0,255,0.4)'
+					color: 'rgba(4,4,180,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: '#0000ff',
+					color: '#0404B4',
 					width: 1.25
 				});
 				var style = new ol.style.Style({
@@ -1845,16 +1845,16 @@ var vectorLayer = new ol.layer.Vector({
 			title: '1990-1999',
 			query: '(nwr[~"^name:199[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:#0000ff',
+			iconStyle: 'background-color:#08088A',
 			style: function (feature) {
 				var key_regex = /^name:199[0-9]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba(0,0,255,0.4)'
+					color: 'rgba(8,8,138,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: '#0000ff',
+					color: '#08088A',
 					width: 1.25
 				});
 				var style = new ol.style.Style({
@@ -1877,16 +1877,16 @@ var vectorLayer = new ol.layer.Vector({
 			title: '2000-2009',
 			query: '(nwr[~"^name:200[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:#0000ff',
+			iconStyle: 'background-color:#E6E0F8',
 			style: function (feature) {
 				var key_regex = /^name:201[0-9]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba(0,0,255,0.4)'
+					color: 'rgba(230,224,248,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: '#0000ff',
+					color: '#E6E0F8',
 					width: 1.25
 				});
 				var style = new ol.style.Style({
@@ -1909,16 +1909,16 @@ var vectorLayer = new ol.layer.Vector({
 			title: '2010-2019',
 			query: '(nwr[~"^name:201[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:#0000ff',
+			iconStyle: 'background-color:#D8CEF6',
 			style: function (feature) {
 				var key_regex = /^name:201[0-9]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba(0,0,255,0.4)'
+					color: 'rgba(216,206,246,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: '#0000ff',
+					color: '#D8CEF6',
 					width: 1.25
 				});
 				var style = new ol.style.Style({
@@ -1937,7 +1937,7 @@ var vectorLayer = new ol.layer.Vector({
 			}
 		},
 		{
-			group: 'Decades',
+			group: 'Test',
 			title: '2010-2019',
 			query: '(nwr[~"^name:201[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1973,16 +1973,16 @@ var vectorLayer = new ol.layer.Vector({
 			title: '2020-2029',
 			query: '(nwr[~"^name:202[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:#0000ff',
+			iconStyle: 'background-color:#BCA9F5',
 			style: function (feature) {
 				var key_regex = /^name:202[0-9]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba(0,0,255,0.4)'
+					color: 'rgba(188,169,245,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: '#0000ff',
+					color: '#BCA9F5',
 					width: 1.25
 				});
 				var style = new ol.style.Style({
