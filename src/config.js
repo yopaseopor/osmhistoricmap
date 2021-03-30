@@ -1181,7 +1181,7 @@ var vectorLayer = new ol.layer.Vector({
 						radius: 5
 					}),
 							text: new ol.style.Text({
-								text: name,
+								text: name
 							}),
 					fill: fill,
 					stroke: stroke
@@ -1213,7 +1213,7 @@ var vectorLayer = new ol.layer.Vector({
 						radius: 5
 					}),
 							text: new ol.style.Text({
-								text: name,
+								text: name
 							}),
 					fill: fill,
 					stroke: stroke
@@ -1245,7 +1245,7 @@ var vectorLayer = new ol.layer.Vector({
 						radius: 5
 					}),
 							text: new ol.style.Text({
-								text: name,
+								text: name
 							}),
 					fill: fill,
 					stroke: stroke
@@ -1277,7 +1277,7 @@ var vectorLayer = new ol.layer.Vector({
 						radius: 5
 					}),
 							text: new ol.style.Text({
-								text: name,
+								text: name
 							}),
 					fill: fill,
 					stroke: stroke
@@ -1309,7 +1309,7 @@ var vectorLayer = new ol.layer.Vector({
 						radius: 5
 					}),
 							text: new ol.style.Text({
-								text: name,
+								text: name
 							}),
 					fill: fill,
 					stroke: stroke
@@ -1341,7 +1341,7 @@ var vectorLayer = new ol.layer.Vector({
 						radius: 5
 					}),
 							text: new ol.style.Text({
-								text: name,
+								text: name
 							}),
 					fill: fill,
 					stroke: stroke
@@ -1373,7 +1373,7 @@ var vectorLayer = new ol.layer.Vector({
 						radius: 5
 					}),
 							text: new ol.style.Text({
-								text: name,
+								text: name
 							}),
 					fill: fill,
 					stroke: stroke
@@ -1405,7 +1405,7 @@ var vectorLayer = new ol.layer.Vector({
 						radius: 5
 					}),
 							text: new ol.style.Text({
-								text: name,
+								text: name
 							}),
 					fill: fill,
 					stroke: stroke
@@ -1437,7 +1437,7 @@ var vectorLayer = new ol.layer.Vector({
 						radius: 5
 					}),
 							text: new ol.style.Text({
-								text: name,
+								text: name
 							}),
 					fill: fill,
 					stroke: stroke
@@ -1469,7 +1469,7 @@ var vectorLayer = new ol.layer.Vector({
 						radius: 5
 					}),
 							text: new ol.style.Text({
-								text: name,
+								text: name
 							}),
 					fill: fill,
 					stroke: stroke
@@ -1501,7 +1501,7 @@ var vectorLayer = new ol.layer.Vector({
 						radius: 5
 					}),
 							text: new ol.style.Text({
-								text: name,
+								text: name
 							}),
 					fill: fill,
 					stroke: stroke
@@ -1926,20 +1926,20 @@ var vectorLayer = new ol.layer.Vector({
 			}
 		},
 		{
-			group: 'Test',
-			title: '2010-2019',
-			query: '(nwr[~"^name:201[0-9]$"~"."]({{bbox}});node(w););out meta;',
+			group: 'Decades',
+			title: '2020-2029',
+			query: '(nwr[~"^name:202[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:#0000ff',
+			iconStyle: 'background-color:#BCA9F5',
 			style: function (feature) {
-				var key_regex = /^name:201[0-9]$/
+				var key_regex = /^name:202[0-9]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba(0,0,255,0.4)'
+					color: 'rgba(188,169,245,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: '#0000ff',
+					color: '#BCA9F5',
 					width: 1.25
 				});
 				var style = new ol.style.Style({
@@ -1957,22 +1957,344 @@ var vectorLayer = new ol.layer.Vector({
 				return style;
 			}
 		},
+		
+				// Overlay: 5 years
 		{
-			group: 'Decades',
-			title: '2020-2029',
-			query: '(nwr[~"^name:202[0-9]$"~"."]({{bbox}});node(w););out meta;',
+			group: '5-years 50',
+			title: '1000-1099',
+			query: '(nwr[~"^name:10[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:#BCA9F5',
+			iconStyle: 'background-color:#753f4f',
 			style: function (feature) {
-				var key_regex = /^name:202[0-9]$/
+				var key_regex = /^name:10[0-9][0-9]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
-					color: 'rgba(188,169,245,0.4)'
+					color: 'rgba(0,0,255,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
-					color: '#BCA9F5',
-					width: 1.25
+					color: '#753f4f',
+					width: 5
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name
+							}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		{
+			group: '5-years 50',
+			title: '1100-1199',
+			query: '(nwr[~"^name:11[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#bb5c78',
+			style: function (feature) {
+				var key_regex = /^name:11[0-9][0-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,0,255,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#bb5c78',
+					width: 5
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name
+							}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		{
+			group: '5-years 50',
+			title: '1200-1299',
+			query: '(nwr[~"^name:12[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#ff987c',
+			style: function (feature) {
+				var key_regex = /^name:12[0-9][0-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,0,255,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#ff987c',
+					width: 5
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name
+							}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		{
+			group: '5-years 50',
+			title: '1300-1399',
+			query: '(nwr[~"^name:13[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#ffd17c',
+			style: function (feature) {
+				var key_regex = /^name:13[0-9][0-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,0,255,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#ffd17c',
+					width: 5
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name
+							}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		{
+			group: '5-years 50',
+			title: '1400-1499',
+			query: '(nwr[~"^name:14[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#fffb7c',
+			style: function (feature) {
+				var key_regex = /^name:14[0-9][0-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,0,255,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#fffb7c',
+					width: 5
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name
+							}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		{
+			group: '5-years 50',
+			title: '1500-1599',
+			query: '(nwr[~"^name:15[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#beff7c',
+			style: function (feature) {
+				var key_regex = /^name:15[0-9][0-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,0,255,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#beff7c',
+					width: 5
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name
+							}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		{
+			group: '5-years 50',
+			title: '1600-1699',
+			query: '(nwr[~"^name:16[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#7cffa6',
+			style: function (feature) {
+				var key_regex = /^name:16[0-9][0-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,0,255,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#7cffa6',
+					width: 5
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name
+							}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		{
+			group: '5-years 50',
+			title: '1700-1799',
+			query: '(nwr[~"^name:17[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#7cfff5',
+			style: function (feature) {
+				var key_regex = /^name:17[0-9][0-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,0,255,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#7cfff5',
+					width: 5
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name
+							}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		{
+			group: '5-years 50',
+			title: '1800-1899',
+			query: '(nwr[~"^name:18[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#7ca0ff',
+			style: function (feature) {
+				var key_regex = /^name:18[0-9][0-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,0,255,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#7ca0ff',
+					width: 5
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name
+							}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		{
+			group: '5-years 50',
+			title: '1900-1999',
+			query: '(nwr[~"^name:19[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#8e7cff',
+			style: function (feature) {
+				var key_regex = /^name:19[0-9][0-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,0,255,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#8e7cff',
+					width: 5
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name
+							}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		{
+			group: '5-years 50',
+			title: '2020-2025',
+			query: '(nwr[~"^name:202[0-5]$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#ef7cff',
+			style: function (feature) {
+				var key_regex = /^name:202[0-5]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,0,255,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#ef7cff',
+					width: 5
 				});
 				var style = new ol.style.Style({
 					image: new ol.style.Circle({
