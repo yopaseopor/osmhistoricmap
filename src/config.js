@@ -1471,7 +1471,8 @@ var vectorLayer = new ol.layer.Vector({
 						radius: 5
 					}),
 							text: new ol.style.Text({
-								text: name
+								text: name,
+								placement: 'line'
 							}),
 					fill: fill,
 					stroke: stroke
