@@ -1449,7 +1449,7 @@ var vectorLayer = new ol.layer.Vector({
 		{
 			group: 'Test',
 			title: '1800-1899',
-			query: '(w[~"^name:18[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
+			query: '(nwr[~"^name:18[0-9][0-9]$"~"."]({{bbox}}););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#7ca0ff',
 			style: function (feature) {
