@@ -3079,7 +3079,22 @@ var vectorLayer = new ol.layer.Vector({
 								text: name
 							})
 						})
-										},
+					},
+					'amenity': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(246, 99, 79, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(246, 99, 79, 0.3)'
+							}),
+							text: new ol.style.Text({
+								text: name
+							})
+						})
+					},
 					'place': {
 						'.*': new ol.style.Style({
 							zIndex: 100,
