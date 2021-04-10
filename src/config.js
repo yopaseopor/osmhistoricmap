@@ -3182,7 +3182,8 @@ var vectorLayer = new ol.layer.Vector({
 								width: 3
 							}),
 							text: new ol.style.Text({
-								text: name
+								text: name,
+								placement: 'line'
 							})
 						})
 					},
