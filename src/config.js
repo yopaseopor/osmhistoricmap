@@ -3270,7 +3270,7 @@ var vectorLayer = new ol.layer.Vector({
 						}),
 						'river': new ol.style.Style({
 							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
+								color: 'rgba(0, 175, 246, 0.5)',
 								width: 3
 							}),
 							text: new ol.style.Text({
@@ -3280,7 +3280,7 @@ var vectorLayer = new ol.layer.Vector({
 						}),
 						'.*': new ol.style.Style({
 							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
+								color: 'rgba(0, 175, 246, 0.5)',
 								width: 3
 							}),
 							text: new ol.style.Text({
