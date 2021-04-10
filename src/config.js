@@ -3118,7 +3118,7 @@ var vectorLayer = new ol.layer.Vector({
 						}),
 						'track': new ol.style.Style({
 							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
+								color: 'rgba(255, 255, 255, 0.5)',
 								width: 4
 							}),
 							text: new ol.style.Text({
