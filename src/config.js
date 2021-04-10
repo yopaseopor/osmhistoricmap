@@ -3116,6 +3116,16 @@ var vectorLayer = new ol.layer.Vector({
 								placement: 'line'
 							})
 						}),
+						'track': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 4
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
 						'pedestrian': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
