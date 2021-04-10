@@ -3172,7 +3172,7 @@ var vectorLayer = new ol.layer.Vector({
 						})
 					},
 					'landuse': {
-						'forest|grass|allotments': new ol.style.Style({
+						'forest|grass|allotments|cemetery': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(140, 208, 95, 1.0)',
 								width: 1
