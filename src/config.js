@@ -3273,7 +3273,7 @@ var vectorLayer = new ol.layer.Vector({
 					'natural:1966': {
 						'beach': new ol.style.Style({
 							stroke: new ol.style.Stroke({
-								color: 'rgba(140, 208, 95, 1.0)',
+								color: 'rgba( 214, 196, 152, 1.0)',
 								width: 1
 							}),
 							text: new ol.style.Text({
@@ -3283,7 +3283,19 @@ var vectorLayer = new ol.layer.Vector({
 						})
 					},
 					'natural': {
-						'tree': new ol.style.Style({
+						'beach': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(140, 208, 95, 1.0)',
+								width: 1
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						})
+					},
+					'.*': {
+						'.*': new ol.style.Style({
 							image: new ol.style.Circle({
 								radius: 2,
 								fill: new ol.style.Fill({
