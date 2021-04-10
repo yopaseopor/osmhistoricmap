@@ -3247,6 +3247,37 @@ var vectorLayer = new ol.layer.Vector({
 							})
 						})
 					},
+					'waterway': {
+						'stream': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(0, 175, 246, 0.5)',
+								width: 3
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'river': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 3
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'.*': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 3
+							}),
+							text: new ol.style.Text({
+								text: name
+							})
+						})
+					},
 					'landuse': {
 						'forest|grass|allotments': new ol.style.Style({
 							stroke: new ol.style.Stroke({
@@ -3273,7 +3304,7 @@ var vectorLayer = new ol.layer.Vector({
 					'natural:1966': {
 						'beach': new ol.style.Style({
 							stroke: new ol.style.Stroke({
-								color: 'rgba( 214, 196, 152, 1.0)',
+								color: 'rgba(214, 196, 152, 1.0)',
 								width: 1
 							}),
 							text: new ol.style.Text({
