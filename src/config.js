@@ -3320,6 +3320,9 @@ var vectorLayer = new ol.layer.Vector({
 							text: new ol.style.Text({
 								text: name,
 								placement: 'line'
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(214, 196, 152, 0.3)'
 							})
 						})
 					},
