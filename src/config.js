@@ -1118,8 +1118,8 @@ var config = {
 							})
 						})
 										},
-					'place': {
-						'.*': new ol.style.Style({
+					'highway': {
+						'stop': new ol.style.Style({
 							zIndex: 100,
 							stroke: new ol.style.Stroke({
 								color: 'rgba(246, 99, 79, 1.0)',
@@ -1133,8 +1133,8 @@ var config = {
 							})
 						})
 					},
-					'highway': {
-						'residential': new ol.style.Style({
+					'traffic_sign:forward': {
+						'ES:R1': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
 								width: 6
@@ -1144,7 +1144,7 @@ var config = {
 								placement: 'line'
 							})
 						}),
-						'living_street': new ol.style.Style({
+						'ES:R101': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
 								width: 6
@@ -1154,7 +1154,7 @@ var config = {
 								placement: 'line'
 							})
 						}),
-						'pedestrian': new ol.style.Style({
+						'ES:R100': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
 								width: 6
@@ -1164,7 +1164,7 @@ var config = {
 								placement: 'line'
 							})
 						}),
-						'tertiary': new ol.style.Style({
+						'ES:R200': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
 								width: 6
@@ -1181,17 +1181,6 @@ var config = {
 							}),
 							text: new ol.style.Text({
 								text: name
-							})
-						})
-					},
-					'landuse': {
-						'forest|grass|allotments': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(140, 208, 95, 1.0)',
-								width: 1
-							}),
-							fill: new ol.style.Fill({
-								color: 'rgba(140, 208, 95, 0.3)'
 							})
 						})
 					},
