@@ -1088,7 +1088,7 @@ var config = {
 	  iconSrc: imgSrc + 'base/circle.svg',
 	  iconStyle: 'background-color:#0000ff',
 			style: function (feature) {
-				var key_regex = /^name:193[0-9]-193[0-9]$/
+				var key_regex = /^traffic_sign:forward$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var styles = {
