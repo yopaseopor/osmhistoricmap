@@ -1089,7 +1089,7 @@ var config = {
 		},
 		{
 			group: 'Test',
-			title: 'building2',
+			title: 'building3',
 			query: '(node({{bbox}});rel(bn)->.foo;way(bn);node(w)->.foo;rel(bw););out;',
 			style: function (feature) {
 				var name = feature.get('name') || '';
@@ -1106,6 +1106,27 @@ var config = {
 							}),
 							fill: new ol.style.Fill({
 								color: 'rgba(170, 170, 170, 0.3)'
+							})
+						})
+					},
+					'traffic_sign:forward': {
+						'ES:R1': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 2
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'.*': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 3
+							}),
+							text: new ol.style.Text({
+								text: name
 							})
 						})
 					},
