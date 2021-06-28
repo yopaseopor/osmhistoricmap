@@ -1081,19 +1081,21 @@ var config = {
 				return style;
 			}
     },
+			// Overlay: Test
 		{
 			group: 'Test',
-			title: 'Stops signs',
-			geojson: 'https://raw.githubusercontent.com/yopaseopor/osmhistoricmap/master/src/img/base/2021_06_27_senyals_transit_bcn.geojson',
-	  iconSrc: imgSrc + 'base/circle.svg',
-	  iconStyle: 'background-color:#0000ff',
+			title: 'node[name=]',
+			query: 'node[name=]({{bbox}});out meta;'
+		},
+		{
+			group: 'Test',
+			title: 'building',
+			query: '(node({{bbox}});rel(bn)->.foo;way(bn);node(w)->.foo;rel(bw););out;',
 			style: function (feature) {
-				var key_regex = /^traffic_sign:forward$/
-				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
-				var name = feature.get(name_key) || '';
+				var name = feature.get('name') || '';
 				var styles = {
-					'traffic_sign:forward': {
-						'ES:R2': new ol.style.Style({
+					'amenity': {
+						'parking': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(170, 170, 170, 1.0)',
 								width: 1
@@ -1103,23 +1105,8 @@ var config = {
 							})
 						})
 					},
-					'traffic_sign:forward': {
-						'ES:S17': new ol.style.Style({
-							zIndex: 100,
-							stroke: new ol.style.Stroke({
-								color: 'rgba(246, 99, 79, 1.0)',
-								width: 1
-							}),
-							fill: new ol.style.Fill({
-								color: 'rgba(246, 99, 79, 0.3)'
-							}),
-							text: new ol.style.Text({
-								text: name
-							})
-						})
-										},
-					'highway': {
-						'stop': new ol.style.Style({
+					'building': {
+						'.*': new ol.style.Style({
 							zIndex: 100,
 							stroke: new ol.style.Stroke({
 								color: 'rgba(246, 99, 79, 1.0)',
@@ -1133,41 +1120,11 @@ var config = {
 							})
 						})
 					},
-					'traffic_sign:forward': {
-						'ES:R1': new ol.style.Style({
+					'highway': {
+						'service': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
-							}),
-							text: new ol.style.Text({
-								text: name,
-								placement: 'line'
-							})
-						}),
-						'ES:R101': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
-							}),
-							text: new ol.style.Text({
-								text: name,
-								placement: 'line'
-							})
-						}),
-						'ES:R100': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
-							}),
-							text: new ol.style.Text({
-								text: name,
-								placement: 'line'
-							})
-						}),
-						'ES:R200': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
+								width: 2
 							}),
 							text: new ol.style.Text({
 								text: name,
@@ -1181,6 +1138,17 @@ var config = {
 							}),
 							text: new ol.style.Text({
 								text: name
+							})
+						})
+					},
+					'landuse': {
+						'forest|grass|allotments': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(140, 208, 95, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(140, 208, 95, 0.3)'
 							})
 						})
 					},
@@ -1208,7 +1176,6 @@ var config = {
 				}
 				return null;
 			} 
-		 
 		},
 		{
 			group: 'Test',
