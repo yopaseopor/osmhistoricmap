@@ -1089,7 +1089,7 @@ var config = {
 		},
 		{
 			group: 'Test',
-			title: 'building',
+			title: 'building2',
 			query: '(node({{bbox}});rel(bn)->.foo;way(bn);node(w)->.foo;rel(bw););out;',
 			style: function (feature) {
 				var name = feature.get('name') || '';
