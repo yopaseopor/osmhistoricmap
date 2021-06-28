@@ -1089,9 +1089,8 @@ var config = {
 		},
 		{
 			group: 'Test',
-			title: 'building4',
+			title: 'building5',
 			geojson: 'https://raw.githubusercontent.com/yopaseopor/osmhistoricmap/master/src/img/base/2021_06_27_senyals_transit_bcn.geojson',
-			query: '(node({{bbox}});rel(bn)->.foo;way(bn);node(w)->.foo;rel(bw););out;',
 			style: function (feature) {
 				var name = feature.get('name') || '';
 				var styles = {
