@@ -1109,7 +1109,7 @@ var config = {
 							})
 						})
 					},
-					'traffic_sign:forward': {
+					'traffic_sign:backward': {
 						'ES:R1': new ol.style.Style({
 							image: new ol.style.Icon({
 						scale: 0.4,
@@ -1121,6 +1121,43 @@ var config = {
 							}),
 							fill: new ol.style.Fill({
 								color: 'rgba(170, 170, 170, 0.3)'
+							})
+						})
+										},
+					'traffic_sign:forward': {
+						'ES:R1': new ol.style.Style({
+							image: new ol.style.Icon({
+						scale: 0.4,
+						src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R1.png'
+						}),
+							stroke: new ol.style.Stroke({
+								color: 'rgba(170, 170, 170, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(170, 170, 170, 0.3)'
+							})
+						}),
+						'ES:R2': new ol.style.Style({
+							image: new ol.style.Icon({
+						scale: 0.4,
+						src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R2.png'
+						}),
+							stroke: new ol.style.Stroke({
+								color: 'rgba(170, 170, 170, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(170, 170, 170, 0.3)'
+							})
+						}),
+						'.*': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 3
+							}),
+							text: new ol.style.Text({
+								text: name
 							})
 						})
 					},
