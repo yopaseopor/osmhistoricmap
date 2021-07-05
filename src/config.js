@@ -1151,9 +1151,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P10a': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1166,9 +1164,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P10b': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1181,9 +1177,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P10c': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1196,9 +1190,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P11': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1211,9 +1203,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P11a': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1226,9 +1216,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P13a': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1241,9 +1229,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P13b': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1256,9 +1242,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P14a': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1271,9 +1255,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P14b': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1286,9 +1268,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P15': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1301,9 +1281,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P15a': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1316,9 +1294,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P15b': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1331,9 +1307,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P16a_10': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1346,9 +1320,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P16a_14': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1361,9 +1333,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P16b_10': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1376,9 +1346,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P16b_17': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1391,9 +1359,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P17': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1406,9 +1372,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P17a': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1421,9 +1385,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P17b': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1436,9 +1398,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P18': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1451,9 +1411,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P19': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1466,9 +1424,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P1a': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1481,9 +1437,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P1b': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1496,9 +1450,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P1c': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1511,9 +1463,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P1d': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1526,9 +1476,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P20': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1541,9 +1489,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P20a': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1556,9 +1502,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P21': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1571,9 +1515,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P21LUZ': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1586,9 +1528,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P21LUZ2': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1601,9 +1541,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P22': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1616,9 +1554,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P24': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1631,9 +1567,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P25': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1646,9 +1580,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P25 bici': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1661,9 +1593,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P26': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1676,9 +1606,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P29': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1691,9 +1619,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P3': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1706,9 +1632,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P31': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1721,9 +1645,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P34': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1736,9 +1658,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P4': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1751,9 +1671,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P50': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1766,9 +1684,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P50o': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1781,9 +1697,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P6': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1796,9 +1710,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P8': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1811,9 +1723,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P9a': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1826,9 +1736,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P9b': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1841,9 +1749,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:P9c': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1856,9 +1762,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'PANEL': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1871,9 +1775,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'PAP': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1886,9 +1788,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ParadaBus': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1901,9 +1801,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'PARCCOLL': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1916,9 +1814,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'Parcs_4Pictos': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1931,9 +1827,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'Parcs_AreaGosso': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1946,9 +1840,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'Parcs_JocsInfan': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1961,9 +1853,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'PelPeat': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1976,9 +1866,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'PrioritatBus': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -1991,9 +1879,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'PROH_TAX_JPeiro': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2006,9 +1892,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'PROHPILOTA': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2021,9 +1905,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'PuntVerd': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2036,9 +1918,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R1': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2051,9 +1931,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R100': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2066,9 +1944,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R100 VP Bici': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2081,9 +1957,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R100Bus': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2096,9 +1970,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R101': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2111,9 +1983,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R101 VP Bici': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2126,9 +1996,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R102': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2141,9 +2009,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R103': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2156,9 +2022,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R104': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2171,9 +2035,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R105': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2186,9 +2048,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R106': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2201,9 +2061,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R107_1.5': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2216,9 +2074,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R107_10': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2231,9 +2087,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R107_16': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2246,9 +2100,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R107_16.5': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2261,9 +2113,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R107_2.5': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2276,9 +2126,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R107_20': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2291,9 +2139,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R107_20.5': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2306,9 +2152,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R107_3.5': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2321,9 +2165,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R107_30': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2336,9 +2178,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R107_4.5': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2351,9 +2191,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R107_5': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2366,9 +2204,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R107_5.5': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2381,9 +2217,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R107_6': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2396,9 +2230,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R107_6.5': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2411,9 +2243,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R107_7.5': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2426,9 +2256,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R108': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2441,9 +2269,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R114': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2456,9 +2282,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R116': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2471,9 +2295,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R2': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2486,9 +2308,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R2_AMA': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2501,9 +2321,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R200': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2516,9 +2334,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R201_1.3': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2531,9 +2347,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R201_1.5': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2546,9 +2360,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R201_10': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2561,9 +2373,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R201_16': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2576,9 +2386,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R201_18': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2591,9 +2399,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R201_2': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2606,9 +2412,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R201_20': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2621,9 +2425,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R201_3.0': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2636,9 +2438,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R201_3.5': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2651,9 +2451,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R201_5': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2666,9 +2464,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R201_5.5': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2681,9 +2477,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R201_6': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2696,9 +2490,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R201_7.5': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2711,9 +2503,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R201_8': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2726,9 +2516,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R202': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2741,9 +2529,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R202_12': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2756,9 +2542,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R203_10': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2771,9 +2555,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R203_12': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2786,9 +2568,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R203_5': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2801,9 +2581,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R203_6': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2816,9 +2594,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R203_7': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2831,9 +2607,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R203_7.5': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2846,9 +2620,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R203_8': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2861,9 +2633,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R203_8.5': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2876,9 +2646,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R204_2.0': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2891,9 +2659,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R204_2.2': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2906,9 +2672,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R204_2.5': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2921,9 +2685,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R204_2.8': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2936,9 +2698,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R204_3': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2951,9 +2711,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R204_3.2': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2966,9 +2724,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R204_4.2': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2981,9 +2737,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R205_1.9': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -2996,9 +2750,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R205_2': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3011,9 +2763,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R205_2.1': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3026,9 +2776,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R205_2.2': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3041,9 +2789,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R205_2.3': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3056,9 +2802,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R205_2.4': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3071,9 +2815,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R205_2.5': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3086,9 +2828,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R205_2.6': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3101,9 +2841,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R205_2.8': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3116,9 +2854,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R205_3': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3131,9 +2867,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R205_3.1': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3146,9 +2880,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R205_3.2': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3161,9 +2893,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R205_3.4': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3176,9 +2906,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R205_3.5': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3191,9 +2919,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R205_3.6': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3206,9 +2932,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R205_3.8': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3221,9 +2945,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R205_4': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3236,9 +2958,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R205_4.2': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3251,9 +2971,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R205_4.3': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3266,9 +2984,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R205_4.4': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3281,9 +2997,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R205_4.5': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3296,9 +3010,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R205_4.7': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3311,9 +3023,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R205_5': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3326,9 +3036,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R205_5.3': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3341,9 +3049,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R205_5.5': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3356,9 +3062,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R2o': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3371,9 +3075,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R300': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3386,9 +3088,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R301_10': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3401,9 +3101,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R301_15': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3416,9 +3114,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R301_20': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3431,9 +3127,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R301_30': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3446,9 +3140,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R301_40': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3461,9 +3153,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R301_50': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3476,9 +3166,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R301_60': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3491,9 +3179,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R301_80': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3506,9 +3192,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R301_90': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3521,9 +3205,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R302': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3536,9 +3218,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R303': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3551,9 +3231,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R304': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3566,9 +3244,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R305': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3581,9 +3257,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R306': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3596,9 +3270,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R307': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3611,9 +3283,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R307_0-24h': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3626,9 +3296,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R307D': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3641,9 +3309,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R307Da': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3656,9 +3322,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R307I': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3671,9 +3335,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R307Ia': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3686,9 +3348,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R307L': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3701,9 +3361,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R307La': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3716,9 +3374,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R307P': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3731,9 +3387,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R307PD': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3746,9 +3400,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R307PI': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3761,9 +3413,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R307PL_Motos': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3776,9 +3426,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R308': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3791,9 +3439,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R308 ES:R407': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3806,9 +3452,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R308_0-24h': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3821,9 +3465,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R308_Motos': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3836,9 +3478,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R308b': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3851,9 +3491,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R308c': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3866,9 +3504,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R308CAMPNOU2_A': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3881,9 +3517,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R308CAMPNOU3_C': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3896,9 +3530,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R308CAMPNOU4_B': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3911,9 +3543,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R308cI': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3926,9 +3556,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R308cL': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3941,9 +3569,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R308d': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3956,9 +3582,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R308D_0-24h': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3971,9 +3595,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R308D_Minus': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -3986,9 +3608,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R308D2': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4001,9 +3621,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R308dD': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4016,9 +3634,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R308dI': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4031,9 +3647,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R308I': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4046,9 +3660,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R308I_0-24h': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4061,9 +3673,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R308I_Minus': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4076,9 +3686,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R308L': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4091,9 +3699,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R308L_Minus': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4106,9 +3712,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R308P': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4121,9 +3725,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R308P_1-15': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4136,9 +3738,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R308P_Motos': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4151,9 +3751,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R308PD': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4166,9 +3764,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R308PD_0-24h': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4181,9 +3777,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R308PI': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4196,9 +3790,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R308PI_0-24h': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4211,9 +3803,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R308PI_Motos': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4226,9 +3816,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R308PL': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4241,9 +3829,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R309': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4256,9 +3842,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R310': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4271,9 +3855,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R400a': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4286,9 +3868,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R400b': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4301,9 +3881,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R400c': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4316,9 +3894,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R400CanviSenti': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4331,9 +3907,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R400d': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4346,9 +3920,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R400e': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4361,9 +3933,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R401a': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4376,9 +3946,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R401b': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4391,9 +3959,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R402': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4406,9 +3972,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R403a': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4421,9 +3985,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R403b': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4436,9 +3998,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R403c': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4451,9 +4011,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R404': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4466,9 +4024,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R405': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4481,9 +4037,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R407': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4496,9 +4050,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R407_FIN': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4511,9 +4063,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R410': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4526,9 +4076,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R410_FIN': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4541,9 +4089,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R413': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4556,9 +4102,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R5': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4571,9 +4115,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R500': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4586,9 +4128,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R501_30': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4601,9 +4141,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R501_40': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4616,9 +4154,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R501_50': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4631,9 +4167,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R502': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4646,9 +4180,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R503': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4661,9 +4193,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R506_30': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4676,9 +4206,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:R6': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4691,9 +4219,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'RestriccioZ2': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4706,9 +4232,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'RestriccioZ2 S1': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4721,9 +4245,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'RestriccioZ2 S2': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4736,9 +4258,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'RestriccioZ3 S1': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4751,9 +4271,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'RestriccioZ3 S2': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4766,9 +4284,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'RestriccioZ4': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4781,9 +4297,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'RestriccioZ4 S1': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4796,9 +4310,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'RestriccioZ4 S2': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4811,9 +4323,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'RestriccioZ4 S3': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4826,9 +4336,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'RestriccioZ4 S4': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4841,9 +4349,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S1': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4856,9 +4362,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S100': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4871,9 +4375,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S102': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4886,9 +4388,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S102D': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4901,9 +4401,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S102I': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4916,9 +4414,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S102R': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4931,9 +4427,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S102RD': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4946,9 +4440,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S103': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4961,9 +4453,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S105': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4976,9 +4466,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S105_1500': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -4991,9 +4479,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S105_500': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5006,9 +4492,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S105a': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5021,9 +4505,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S105a_500': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5036,9 +4518,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S105aD': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5051,9 +4531,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S105aI': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5066,9 +4544,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S105aR': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5081,9 +4557,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S105vi': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5096,9 +4570,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S106': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5111,9 +4583,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S106_50': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5126,9 +4596,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S108': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5141,9 +4609,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S109': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5156,9 +4622,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S11': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5171,9 +4635,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S111': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5186,9 +4648,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S118': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5201,9 +4661,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S118_100': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5216,9 +4674,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S118_200': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5231,9 +4687,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S122_Microf': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5246,9 +4700,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S122_TÃºnel': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5261,9 +4713,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S13': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5276,9 +4726,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S13_AMA': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5291,9 +4739,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S15a': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5306,9 +4752,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S15b': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5321,9 +4765,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S15c': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5336,9 +4778,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S15d': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5351,9 +4791,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S17': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5366,9 +4804,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S17_10min': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5381,9 +4817,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S17_20min': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5396,9 +4830,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S17_2h': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5411,9 +4843,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S17_30min': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5426,9 +4856,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S17_Fila': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5441,9 +4869,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S17_Glories': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5456,9 +4882,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S17_MINUS': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5471,9 +4895,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S17_motos': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5486,9 +4908,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S17D': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5501,9 +4921,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S17D_motos': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5516,9 +4934,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S17I': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5531,9 +4947,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S17I_Fila': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5546,9 +4960,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S17I_MINUS': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5561,9 +4973,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S17I_Motos': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5576,9 +4986,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S17L': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5591,9 +4999,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S18': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5606,9 +5012,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S18D': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5621,9 +5025,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S18I': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5636,9 +5038,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S18L': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5651,9 +5051,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S19': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5666,9 +5064,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S20': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5681,9 +5077,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S22': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5696,9 +5090,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S22_050': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5711,9 +5103,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S22_100': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5726,9 +5116,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S22_250': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5741,9 +5129,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S23': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5756,9 +5142,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S23A': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5771,9 +5155,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S23B': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5786,9 +5168,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S23o': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5801,9 +5181,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S24': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5816,9 +5194,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S26a': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5831,9 +5207,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S26c': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5846,9 +5220,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S28': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5861,9 +5233,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S29': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5876,9 +5246,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S35': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5891,9 +5259,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S35_Verde': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5906,9 +5272,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S35REC': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5921,9 +5285,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S35REC_Blanca': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5936,9 +5298,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S35REC_BlancaF': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5951,9 +5311,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S36REC': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5966,9 +5324,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S5': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5981,9 +5337,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S51': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -5996,9 +5350,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S52a': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -6011,9 +5363,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S52c2': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -6026,9 +5376,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S52d3': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -6041,9 +5389,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S6': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -6056,9 +5402,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S60a': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -6071,9 +5415,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S60a11': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -6086,9 +5428,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S60a21': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -6101,9 +5441,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S7_30': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -6116,9 +5454,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S7_40': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -6131,9 +5467,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S7_50': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -6146,9 +5480,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S800_1500': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -6161,9 +5493,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S800_2000': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -6176,9 +5506,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S800b_5km': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -6191,9 +5519,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S800b_7km': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -6206,9 +5532,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S820': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -6221,9 +5545,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S840_100': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -6236,9 +5558,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S870': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -6251,9 +5571,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S870I': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -6266,9 +5584,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S9': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -6281,9 +5597,7 @@ width: 1
 fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
-}),
-
-}),
+}),}),
 'ES:S900': new ol.style.Style({
 image: new ol.style.Icon({
 scale: 0.4,
@@ -6297,8 +5611,6 @@ fill: new ol.style.Fill({
 color: 'rgba(170, 170, 170, 0.3)'
 })
 }),
-
-
 						'.*': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
