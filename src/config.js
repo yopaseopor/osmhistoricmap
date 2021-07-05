@@ -1089,7 +1089,8 @@ var config = {
 		},
 		{
 			group: 'Test',
-			title: 'building6',
+			title: 'building7',
+			iconSrc: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R2.png',
 			geojson: 'https://raw.githubusercontent.com/yopaseopor/osmhistoricmap/master/src/img/base/2021_06_27_senyals_transit_bcn.geojson',
 			style: function (feature) {
 				var name = feature.get('name') || '';
