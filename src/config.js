@@ -1089,7 +1089,7 @@ var config = {
 		},
 		{
 			group: 'Test',
-			title: 'building5',
+			title: 'building6',
 			geojson: 'https://raw.githubusercontent.com/yopaseopor/osmhistoricmap/master/src/img/base/2021_06_27_senyals_transit_bcn.geojson',
 			style: function (feature) {
 				var name = feature.get('name') || '';
