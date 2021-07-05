@@ -1089,7 +1089,7 @@ var config = {
 		},
 		{
 			group: 'Test',
-			title: 'building7',
+			title: 'Senyals Barcelona (Opendata Ajuntament BCN - NO OSM)',
 			iconSrc: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R2.png',
 			geojson: 'https://raw.githubusercontent.com/yopaseopor/osmhistoricmap/master/src/img/base/2021_06_27_senyals_transit_bcn.geojson',
 			style: function (feature) {
@@ -1139,19 +1139,5508 @@ var config = {
 								color: 'rgba(170, 170, 170, 0.3)'
 							})
 						}),
-						'ES:R2': new ol.style.Style({
-							image: new ol.style.Icon({
-						scale: 0.4,
-						src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R2.png'
-						}),
-							stroke: new ol.style.Stroke({
-								color: 'rgba(170, 170, 170, 1.0)',
-								width: 1
-							}),
-							fill: new ol.style.Fill({
-								color: 'rgba(170, 170, 170, 0.3)'
-							})
-						}),
+'ES:P1': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P1.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P10a': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P10a.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P10b': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P10b.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P10c': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P10c.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P11': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P11.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P11a': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P11a.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P13a': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P13a.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P13b': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P13b.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P14a': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P14a.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P14b': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P14b.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P15': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P15.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P15a': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P15a.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P15b': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P15b.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P16a_10': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P16a_10.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P16a_14': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P16a_14.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P16b_10': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P16b_10.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P16b_17': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P16b_17.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P17': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P17.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P17a': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P17a.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P17b': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P17b.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P18': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P18.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P19': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P19.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P1a': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P1a.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P1b': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P1b.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P1c': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P1c.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P1d': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P1d.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P20': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P20.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P20a': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P20a.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P21': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P21.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P21LUZ': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P21LUZ.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P21LUZ2': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P21LUZ2.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P22': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P22.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P24': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P24.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P25': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P25.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P25 bici': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P25 bici.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P26': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P26.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P29': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P29.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P3': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P3.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P31': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P31.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P34': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P34.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P4': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P4.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P50': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P50.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P50o': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P50o.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P6': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P6.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P8': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P8.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P9a': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P9a.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P9b': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P9b.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:P9c': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_P9c.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'PANEL': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/PANEL.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'PAP': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/PAP.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ParadaBus': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ParadaBus.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'PARCCOLL': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/PARCCOLL.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'Parcs_4Pictos': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/Parcs_4Pictos.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'Parcs_AreaGosso': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/Parcs_AreaGosso.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'Parcs_JocsInfan': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/Parcs_JocsInfan.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'PelPeat': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/PelPeat.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'PrioritatBus': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/PrioritatBus.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'PROH_TAX_JPeiro': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/PROH_TAX_JPeiro.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'PROHPILOTA': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/PROHPILOTA.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'PuntVerd': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/PuntVerd.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R1': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R1.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R100': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R100.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R100 VP Bici': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R100 VP Bici.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R100Bus': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R100Bus.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R101': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R101.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R101 VP Bici': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R101 VP Bici.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R102': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R102.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R103': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R103.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R104': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R104.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R105': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R105.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R106': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R106.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R107_1.5': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R107_1.5.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R107_10': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R107_10.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R107_16': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R107_16.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R107_16.5': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R107_16.5.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R107_2.5': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R107_2.5.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R107_20': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R107_20.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R107_20.5': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R107_20.5.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R107_3.5': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R107_3.5.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R107_30': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R107_30.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R107_4.5': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R107_4.5.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R107_5': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R107_5.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R107_5.5': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R107_5.5.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R107_6': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R107_6.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R107_6.5': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R107_6.5.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R107_7.5': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R107_7.5.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R108': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R108.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R114': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R114.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R116': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R116.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R2': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R2.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R2_AMA': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R2_AMA.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R200': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R200.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R201_1.3': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R201_1.3.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R201_1.5': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R201_1.5.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R201_10': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R201_10.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R201_16': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R201_16.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R201_18': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R201_18.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R201_2': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R201_2.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R201_20': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R201_20.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R201_3.0': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R201_3.0.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R201_3.5': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R201_3.5.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R201_5': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R201_5.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R201_5.5': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R201_5.5.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R201_6': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R201_6.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R201_7.5': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R201_7.5.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R201_8': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R201_8.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R202': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R202.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R202_12': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R202_12.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R203_10': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R203_10.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R203_12': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R203_12.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R203_5': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R203_5.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R203_6': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R203_6.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R203_7': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R203_7.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R203_7.5': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R203_7.5.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R203_8': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R203_8.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R203_8.5': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R203_8.5.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R204_2.0': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R204_2.0.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R204_2.2': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R204_2.2.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R204_2.5': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R204_2.5.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R204_2.8': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R204_2.8.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R204_3': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R204_3.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R204_3.2': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R204_3.2.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R204_4.2': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R204_4.2.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R205_1.9': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R205_1.9.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R205_2': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R205_2.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R205_2.1': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R205_2.1.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R205_2.2': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R205_2.2.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R205_2.3': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R205_2.3.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R205_2.4': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R205_2.4.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R205_2.5': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R205_2.5.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R205_2.6': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R205_2.6.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R205_2.8': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R205_2.8.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R205_3': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R205_3.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R205_3.1': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R205_3.1.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R205_3.2': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R205_3.2.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R205_3.4': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R205_3.4.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R205_3.5': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R205_3.5.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R205_3.6': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R205_3.6.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R205_3.8': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R205_3.8.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R205_4': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R205_4.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R205_4.2': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R205_4.2.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R205_4.3': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R205_4.3.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R205_4.4': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R205_4.4.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R205_4.5': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R205_4.5.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R205_4.7': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R205_4.7.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R205_5': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R205_5.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R205_5.3': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R205_5.3.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R205_5.5': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R205_5.5.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R2o': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R2o.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R300': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R300.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R301_10': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R301_10.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R301_15': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R301_15.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R301_20': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R301_20.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R301_30': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R301_30.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R301_40': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R301_40.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R301_50': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R301_50.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R301_60': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R301_60.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R301_80': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R301_80.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R301_90': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R301_90.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R302': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R302.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R303': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R303.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R304': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R304.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R305': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R305.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R306': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R306.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R307': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R307.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R307_0-24h': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R307_0-24h.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R307D': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R307D.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R307Da': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R307Da.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R307I': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R307I.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R307Ia': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R307Ia.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R307L': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R307L.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R307La': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R307La.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R307P': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R307P.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R307PD': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R307PD.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R307PI': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R307PI.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R307PL_Motos': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R307PL_Motos.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R308': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R308.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R308 ES:R407': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R308 ES_R407.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R308_0-24h': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R308_0-24h.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R308_Motos': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R308_Motos.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R308b': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R308b.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R308c': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R308c.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R308CAMPNOU2_A': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R308CAMPNOU2_A.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R308CAMPNOU3_C': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R308CAMPNOU3_C.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R308CAMPNOU4_B': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R308CAMPNOU4_B.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R308cI': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R308cI.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R308cL': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R308cL.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R308d': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R308d.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R308D_0-24h': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R308D_0-24h.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R308D_Minus': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R308D_Minus.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R308D2': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R308D2.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R308dD': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R308dD.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R308dI': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R308dI.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R308I': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R308I.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R308I_0-24h': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R308I_0-24h.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R308I_Minus': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R308I_Minus.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R308L': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R308L.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R308L_Minus': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R308L_Minus.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R308P': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R308P.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R308P_1-15': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R308P_1-15.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R308P_Motos': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R308P_Motos.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R308PD': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R308PD.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R308PD_0-24h': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R308PD_0-24h.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R308PI': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R308PI.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R308PI_0-24h': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R308PI_0-24h.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R308PI_Motos': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R308PI_Motos.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R308PL': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R308PL.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R309': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R309.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R310': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R310.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R400a': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R400a.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R400b': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R400b.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R400c': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R400c.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R400CanviSenti': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R400CanviSenti.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R400d': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R400d.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R400e': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R400e.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R401a': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R401a.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R401b': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R401b.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R402': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R402.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R403a': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R403a.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R403b': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R403b.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R403c': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R403c.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R404': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R404.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R405': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R405.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R407': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R407.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R407_FIN': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R407_FIN.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R410': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R410.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R410_FIN': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R410_FIN.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R413': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R413.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R5': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R5.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R500': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R500.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R501_30': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R501_30.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R501_40': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R501_40.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R501_50': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R501_50.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R502': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R502.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R503': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R503.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R506_30': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R506_30.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:R6': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_R6.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'RestriccioZ2': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/RestriccioZ2.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'RestriccioZ2 S1': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/RestriccioZ2 S1.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'RestriccioZ2 S2': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/RestriccioZ2 S2.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'RestriccioZ3 S1': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/RestriccioZ3 S1.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'RestriccioZ3 S2': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/RestriccioZ3 S2.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'RestriccioZ4': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/RestriccioZ4.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'RestriccioZ4 S1': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/RestriccioZ4 S1.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'RestriccioZ4 S2': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/RestriccioZ4 S2.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'RestriccioZ4 S3': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/RestriccioZ4 S3.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'RestriccioZ4 S4': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/RestriccioZ4 S4.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S1': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S1.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S100': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S100.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S102': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S102.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S102D': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S102D.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S102I': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S102I.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S102R': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S102R.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S102RD': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S102RD.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S103': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S103.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S105': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S105.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S105_1500': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S105_1500.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S105_500': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S105_500.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S105a': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S105a.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S105a_500': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S105a_500.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S105aD': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S105aD.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S105aI': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S105aI.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S105aR': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S105aR.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S105vi': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S105vi.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S106': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S106.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S106_50': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S106_50.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S108': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S108.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S109': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S109.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S11': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S11.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S111': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S111.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S118': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S118.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S118_100': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S118_100.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S118_200': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S118_200.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S122_Microf': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S122_Microf.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S122_TÃºnel': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S122_TÃºnel.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S13': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S13.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S13_AMA': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S13_AMA.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S15a': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S15a.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S15b': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S15b.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S15c': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S15c.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S15d': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S15d.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S17': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S17.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S17_10min': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S17_10min.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S17_20min': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S17_20min.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S17_2h': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S17_2h.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S17_30min': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S17_30min.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S17_Fila': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S17_Fila.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S17_Glories': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S17_Glories.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S17_MINUS': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S17_MINUS.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S17_motos': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S17_motos.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S17D': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S17D.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S17D_motos': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S17D_motos.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S17I': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S17I.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S17I_Fila': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S17I_Fila.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S17I_MINUS': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S17I_MINUS.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S17I_Motos': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S17I_Motos.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S17L': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S17L.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S18': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S18.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S18D': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S18D.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S18I': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S18I.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S18L': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S18L.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S19': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S19.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S20': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S20.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S22': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S22.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S22_050': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S22_050.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S22_100': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S22_100.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S22_250': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S22_250.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S23': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S23.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S23A': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S23A.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S23B': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S23B.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S23o': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S23o.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S24': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S24.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S26a': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S26a.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S26c': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S26c.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S28': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S28.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S29': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S29.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S35': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S35.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S35_Verde': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S35_Verde.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S35REC': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S35REC.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S35REC_Blanca': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S35REC_Blanca.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S35REC_BlancaF': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S35REC_BlancaF.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S36REC': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S36REC.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S5': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S5.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S51': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S51.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S52a': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S52a.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S52c2': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S52c2.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S52d3': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S52d3.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S6': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S6.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S60a': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S60a.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S60a11': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S60a11.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S60a21': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S60a21.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S7_30': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S7_30.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S7_40': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S7_40.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S7_50': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S7_50.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S800_1500': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S800_1500.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S800_2000': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S800_2000.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S800b_5km': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S800b_5km.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S800b_7km': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S800b_7km.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S820': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S820.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S840_100': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S840_100.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S870': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S870.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S870I': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S870I.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S9': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S9.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
+
+}),
+'ES:S900': new ol.style.Style({
+': new ol.style.Style({
+image: new ol.style.Icon({
+scale: 0.4,
+src: 'https://raw.githubusercontent.com/yopaseopor/beta_preset_josm/master/ES/traffic_signs/ES/ES_S900.png'
+}),
+stroke: new ol.style.Stroke({
+color: 'rgba(170, 170, 170, 1.0)',
+width: 1
+}),
+fill: new ol.style.Fill({
+color: 'rgba(170, 170, 170, 0.3)'
+})
+}),
 						'.*': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
