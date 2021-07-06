@@ -1661,7 +1661,7 @@ var vectorLayer = new ol.layer.Vector({
 		{
 			group: 'Centuries',
 			title: '1000-1099',
-			query: '(nwr[~"^name:10[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
+			query: '(nwr[~"^name:10[0-9][0-9]$"~"."]({{bbox}});node(w);<;);out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#753f4f',
 			style: function (feature) {
@@ -1982,7 +1982,7 @@ var vectorLayer = new ol.layer.Vector({
 		{
 			group: 'Centuries',
 			title: '1900-1999',
-			query: '(nwr[~"^name:19[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
+			query: '(nwr[~"^name:19[0-9][0-9]$"~"."]({{bbox}});node(w);<;);out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#8e7cff',
 			style: function (feature) {
