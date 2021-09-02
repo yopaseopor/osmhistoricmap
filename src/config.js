@@ -2847,8 +2847,8 @@ var vectorLayer = new ol.layer.Vector({
 		},
 		{
 			group: 'Test',
-			title: '2020-2024',
-			query: '(nwr[~"^.:202[0-4]-[0-1][0-9]-[0-3][0-9]$"~"."]({{bbox}});node(w););out meta;',
+			title: '2020-2025',
+			query: '(nwr[~".:202[0-4]-[0-1][0-9]-[0-3][0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#ef7cff',
 			style: function (feature) {
