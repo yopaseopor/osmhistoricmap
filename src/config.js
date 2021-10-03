@@ -4300,6 +4300,37 @@ var vectorLayer = new ol.layer.Vector({
 
 						})
 					},
+					'natural:2021-09-19': {
+						'scrub': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(0, 128, 0, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(50, 205, 50, 0.3)'
+							})
+						}),
+						'tree': new ol.style.Style({
+							image: new ol.style.Circle({
+								radius: 2,
+								fill: new ol.style.Fill({
+									color: 'rgba(140, 208, 95, 1.0)'
+								}),
+								stroke: null
+							})
+						}),
+						'.*': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 6
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+
+						})
+					},
 					'landuse': {
 						'forest|grass|allotments': new ol.style.Style({
 							stroke: new ol.style.Stroke({
@@ -4309,6 +4340,17 @@ var vectorLayer = new ol.layer.Vector({
 							fill: new ol.style.Fill({
 								color: 'rgba(140, 208, 95, 0.3)'
 							})
+						}),
+						'.*': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 6
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+
 						})
 					},
 					'natural': {
