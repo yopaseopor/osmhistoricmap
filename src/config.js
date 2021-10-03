@@ -4319,6 +4319,15 @@ var vectorLayer = new ol.layer.Vector({
 								stroke: null
 							})
 						}),
+						'water': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(0, 0, 255, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(0, 0, 255, 0.3)'
+							})
+						}),
 						'.*': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
@@ -4339,6 +4348,15 @@ var vectorLayer = new ol.layer.Vector({
 							}),
 							fill: new ol.style.Fill({
 								color: 'rgba(140, 208, 95, 0.3)'
+							})
+						}),
+						'residential': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(128, 128, 128, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(169, 169, 169, 0.3)'
 							})
 						}),
 						'.*': new ol.style.Style({
