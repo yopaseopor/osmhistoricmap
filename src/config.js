@@ -3256,6 +3256,35 @@ var vectorLayer = new ol.layer.Vector({
 		// Overlay: Generic
 		{
 			group: 'Generic',
+			title: 'Destroyed',
+			query: '(nwr[~"^destroyed(:.*)?$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#D00B67',
+			style: function () {
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,0,0,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#D00B67',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 2
+					}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		
+		
+		// Overlay: Generic
+		{
+			group: 'Generic',
 			title: 'Removed',
 			query: '(nwr[~"^removed(:.*)?$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
