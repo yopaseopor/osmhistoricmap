@@ -2845,7 +2845,179 @@ var vectorLayer = new ol.layer.Vector({
 				return style;
 			}
 },
+		{
+			group: 'Topics',
+			title: 'ES_2021-09-19 Eruption La Palma',
+			query: '(nwr[~".:2021-09-19$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#714601',
+			style: function (feature) {
+				var key_regex = /^building:2021-09-19$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var styles = {
+					'amenity:2021-09-19': {
+						'parking': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(170, 170, 170, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(170, 170, 170, 0.3)'
+							})
+						})
+					},
+					'building:2021-09-19': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(246, 99, 79, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(246, 99, 79, 0.3)'
+							}),
+							text: new ol.style.Text({
+								text: name
+							})
+						})
+										},
+					'place': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(246, 99, 79, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(246, 99, 79, 0.3)'
+							}),
+							text: new ol.style.Text({
+								text: name
+							})
+						})
+					},
+					'highway:2021-09-19': {
+						'residential': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 6
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'living_street': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 6
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'pedestrian': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 6
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'tertiary': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 6
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'.*': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 3
+							}),
+							text: new ol.style.Text({
+								text: name
+							})
+						})
+					},
+					'leisure:2021-09-19': {
+						'swimming_pool': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 6
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'pitch': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 6
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'.*': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 6
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
 
+						})
+					},
+					'landuse': {
+						'forest|grass|allotments': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(140, 208, 95, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(140, 208, 95, 0.3)'
+							})
+						})
+					},
+					'natural': {
+						'tree': new ol.style.Style({
+							image: new ol.style.Circle({
+								radius: 2,
+								fill: new ol.style.Fill({
+									color: 'rgba(140, 208, 95, 1.0)'
+								}),
+								stroke: null
+							})
+						})
+					}
+				};
+				for (var key in styles) {
+					var value = feature.get(key);
+					if (value !== undefined) {
+						for (var regexp in styles[key]) {
+							if (new RegExp(regexp).test(value)) {
+								return styles[key][regexp];
+							}
+						}
+					}
+				}
+				return null;
+			} 
+		 
+		},
 		{
 			group: 'Test',
 			title: '2020-2026 Peatge',
@@ -4018,14 +4190,11 @@ var vectorLayer = new ol.layer.Vector({
 						'.*': new ol.style.Style({
 							zIndex: 100,
 							stroke: new ol.style.Stroke({
-								color: 'rgba(246, 99, 79, 1.0)',
+								color: 'rgba(160, 82, 45, 1.0)',
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(246, 99, 79, 0.3)'
-							}),
-							text: new ol.style.Text({
-								text: name
+								color: 'rgba(210, 105, 30, 0.3)'
 							})
 						})
 										},
@@ -4098,8 +4267,11 @@ var vectorLayer = new ol.layer.Vector({
 					'leisure:2021-09-19': {
 						'swimming_pool': new ol.style.Style({
 							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
+								color: 'rgba(0, 0, 255, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(0, 0, 255, 0.3)'
 							}),
 							text: new ol.style.Text({
 								text: name,
