@@ -2848,7 +2848,7 @@ var vectorLayer = new ol.layer.Vector({
 		{
 			group: 'Topics',
 			title: 'ES_2021-09-19 Eruption La Palma',
-			query: '(nwr[~"^building:2021-09-19$"~"."]({{bbox}});node(w););out meta;',
+			query: '(nwr[~"^.:2021-09-19$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#714601',
 			style: function (feature) {
@@ -2856,7 +2856,7 @@ var vectorLayer = new ol.layer.Vector({
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var styles = {
-					'amenity': {
+					'amenity:2021-09-19': {
 						'parking': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(170, 170, 170, 1.0)',
@@ -2897,7 +2897,7 @@ var vectorLayer = new ol.layer.Vector({
 							})
 						})
 					},
-					'highway': {
+					'highway:2021-09-19': {
 						'residential': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
