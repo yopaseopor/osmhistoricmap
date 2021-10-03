@@ -2848,7 +2848,7 @@ var vectorLayer = new ol.layer.Vector({
 		{
 			group: 'Topics',
 			title: 'ES_2021-09-19 Eruption La Palma',
-			query: '(nwr[~"^.:2021-09-19$"~"."]({{bbox}});node(w););out meta;',
+			query: '(nwr[~".:2021-09-19$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#714601',
 			style: function (feature) {
