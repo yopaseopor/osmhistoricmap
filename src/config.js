@@ -4217,7 +4217,7 @@ var vectorLayer = new ol.layer.Vector({
 						'residential': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
+								width: 4
 							}),
 							text: new ol.style.Text({
 								text: name,
@@ -4226,8 +4226,8 @@ var vectorLayer = new ol.layer.Vector({
 						}),
 						'living_street': new ol.style.Style({
 							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
+								color: 'rgba(168, 168, 168, 1.0)',
+								width: 4
 							}),
 							text: new ol.style.Text({
 								text: name,
@@ -4235,6 +4235,16 @@ var vectorLayer = new ol.layer.Vector({
 							})
 						}),
 						'pedestrian': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(108, 108, 108, 1.0)',
+								width: 3
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'unclassified': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
 								width: 6
@@ -4247,7 +4257,17 @@ var vectorLayer = new ol.layer.Vector({
 						'tertiary': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
+								width: 8
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'secondary': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 164, 1.0)',
+								width: 8
 							}),
 							text: new ol.style.Text({
 								text: name,
