@@ -4167,7 +4167,7 @@ var vectorLayer = new ol.layer.Vector({
 		{
 			group: 'Topics',
 			title: 'ES_2021-09-19 Eruption La Palma',
-			query: '(nwr[~".:2021-09-19$"~"."]({{bbox}});node(w););out meta;',
+			query: '(nwr[~".:2021-[0-1][0-9]-[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#D00B67',
 			style: function (feature) {
@@ -4187,6 +4187,18 @@ var vectorLayer = new ol.layer.Vector({
 						})
 					},
 					'building:2021-09-19': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(160, 82, 45, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(210, 105, 30, 0.3)'
+							})
+						})
+										},
+					'geological:2021-09-20': {
 						'.*': new ol.style.Style({
 							zIndex: 100,
 							stroke: new ol.style.Stroke({
