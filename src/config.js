@@ -4165,6 +4165,379 @@ var vectorLayer = new ol.layer.Vector({
 			}
 		},
 		{
+			group: 'Test',
+			title: 'ES_2021-09-19 Eruption La Palma_def',
+			query: '(nwr[~".:2021-[0-1][0-9]-[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#D00B67',
+			style: function (feature) {
+				var key_regex = /^building:2021-09-19$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var styles = {
+					'amenity:2021-09-19': {
+						'parking': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(170, 170, 170, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(170, 170, 170, 0.3)'
+							})
+						})
+					},
+					'building:2021-09-19': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(160, 82, 45, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(210, 105, 30, 0.3)'
+							})
+						})
+										},
+					'geological:2021-09-20': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255,160,150, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(255,160,150, 0.3)'
+							})
+						})
+										},
+					'geological:2021-09-21': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255,160,125, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(255, 160, 125, 0.3)'
+							})
+						})
+										},
+					'geological:2021-09-22': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255,160,100, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(255,160,100, 0.3)'
+							})
+						})
+										},
+					'geological:2021-09-23': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255,160,74, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(255, 160, 74, 0.3)'
+							})
+						})
+																				},
+					'geological:2021-09-24': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255,160,50, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(255, 160, 50, 0.3)'
+							})
+						})
+										},
+					'geological:2021-09-25': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255,160,25, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(255, 160, 25, 0.3)'
+							})
+						})
+										},
+					'geological:2021-09-26': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255,160,0, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(255, 160, 0, 0.3)'
+							})
+						})
+										},
+					'geological:2021-09-27': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255,125,150, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(255, 125,150, 0.3)'
+							})
+						})
+										},
+					'geological:2021-09-28': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255,125,125, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(255, 125,125, 0.3)'
+							})
+						})
+										},
+					'geological:2021-09-29': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255,125,100, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(255, 125,100, 0.3)'
+							})
+						})
+										},
+					'place': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(246, 99, 79, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(246, 99, 79, 0.3)'
+							}),
+							text: new ol.style.Text({
+								text: name
+							})
+						})
+					},
+					'highway:2021-09-19': {
+						'residential': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 4
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'living_street': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(168, 168, 168, 1.0)',
+								width: 4
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'pedestrian': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(108, 108, 108, 1.0)',
+								width: 3
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'unclassified': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 6
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'tertiary': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 8
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'secondary': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 164, 1.0)',
+								width: 8
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'.*': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 3
+							}),
+							text: new ol.style.Text({
+								text: name
+							})
+						})
+					},
+					'leisure:2021-09-19': {
+						'swimming_pool': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(0, 0, 255, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(0, 0, 255, 0.3)'
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'pitch': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 6
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'.*': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 6
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+
+						})
+					},
+					'natural:2021-09-19': {
+						'scrub': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(0, 128, 0, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(50, 205, 50, 0.3)'
+							})
+						}),
+						'tree': new ol.style.Style({
+							image: new ol.style.Circle({
+								radius: 2,
+								fill: new ol.style.Fill({
+									color: 'rgba(140, 208, 95, 1.0)'
+								}),
+								stroke: null
+							})
+						}),
+						'water': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(0, 0, 255, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(0, 0, 255, 0.3)'
+							})
+						}),
+						'.*': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 6
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+
+						})
+					},
+					'landuse': {
+						'forest|grass|allotments': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(140, 208, 95, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(140, 208, 95, 0.3)'
+							})
+						}),
+						'residential': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(128, 128, 128, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(169, 169, 169, 0.3)'
+							})
+						}),
+						'.*': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 6
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+
+						})
+					},
+					'natural': {
+						'tree': new ol.style.Style({
+							image: new ol.style.Circle({
+								radius: 2,
+								fill: new ol.style.Fill({
+									color: 'rgba(140, 208, 95, 1.0)'
+								}),
+								stroke: null
+							})
+						})
+					}
+				};
+				for (var key in styles) {
+					var value = feature.get(key);
+					if (value !== undefined) {
+						for (var regexp in styles[key]) {
+							if (new RegExp(regexp).test(value)) {
+								return styles[key][regexp];
+							}
+						}
+					}
+				}
+				return null;
+			} 
+		 
+		},
+		{
 			group: 'Topics',
 			title: 'ES_2021-09-19 Eruption La Palma',
 			query: '(nwr[~".:2021-[0-1][0-9]-[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
@@ -4202,11 +4575,11 @@ var vectorLayer = new ol.layer.Vector({
 						'.*': new ol.style.Style({
 							zIndex: 100,
 							stroke: new ol.style.Stroke({
-								color: 'rgba(160, 82, 45, 1.0)',
+								color: 'rgba(255,160,150, 1.0)',
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(210, 105, 30, 0.3)'
+								color: 'rgba(255,160,150, 0.3)'
 							})
 						})
 										},
@@ -4214,15 +4587,27 @@ var vectorLayer = new ol.layer.Vector({
 						'.*': new ol.style.Style({
 							zIndex: 100,
 							stroke: new ol.style.Stroke({
-								color: 'rgba(255,160,122, 1.0)',
+								color: 'rgba(255,160,125, 1.0)',
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(255, 160, 122, 0.3)'
+								color: 'rgba(255, 160, 125, 0.3)'
 							})
 						})
 										},
 					'geological:2021-09-22': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255,160,100, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(255,160,100, 0.3)'
+							})
+						})
+										},
+					'geological:2021-09-23': {
 						'.*': new ol.style.Style({
 							zIndex: 100,
 							stroke: new ol.style.Stroke({
@@ -4231,6 +4616,78 @@ var vectorLayer = new ol.layer.Vector({
 							}),
 							fill: new ol.style.Fill({
 								color: 'rgba(255, 160, 74, 0.3)'
+							})
+						})
+																				},
+					'geological:2021-09-24': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255,160,50, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(255, 160, 50, 0.3)'
+							})
+						})
+										},
+					'geological:2021-09-25': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255,160,25, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(255, 160, 25, 0.3)'
+							})
+						})
+										},
+					'geological:2021-09-26': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255,160,0, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(255, 160, 0, 0.3)'
+							})
+						})
+										},
+					'geological:2021-09-27': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255,125,150, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(255, 125,150, 0.3)'
+							})
+						})
+										},
+					'geological:2021-09-28': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255,125,125, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(255, 125,125, 0.3)'
+							})
+						})
+										},
+					'geological:2021-09-29': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255,125,100, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(255, 125,100, 0.3)'
 							})
 						})
 										},
