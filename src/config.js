@@ -4167,7 +4167,7 @@ var vectorLayer = new ol.layer.Vector({
 		{
 			group: 'Test',
 			title: 'ES_2021-09-19 Eruption La Palma_def',
-			query: '(nwr[~".:2021-[0-1][0-9]-[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
+		    geojson:  imgSrc + 'palma.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#D00B67',
 			style: function (feature) {
