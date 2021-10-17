@@ -4222,6 +4222,18 @@ var vectorLayer = new ol.layer.Vector({
 							})
 						})
 										},
+					'geological:2021-09-22': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255,160,74, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(255, 160, 74, 0.3)'
+							})
+						})
+										},
 					'place': {
 						'.*': new ol.style.Style({
 							zIndex: 100,
