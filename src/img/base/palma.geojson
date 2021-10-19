@@ -5393,11 +5393,7 @@
         },
         {
             "type": "Feature",
-            "properties": {
-                "geological": "volcanic_lava_field",
-                "geological:2021-09-21": "volcanic_lava_flow",
-                "natural": "bare_rock"
-            },
+            "properties": null,
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
@@ -5414,11 +5410,7 @@
         },
         {
             "type": "Feature",
-            "properties": {
-                "geological": "volcanic_lava_field",
-                "geological:2021-09-21": "volcanic_lava_flow",
-                "natural": "bare_rock"
-            },
+            "properties": null,
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
