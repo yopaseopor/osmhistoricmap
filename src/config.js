@@ -4298,11 +4298,11 @@ var vectorLayer = new ol.layer.Vector({
 						'.*': new ol.style.Style({
 							zIndex: 100,
 							stroke: new ol.style.Stroke({
-								color: 'rgba(255,125,125, 1.0)',
+								color: 'rgba(255,0,0, 1.0)',
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(255, 125,125, 0.3)'
+								color: 'rgba(255, 0,0, 0.3)'
 							})
 						})
 										},
