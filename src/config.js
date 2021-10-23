@@ -4294,7 +4294,7 @@ var vectorLayer = new ol.layer.Vector({
 							})
 						})
 										},
-					'geological:2021-09-28': {
+					'geological:2021-10-21': {
 						'.*': new ol.style.Style({
 							zIndex: 100,
 							stroke: new ol.style.Stroke({
@@ -4306,7 +4306,7 @@ var vectorLayer = new ol.layer.Vector({
 							})
 						})
 										},
-					'geological:2021-09-29': {
+					'geological:2021-10-22': {
 						'.*': new ol.style.Style({
 							zIndex: 100,
 							stroke: new ol.style.Stroke({
