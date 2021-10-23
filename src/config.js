@@ -4165,6 +4165,81 @@ var vectorLayer = new ol.layer.Vector({
 			}
 		},
 		{
+			group: 'ES_2021-09-19 Eruption La Palma',
+			title: '2021-09-20 Lava flow',
+		    geojson:  imgSrc + 'base/lapalma/2021_09_20_Perimetro_para_osm.geojson',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#D00B67',
+			style: function (feature) {
+				var key_regex = /^building:2021-09-19$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var styles = {
+					'geological:2021-09-20': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255,160,150, 1.0)',
+								width: 2
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(255,160,150, 0.01)'
+							})
+				});
+				return style;
+			}
+		},
+		{
+			group: 'ES_2021-09-19 Eruption La Palma',
+			title: '2021-09-21 Lava flow',
+		    geojson:  imgSrc + 'base/lapalma/2021_09_21_Perimetro_para_osm.geojson',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#D00B67',
+			style: function (feature) {
+				var key_regex = /^building:2021-09-19$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var styles = {
+					'geological:2021-09-21': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255,160,0, 1.0)',
+								width: 2
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(255,160,0, 0.01)'
+							})
+				});
+				return style;
+			}
+		},
+		{
+			group: 'ES_2021-09-19 Eruption La Palma',
+			title: '2021-09-22 Lava flow',
+		    geojson:  imgSrc + 'base/lapalma/2021_09_22_Perimetro_para_osm.geojson',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#D00B67',
+			style: function (feature) {
+				var key_regex = /^building:2021-09-19$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var styles = {
+					'geological:2021-09-22': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255,0,0, 1.0)',
+								width: 2
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(255,0,0, 0.01)'
+							})
+				});
+				return style;
+			}
+		},
+		{
 			group: 'ES_2021-09-19 La Palma',
 			title: 'ES_2021-09-19 Eruption La Palma_def',
 		    geojson:  imgSrc + 'base/lapalma/2021_09_20_Perimetro_para_osm.geojson',
@@ -4188,333 +4263,6 @@ var vectorLayer = new ol.layer.Vector({
 				});
 				return style;
 			}
-    },
-					'geological:2021-09-21': {
-						'.*': new ol.style.Style({
-							zIndex: 100,
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255,160,125, 1.0)',
-								width: 1
-							}),
-							fill: new ol.style.Fill({
-								color: 'rgba(255, 160, 125, 0.3)'
-							})
-						})
-										},
-					'geological:2021-09-22': {
-						'.*': new ol.style.Style({
-							zIndex: 100,
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255,160,100, 1.0)',
-								width: 1
-							}),
-							fill: new ol.style.Fill({
-								color: 'rgba(255,160,100, 0.3)'
-							})
-						})
-										},
-					'geological:2021-09-23': {
-						'.*': new ol.style.Style({
-							zIndex: 100,
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255,160,74, 1.0)',
-								width: 1
-							}),
-							fill: new ol.style.Fill({
-								color: 'rgba(255, 160, 74, 0.3)'
-							})
-						})
-																				},
-					'geological:2021-09-24': {
-						'.*': new ol.style.Style({
-							zIndex: 100,
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255,160,50, 1.0)',
-								width: 1
-							}),
-							fill: new ol.style.Fill({
-								color: 'rgba(255, 160, 50, 0.3)'
-							})
-						})
-										},
-					'geological:2021-09-25': {
-						'.*': new ol.style.Style({
-							zIndex: 100,
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255,160,25, 1.0)',
-								width: 1
-							}),
-							fill: new ol.style.Fill({
-								color: 'rgba(255, 160, 25, 0.3)'
-							})
-						})
-										},
-					'geological:2021-09-26': {
-						'.*': new ol.style.Style({
-							zIndex: 100,
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255,160,0, 1.0)',
-								width: 1
-							}),
-							fill: new ol.style.Fill({
-								color: 'rgba(255, 160, 0, 0.3)'
-							})
-						})
-										},
-					'geological:2021-09-27': {
-						'.*': new ol.style.Style({
-							zIndex: 100,
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255,125,150, 1.0)',
-								width: 1
-							}),
-							fill: new ol.style.Fill({
-								color: 'rgba(255, 125,150, 0.3)'
-							})
-						})
-										},
-					'geological:2021-10-21': {
-						'.*': new ol.style.Style({
-							zIndex: 100,
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255,0,0, 1.0)',
-								width: 1
-							}),
-							fill: new ol.style.Fill({
-								color: 'rgba(255, 0,0, 0.3)'
-							})
-						})
-										},
-					'geological:2021-10-22': {
-						'.*': new ol.style.Style({
-							zIndex: 100,
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255,125,100, 1.0)',
-								width: 1
-							}),
-							fill: new ol.style.Fill({
-								color: 'rgba(255, 125,100, 0.3)'
-							})
-						})
-										},
-					'place': {
-						'.*': new ol.style.Style({
-							zIndex: 100,
-							stroke: new ol.style.Stroke({
-								color: 'rgba(246, 99, 79, 1.0)',
-								width: 1
-							}),
-							fill: new ol.style.Fill({
-								color: 'rgba(246, 99, 79, 0.3)'
-							}),
-							text: new ol.style.Text({
-								text: name
-							})
-						})
-					},
-					'highway:2021-09-19': {
-						'residential': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
-								width: 4
-							}),
-							text: new ol.style.Text({
-								text: name,
-								placement: 'line'
-							})
-						}),
-						'living_street': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(168, 168, 168, 1.0)',
-								width: 4
-							}),
-							text: new ol.style.Text({
-								text: name,
-								placement: 'line'
-							})
-						}),
-						'pedestrian': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(108, 108, 108, 1.0)',
-								width: 3
-							}),
-							text: new ol.style.Text({
-								text: name,
-								placement: 'line'
-							})
-						}),
-						'unclassified': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
-							}),
-							text: new ol.style.Text({
-								text: name,
-								placement: 'line'
-							})
-						}),
-						'tertiary': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
-								width: 8
-							}),
-							text: new ol.style.Text({
-								text: name,
-								placement: 'line'
-							})
-						}),
-						'secondary': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 164, 1.0)',
-								width: 8
-							}),
-							text: new ol.style.Text({
-								text: name,
-								placement: 'line'
-							})
-						}),
-						'.*': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
-								width: 3
-							}),
-							text: new ol.style.Text({
-								text: name
-							})
-						})
-					},
-					'leisure:2021-09-19': {
-						'swimming_pool': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(0, 0, 255, 1.0)',
-								width: 1
-							}),
-							fill: new ol.style.Fill({
-								color: 'rgba(0, 0, 255, 0.3)'
-							}),
-							text: new ol.style.Text({
-								text: name,
-								placement: 'line'
-							})
-						}),
-						'pitch': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
-							}),
-							text: new ol.style.Text({
-								text: name,
-								placement: 'line'
-							})
-						}),
-						'.*': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
-							}),
-							text: new ol.style.Text({
-								text: name,
-								placement: 'line'
-							})
-
-						})
-					},
-					'natural:2021-09-19': {
-						'scrub': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(0, 128, 0, 1.0)',
-								width: 1
-							}),
-							fill: new ol.style.Fill({
-								color: 'rgba(50, 205, 50, 0.3)'
-							})
-						}),
-						'tree': new ol.style.Style({
-							image: new ol.style.Circle({
-								radius: 2,
-								fill: new ol.style.Fill({
-									color: 'rgba(140, 208, 95, 1.0)'
-								}),
-								stroke: null
-							})
-						}),
-						'water': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(0, 0, 255, 1.0)',
-								width: 1
-							}),
-							fill: new ol.style.Fill({
-								color: 'rgba(0, 0, 255, 0.3)'
-							})
-						}),
-						'.*': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
-							}),
-							text: new ol.style.Text({
-								text: name,
-								placement: 'line'
-							})
-
-						})
-					},
-					'landuse': {
-						'forest|grass|allotments': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(140, 208, 95, 1.0)',
-								width: 1
-							}),
-							fill: new ol.style.Fill({
-								color: 'rgba(140, 208, 95, 0.3)'
-							})
-						}),
-						'residential': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(128, 128, 128, 1.0)',
-								width: 1
-							}),
-							fill: new ol.style.Fill({
-								color: 'rgba(169, 169, 169, 0.3)'
-							})
-						}),
-						'.*': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
-							}),
-							text: new ol.style.Text({
-								text: name,
-								placement: 'line'
-							})
-
-						})
-					},
-					'natural': {
-						'tree': new ol.style.Style({
-							image: new ol.style.Circle({
-								radius: 2,
-								fill: new ol.style.Fill({
-									color: 'rgba(140, 208, 95, 1.0)'
-								}),
-								stroke: null
-							})
-						})
-					}
-				};
-				for (var key in styles) {
-					var value = feature.get(key);
-					if (value !== undefined) {
-						for (var regexp in styles[key]) {
-							if (new RegExp(regexp).test(value)) {
-								return styles[key][regexp];
-							}
-						}
-					}
-				}
-				return null;
-			} 
-		 
 		},
 		{
 			group: 'Test',
