@@ -4556,7 +4556,7 @@ var vectorLayer = new ol.layer.Vector({
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(255,160,150, 0.3)'
+								color: 'rgba(255,160,150, 0.01)'
 							})
 						})
 										},
@@ -4636,7 +4636,7 @@ var vectorLayer = new ol.layer.Vector({
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(194,194,194, 0.3)'
+								color: 'rgba(194,194,194, 0.1)'
 							})
 						})
 										},
@@ -4716,7 +4716,7 @@ var vectorLayer = new ol.layer.Vector({
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(212,212,212, 0.3)'
+								color: 'rgba(212,212,212, 0.01)'
 							})
 						})
 										},
