@@ -5116,7 +5116,7 @@ var vectorLayer = new ol.layer.Vector({
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(0,173,173, 0.2)'
+								color: 'rgba(0,173,173, 0.15)'
 							})
 						})
 										},
@@ -5196,7 +5196,7 @@ var vectorLayer = new ol.layer.Vector({
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(0,168,0, 0.2)'
+								color: 'rgba(0,168,0, 0.15)'
 							})
 						})
 										},
@@ -5276,7 +5276,7 @@ var vectorLayer = new ol.layer.Vector({
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(168,168,0, 0.2)'
+								color: 'rgba(168,168,0, 0.15)'
 							})
 						})
 										},
@@ -5356,7 +5356,7 @@ var vectorLayer = new ol.layer.Vector({
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(36,255,36, 0.2)'
+								color: 'rgba(36,255,36, 0.15)'
 							})
 						})
 										},
@@ -5436,7 +5436,7 @@ var vectorLayer = new ol.layer.Vector({
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(173,147,0, 0.2)'
+								color: 'rgba(173,147,0, 0.15)'
 							})
 						})
 										},
@@ -5516,7 +5516,7 @@ var vectorLayer = new ol.layer.Vector({
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(255,178,36, 0.2)'
+								color: 'rgba(255,178,36, 0.15)'
 							})
 						})
 										},
@@ -5596,7 +5596,7 @@ var vectorLayer = new ol.layer.Vector({
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(101,26,26, 0.2)'
+								color: 'rgba(101,26,26, 0.15)'
 							})
 						})
 										},
@@ -5676,7 +5676,7 @@ var vectorLayer = new ol.layer.Vector({
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(168,0,0, 0.2)'
+								color: 'rgba(168,0,0, 0.15)'
 							})
 						})
 										},
@@ -5756,7 +5756,7 @@ var vectorLayer = new ol.layer.Vector({
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(128,0,0, 0.2)'
+								color: 'rgba(128,0,0, 0.15)'
 							})
 						})
 										},
@@ -5836,7 +5836,7 @@ var vectorLayer = new ol.layer.Vector({
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(0,128,0, 0.2)'
+								color: 'rgba(0,128,0, 0.15)'
 							})
 						})
 										},
@@ -5916,7 +5916,7 @@ var vectorLayer = new ol.layer.Vector({
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(0,0,128, 0.2)'
+								color: 'rgba(0,0,128, 0.15)'
 							})
 						})
 										},
@@ -5996,7 +5996,7 @@ var vectorLayer = new ol.layer.Vector({
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(0,0,255, 0.2)'
+								color: 'rgba(0,0,255, 0.15)'
 							})
 						})
 										},
@@ -6076,7 +6076,7 @@ var vectorLayer = new ol.layer.Vector({
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(0,255,0, 0.2)'
+								color: 'rgba(0,255,0, 0.15)'
 							})
 						})
 										},
@@ -6156,7 +6156,7 @@ var vectorLayer = new ol.layer.Vector({
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(255,0,0, 0.2)'
+								color: 'rgba(255,0,0, 0.15)'
 							})
 						})
 										},
@@ -6236,7 +6236,7 @@ var vectorLayer = new ol.layer.Vector({
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(209,0,0, 0.2)'
+								color: 'rgba(209,0,0, 0.15)'
 							})
 						})
 										},
@@ -6316,7 +6316,7 @@ var vectorLayer = new ol.layer.Vector({
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(134,35,35, 0.2)'
+								color: 'rgba(134,35,35, 0.15)'
 							})
 						})
 										},
@@ -6396,7 +6396,7 @@ var vectorLayer = new ol.layer.Vector({
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(255,194,82, 0.2)'
+								color: 'rgba(255,194,82, 0.15)'
 							})
 						})
 										},
@@ -6476,7 +6476,7 @@ var vectorLayer = new ol.layer.Vector({
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(214,182,0, 0.2)'
+								color: 'rgba(214,182,0, 0.15)'
 							})
 						})
 										},
@@ -6556,7 +6556,7 @@ var vectorLayer = new ol.layer.Vector({
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(82,255,82, 0.2)'
+								color: 'rgba(82,255,82, 0.15)'
 							})
 						})
 										},
@@ -6636,7 +6636,7 @@ var vectorLayer = new ol.layer.Vector({
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(209,209,0, 0.2)'
+								color: 'rgba(209,209,0, 0.15)'
 							})
 						})
 										},
@@ -6716,7 +6716,7 @@ var vectorLayer = new ol.layer.Vector({
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(0,209,0, 0.2)'
+								color: 'rgba(0,209,0, 0.15)'
 							})
 						})
 										},
@@ -6796,7 +6796,7 @@ var vectorLayer = new ol.layer.Vector({
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(0,209,209, 0.2)'
+								color: 'rgba(0,209,209, 0.15)'
 							})
 						})
 										},
@@ -6876,7 +6876,7 @@ var vectorLayer = new ol.layer.Vector({
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(0,0,209, 0.2)'
+								color: 'rgba(0,0,209, 0.15)'
 							})
 						})
 										},
@@ -6956,7 +6956,7 @@ var vectorLayer = new ol.layer.Vector({
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(121,0,214, 0.2)'
+								color: 'rgba(121,0,214, 0.15)'
 							})
 						})
 										},
@@ -7036,7 +7036,7 @@ var vectorLayer = new ol.layer.Vector({
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(255,189,222, 0.2)'
+								color: 'rgba(255,189,222, 0.15)'
 							})
 						})
 										},
@@ -7116,7 +7116,7 @@ var vectorLayer = new ol.layer.Vector({
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(168,168,168, 0.2)'
+								color: 'rgba(168,168,168, 0.15)'
 							})
 						})
 										},
