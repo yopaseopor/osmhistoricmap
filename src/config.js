@@ -4548,29 +4548,6 @@ var vectorLayer = new ol.layer.Vector({
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var styles = {
-					'amenity:2021-09-19': {
-						'parking': new ol.style.Style({
-							stroke: new ol.style.Stroke({
-								color: 'rgba(170, 170, 170, 1.0)',
-								width: 1
-							}),
-							fill: new ol.style.Fill({
-								color: 'rgba(170, 170, 170, 0.3)'
-							})
-						})
-					},
-					'building:2021-09-19': {
-						'.*': new ol.style.Style({
-							zIndex: 100,
-							stroke: new ol.style.Stroke({
-								color: 'rgba(160, 82, 45, 1.0)',
-								width: 1
-							}),
-							fill: new ol.style.Fill({
-								color: 'rgba(210, 105, 30, 0.3)'
-							})
-						})
-										},
 					'geological:2021-10-22': {
 						'.*': new ol.style.Style({
 							zIndex: 100,
