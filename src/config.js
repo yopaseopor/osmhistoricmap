@@ -4538,9 +4538,9 @@ var vectorLayer = new ol.layer.Vector({
 		 
 		},
 		{
-			group: 'Test',
-			title: 'ES_2021-09-19 Eruption La Palma_def',
-		    geojson:  imgSrc + 'base/palma.geojson',
+			group: 'La Palma',
+			title: '2021-10-22',
+		    geojson:  imgSrc + 'base/lapalma/2021_10_22_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#D00B67',
 			style: function (feature) {
@@ -4571,7 +4571,7 @@ var vectorLayer = new ol.layer.Vector({
 							})
 						})
 										},
-					'geological:2021-09-20': {
+					'geological:2021-10-22': {
 						'.*': new ol.style.Style({
 							zIndex: 100,
 							stroke: new ol.style.Stroke({
