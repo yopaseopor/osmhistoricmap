@@ -4556,7 +4556,7 @@ var vectorLayer = new ol.layer.Vector({
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(255,160,150, 0.01)'
+								color: 'rgba(255,160,150, 0.1)'
 							})
 						})
 										},
@@ -4716,7 +4716,407 @@ var vectorLayer = new ol.layer.Vector({
 								width: 1
 							}),
 							fill: new ol.style.Fill({
-								color: 'rgba(212,212,212, 0.01)'
+								color: 'rgba(212,212,212, 0.1)'
+							})
+						})
+										},
+					'highway:2021-09-19': {
+						'residential': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 4
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'living_street': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(168, 168, 168, 1.0)',
+								width: 4
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'.*': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 3
+							}),
+							text: new ol.style.Text({
+								text: name
+							})
+						})
+					},
+					'natural': {
+						'tree': new ol.style.Style({
+							image: new ol.style.Circle({
+								radius: 2,
+								fill: new ol.style.Fill({
+									color: 'rgba(140, 208, 95, 1.0)'
+								}),
+								stroke: null
+							})
+						})
+					}
+				};
+				for (var key in styles) {
+					var value = feature.get(key);
+					if (value !== undefined) {
+						for (var regexp in styles[key]) {
+							if (new RegExp(regexp).test(value)) {
+								return styles[key][regexp];
+							}
+						}
+					}
+				}
+				return null;
+			} 
+		 
+},
+		{
+			group: 'La Palma',
+			title: '2021-10-19',
+		    geojson:  imgSrc + 'base/lapalma/2021_10_19_Perimetro_para_osm.geojson',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#919191',
+			style: function (feature) {
+				var key_regex = /^building:2021-09-19$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var styles = {
+					'geological:2021-10-19': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(145,145,145, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(145,145,145, 0.1)'
+							})
+						})
+										},
+					'highway:2021-09-19': {
+						'residential': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 4
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'living_street': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(168, 168, 168, 1.0)',
+								width: 4
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'.*': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 3
+							}),
+							text: new ol.style.Text({
+								text: name
+							})
+						})
+					},
+					'natural': {
+						'tree': new ol.style.Style({
+							image: new ol.style.Circle({
+								radius: 2,
+								fill: new ol.style.Fill({
+									color: 'rgba(140, 208, 95, 1.0)'
+								}),
+								stroke: null
+							})
+						})
+					}
+				};
+				for (var key in styles) {
+					var value = feature.get(key);
+					if (value !== undefined) {
+						for (var regexp in styles[key]) {
+							if (new RegExp(regexp).test(value)) {
+								return styles[key][regexp];
+							}
+						}
+					}
+				}
+				return null;
+			} 
+		 
+},
+		{
+			group: 'La Palma',
+			title: '2021-10-18',
+		    geojson:  imgSrc + 'base/lapalma/2021_10_18_Perimetro_para_osm.geojson',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#ff94c9',
+			style: function (feature) {
+				var key_regex = /^building:2021-09-19$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var styles = {
+					'geological:2021-10-18': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255,148,201, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(255,148,201, 0.1)'
+							})
+						})
+										},
+					'highway:2021-09-19': {
+						'residential': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 4
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'living_street': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(168, 168, 168, 1.0)',
+								width: 4
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'.*': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 3
+							}),
+							text: new ol.style.Text({
+								text: name
+							})
+						})
+					},
+					'natural': {
+						'tree': new ol.style.Style({
+							image: new ol.style.Circle({
+								radius: 2,
+								fill: new ol.style.Fill({
+									color: 'rgba(140, 208, 95, 1.0)'
+								}),
+								stroke: null
+							})
+						})
+					}
+				};
+				for (var key in styles) {
+					var value = feature.get(key);
+					if (value !== undefined) {
+						for (var regexp in styles[key]) {
+							if (new RegExp(regexp).test(value)) {
+								return styles[key][regexp];
+							}
+						}
+					}
+				}
+				return null;
+			} 
+		 
+},
+		{
+			group: 'La Palma',
+			title: '2021-10-17',
+		    geojson:  imgSrc + 'base/lapalma/2021_10_17_Perimetro_para_osm.geojson',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#6200ad',
+			style: function (feature) {
+				var key_regex = /^building:2021-09-19$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var styles = {
+					'geological:2021-10-17': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(98,0,173, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(98,0,173, 0.1)'
+							})
+						})
+										},
+					'highway:2021-09-19': {
+						'residential': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 4
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'living_street': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(168, 168, 168, 1.0)',
+								width: 4
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'.*': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 3
+							}),
+							text: new ol.style.Text({
+								text: name
+							})
+						})
+					},
+					'natural': {
+						'tree': new ol.style.Style({
+							image: new ol.style.Circle({
+								radius: 2,
+								fill: new ol.style.Fill({
+									color: 'rgba(140, 208, 95, 1.0)'
+								}),
+								stroke: null
+							})
+						})
+					}
+				};
+				for (var key in styles) {
+					var value = feature.get(key);
+					if (value !== undefined) {
+						for (var regexp in styles[key]) {
+							if (new RegExp(regexp).test(value)) {
+								return styles[key][regexp];
+							}
+						}
+					}
+				}
+				return null;
+			} 
+		 
+},
+		{
+			group: 'La Palma',
+			title: '2021-10-16',
+		    geojson:  imgSrc + 'base/lapalma/2021_10_16_Perimetro_para_osm.geojson',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#0000a8',
+			style: function (feature) {
+				var key_regex = /^building:2021-09-19$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var styles = {
+					'geological:2021-10-16': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(0,0,168, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(0,0,168, 0.1)'
+							})
+						})
+										},
+					'highway:2021-09-19': {
+						'residential': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 4
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'living_street': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(168, 168, 168, 1.0)',
+								width: 4
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'.*': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 3
+							}),
+							text: new ol.style.Text({
+								text: name
+							})
+						})
+					},
+					'natural': {
+						'tree': new ol.style.Style({
+							image: new ol.style.Circle({
+								radius: 2,
+								fill: new ol.style.Fill({
+									color: 'rgba(140, 208, 95, 1.0)'
+								}),
+								stroke: null
+							})
+						})
+					}
+				};
+				for (var key in styles) {
+					var value = feature.get(key);
+					if (value !== undefined) {
+						for (var regexp in styles[key]) {
+							if (new RegExp(regexp).test(value)) {
+								return styles[key][regexp];
+							}
+						}
+					}
+				}
+				return null;
+			} 
+		 
+},
+		{
+			group: 'La Palma',
+			title: '2021-10-15',
+		    geojson:  imgSrc + 'base/lapalma/2021_10_15_Perimetro_para_osm.geojson',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#00adad',
+			style: function (feature) {
+				var key_regex = /^building:2021-09-19$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var styles = {
+					'geological:2021-10-16': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(0,173,173, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(0,173,173, 0.1)'
 							})
 						})
 										},
