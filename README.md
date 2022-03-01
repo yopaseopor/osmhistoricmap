@@ -15,6 +15,8 @@ Developed with [OpenLayers](https://openlayers.org/) library  and with API from 
 
 -Complex queries possibility done by [Ismael Luceno](https://github.com/ismaell)
 
+-Additional ideas by [yopaseopor](https://github.com/yopaseopor)
+
 ##Tags
 
 OSM Historic Map shows you all the tags refered to past, present and future nodes using [lifecycle prefix tags](https://overpass-turbo.eu/). 
