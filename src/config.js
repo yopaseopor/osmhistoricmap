@@ -2302,7 +2302,7 @@ var vectorLayer = new ol.layer.Vector({
 		{
 			group: 'Decades',
 			title: '1970-1979',
-			query: '(nwr[~"^name:197[0-9]$"~"."]({{bbox}});node(w););out meta;',
+			query: '(node[~"^name:197[0-9]$"~"."]({{bbox}});node(w);way[~"^name:197[0-9]$"~"."]({{bbox}});node(w);relation[~"^name:197[0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#0101DF',
 			style: function (feature) {
