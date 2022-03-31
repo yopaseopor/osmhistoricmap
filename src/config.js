@@ -122,6 +122,28 @@ var config = {
 				url: 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
 			}),
 			visible: false
+}),
+
+		new ol.layer.Tile({
+			title: 'Ortoimágenes 1956 JCyL',
+			iconSrc: imgSrc + 'jcyl.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; JCyL &mdash; Source: JCyL',
+				url: 'http://orto.wms.itacyl.es/erdas-iws/ogc/wms/p1?',
+				params: {'LAYERS': 'Ortofoto_1956', 'VERSION': '1.3.0'}
+			}),
+			visible: false
+		}),
+
+		new ol.layer.Tile({
+			title: 'Ortoimágenes 2021 JCyL',
+			iconSrc: imgSrc + 'jcyl.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; JCyL &mdash; Source: JCyL',
+				url: 'http://orto.wms.itacyl.es/erdas-iws/ogc/wms/p1?',
+				params: {'LAYERS': 'Ortofoto_CyL', 'VERSION': '1.3.0'}
+			}),
+			visible: false
 		}),
 
 		new ol.layer.Tile({
@@ -1145,7 +1167,7 @@ var config = {
 						'residential': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
+								width: 7
 							}),
 							text: new ol.style.Text({
 								text: name,
@@ -1155,7 +1177,7 @@ var config = {
 						'living_street': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
+								width: 7
 							}),
 							text: new ol.style.Text({
 								text: name,
@@ -1165,7 +1187,7 @@ var config = {
 						'pedestrian': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
+								width: 7
 							}),
 							text: new ol.style.Text({
 								text: name,
@@ -1175,7 +1197,27 @@ var config = {
 						'tertiary': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
-								width: 6
+								width: 8
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'secondary': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 8
+							}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							})
+						}),
+						'primary': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(255, 255, 255, 1.0)',
+								width: 8
 							}),
 							text: new ol.style.Text({
 								text: name,
@@ -1200,6 +1242,23 @@ var config = {
 							}),
 							fill: new ol.style.Fill({
 								color: 'rgba(140, 208, 95, 0.3)'
+							}),
+							text: new ol.style.Text({
+								text: name
+							})
+						})
+					},
+					'leisure': {
+						'.*': new ol.style.Style({
+							stroke: new ol.style.Stroke({
+								color: 'rgba(140, 208, 95, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(140, 208, 95, 0.3)'
+							}),
+							text: new ol.style.Text({
+								text: name
 							})
 						})
 					},
