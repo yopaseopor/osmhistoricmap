@@ -932,7 +932,7 @@ var config = {
 			iconStyle: 'background-color:#ff0000',
 			style: function () {
 				var key_regex = /^name:-[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]$/
-				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "^name:-[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
 					color: 'rgba(255,0,0,0.4)'
@@ -990,7 +990,7 @@ var config = {
 			iconStyle: 'background-color:#ff0000',
 			style: function () {
 				var key_regex = /^name:-[0-9][0-9][0-9][0-9]$/
-				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "^name:-[0-9][0-9][0-9][0-9]"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
 					color: 'rgba(255,0,0,0.4)'
