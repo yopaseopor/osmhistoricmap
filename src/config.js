@@ -953,12 +953,12 @@ var config = {
 				{
 			group: 'Per date',
 			title: 'Inexact start date',
-			query: '(nwr[~"^name:-....-..-..$"~"."]({{bbox}});node(w););out meta;',
+			query: '(nwr[~"^name:.....-..-..$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#ff0000',
 			style: function () {
-				var key_regex = /^name:-[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]$/
-				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "^name:-[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]"
+				var key_regex = /^name:.[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
 					color: 'rgba(255,0,0,0.4)'
@@ -1037,12 +1037,12 @@ var config = {
 		{
 			group: 'Per date',
 			title: 'Inexact start year',
-			query: '(nwr[~"^name:-....$"~"."]({{bbox}});node(w););out meta;',
+			query: '(nwr[~"^name:.....$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#ff0000',
 			style: function () {
-				var key_regex = /^name:-[0-9][0-9][0-9][0-9]$/
-				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "^name:-[0-9][0-9][0-9][0-9]"
+				var key_regex = /^name:.[0-9][0-9][0-9][0-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
 					color: 'rgba(255,0,0,0.4)'
