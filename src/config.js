@@ -931,6 +931,9 @@ var config = {
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#ff0000',
 			style: function () {
+				var key_regex = /^name:-[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
 					color: 'rgba(255,0,0,0.4)'
 				});
@@ -944,6 +947,9 @@ var config = {
 						stroke: stroke,
 						radius: 5
 					}),
+						text: new ol.style.Text({
+						text: name
+							}),
 					fill: fill,
 					stroke: stroke
 				});
@@ -983,6 +989,9 @@ var config = {
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#ff0000',
 			style: function () {
+				var key_regex = /^name:-[0-9][0-9][0-9][0-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
 					color: 'rgba(255,0,0,0.4)'
 				});
@@ -996,6 +1005,9 @@ var config = {
 						stroke: stroke,
 						radius: 5
 					}),
+						text: new ol.style.Text({
+						text: name
+							}),
 					fill: fill,
 					stroke: stroke
 				});
