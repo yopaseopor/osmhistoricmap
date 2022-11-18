@@ -2975,6 +2975,422 @@ var vectorLayer = new ol.layer.Vector({
 				});
 				return style;
 			}
+},
+		{
+			group: 'Decades',
+			title: '< 1909',
+			query: '(nwr[~"^name:-190[0-9]$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#E0E0F8',
+			style: function (feature) {
+				var key_regex = /^name:-190[0-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(224,224,248,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#E0E0F8',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name
+							}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		{
+			group: 'Decades',
+			title: '< 1919',
+			query: '(nwr[~"^name:-191[0-9]$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#CECEF6',
+			style: function (feature) {
+				var key_regex = /^name:-191[0-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(206,206,246,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#CECEF6',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name
+							}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		{
+			group: 'Decades',
+			title: '< 1929',
+			query: '(nwr[~"^name:-192[0-9]$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#A9A9F5',
+			style: function (feature) {
+				var key_regex = /^name:-192[0-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(169,169,245,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#A9A9F5',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name
+							}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		{
+			group: 'Decades',
+			title: '< 1939',
+			query: '(nwr[~"^name:-193[0-9]$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#8181F7',
+			style: function (feature) {
+				var key_regex = /^name:-193[0-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(129,129,247,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#8181F7',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name
+							}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		{
+			group: 'Decades',
+			title: '< 1949',
+			query: '(nwr[~"^name:-194[0-9]$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#5858FA',
+			style: function (feature) {
+				var key_regex = /^name:-194[0-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(88,88,250,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#5858FA',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name
+							}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		{
+			group: 'Decades',
+			title: '< 1959',
+			query: '(nwr[~"^name:-195[0-9]$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#2E2EFE',
+			style: function (feature) {
+				var key_regex = /^name:-195[0-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(46,46,254,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#2E2EFE',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name
+							}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		{
+			group: 'Decades',
+			title: '< 1969',
+			query: '(nwr[~"^name:-196[0-9]$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#0000ff',
+			style: function (feature) {
+				var key_regex = /^name:-196[0-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,0,255,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#0000ff',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name
+							}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		{
+			group: 'Decades',
+			title: '< 1979',
+			query: '(nwr[~"^name:-197[0-9]$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#0101DF',
+			style: function (feature) {
+				var key_regex = /^name:-197[0-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(1,1,223,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#0101DF',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name
+							}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		{
+			group: 'Decades',
+			title: '< 1989',
+			query: '(nwr[~"^name:-198[0-9]$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#0404B4',
+			style: function (feature) {
+				var key_regex = /^name:-198[0-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(4,4,180,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#0404B4',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name
+							}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		{
+			group: 'Decades',
+			title: '< 1999',
+			query: '(nwr[~"^name:-199[0-9]$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#08088A',
+			style: function (feature) {
+				var key_regex = /^-name:199[0-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(8,8,138,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#08088A',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name
+							}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		{
+			group: 'Decades',
+			title: '< 2009',
+			query: '(nwr[~"^name:-200[0-9]$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#E6E0F8',
+			style: function (feature) {
+				var key_regex = /^name:-201[0-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(230,224,248,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#E6E0F8',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name
+							}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		{
+			group: 'Decades',
+			title: '< 2019',
+			query: '(nwr[~"^name:-201[0-9]$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#D8CEF6',
+			style: function (feature) {
+				var key_regex = /^name:-201[0-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(216,206,246,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#D8CEF6',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name
+							}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		{
+			group: 'Decades',
+			title: '< 2029',
+			query: '(nwr[~"^name:-202[0-9]$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#BCA9F5',
+			style: function (feature) {
+				var key_regex = /^name:-202[0-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(188,169,245,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#BCA9F5',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name
+							}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
 		},
 		
 				// Overlay: 5 years
