@@ -906,7 +906,7 @@ var config = {
 			iconStyle: 'background-color:#3aff00',
 			style: function () {
 				var fill = new ol.style.Fill({
-					color: 'rgba(0,255,0,0.4)'
+					color: 'rgba(0,0,255,0.4)'
 				});
 				var stroke = new ol.style.Stroke({
 					color: '#3aff00',
@@ -918,6 +918,9 @@ var config = {
 						stroke: stroke,
 						radius: 5
 					}),
+						text: new ol.style.Text({
+						text: name
+							}),
 					fill: fill,
 					stroke: stroke
 				});
@@ -944,6 +947,9 @@ var config = {
 						stroke: stroke,
 						radius: 5
 					}),
+						text: new ol.style.Text({
+						text: name
+							}),
 					fill: fill,
 					stroke: stroke
 				});
@@ -951,7 +957,7 @@ var config = {
 			}
 		},
 				{
-			group: 'Per date',
+			group: 'Test',
 			title: 'Inexact start date',
 			query: '(nwr[~"^name:.....-..-..$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1002,6 +1008,9 @@ var config = {
 						stroke: stroke,
 						radius: 5
 					}),
+						text: new ol.style.Text({
+						text: name
+							}),
 					fill: fill,
 					stroke: stroke
 				});
@@ -1028,6 +1037,9 @@ var config = {
 						stroke: stroke,
 						radius: 5
 					}),
+						text: new ol.style.Text({
+						text: name
+							}),
 					fill: fill,
 					stroke: stroke
 				});
@@ -1035,7 +1047,7 @@ var config = {
 			}
 		},
 		{
-			group: 'Per date',
+			group: 'Test',
 			title: 'Inexact start year',
 			query: '(nwr[~"^name:.....$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1086,6 +1098,9 @@ var config = {
 						stroke: stroke,
 						radius: 5
 					}),
+						text: new ol.style.Text({
+						text: name
+							}),
 					fill: fill,
 					stroke: stroke
 				});
@@ -1112,6 +1127,9 @@ var config = {
 						stroke: stroke,
 						radius: 5
 					}),
+						text: new ol.style.Text({
+						text: name
+							}),
 					fill: fill,
 					stroke: stroke
 				});
@@ -1170,6 +1188,9 @@ var config = {
 						stroke: stroke,
 						radius: 5
 					}),
+						text: new ol.style.Text({
+						text: name
+							}),
 					fill: fill,
 					stroke: stroke
 				});
