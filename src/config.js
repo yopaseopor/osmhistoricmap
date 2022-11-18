@@ -1207,43 +1207,6 @@ var config = {
 		},
 		{
 			group: 'Per date',
-			title: 'Interval of years --',
-			query: '(nwr[~"^name:....--....$"~"."]({{bbox}});node(w););out meta;',
-			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:#e1ffff',
-			style: function (feature) {
-				var key_regex = /^name:[0-9][0-9][0-9][0-9]--[0-9][0-9][0-9][0-9]$/
-				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
-				var name = feature.get(name_key) || '';
-				var fill = new ol.style.Fill({
-					color: 'rgba(225,255,255,0.4)'
-				});
-				var stroke = new ol.style.Stroke({
-					color: '#e1ffff',
-					width: 5
-				});
-				var style = new ol.style.Style({
-					image: new ol.style.Circle({
-						fill: fill,
-						stroke: stroke,
-						radius: 5
-					}),
-							text: new ol.style.Text({
-								text: name,
-								offsetX : 7,
-								offsetY : -12,
-								fill: new ol.style.Fill({
-                            color: 'rgba(0,0,0,1)'
-                        }),
-						}),
-					fill: fill,
-					stroke: stroke
-				});
-				return style;
-			}
-		},
-		{
-			group: 'Per date',
 			title: 'Exact Interval of years',
 			query: '(nwr[~"^name:....-..-..-....-..-..$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -1654,43 +1617,7 @@ var vectorLayer = new ol.layer.Vector({
     });
     return style;
    }
-		},
-		{
-			group: 'Test',
-			title: 'InExact Interval of years',
-			query: '(nwr[~"^name:....-..-..--....-..-..$"~"."]({{bbox}});node(w););out meta;',
-			iconSrc: imgSrc + 'base/circle.svg',
-			iconStyle: 'background-color:#0000ff',
-			style: function (feature) {
-				var key_regex = /^name:[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]--[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]$/
-				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
-				var name = feature.get(name_key) || '';
-				var fill = new ol.style.Fill({
-					color: 'rgba(0,0,255,0.4)'
-				});
-				var stroke = new ol.style.Stroke({
-					color: '#0000ff',
-					width: 1.25
-				});
-				var style = new ol.style.Style({
-					image: new ol.style.Circle({
-						fill: fill,
-						stroke: stroke,
-						radius: 5
-					}),
-							text: new ol.style.Text({
-								text: name,
-								offsetX : 7,
-								offsetY : -12,
-								fill: new ol.style.Fill({
-                            color: 'rgba(0,0,0,1)'
-                        }),
-						}),
-					fill: fill,
-					stroke: stroke
-				});
-				return style;
-			}
+
 		},
 		{
 			group: 'Centuries',
@@ -2048,7 +1975,7 @@ var vectorLayer = new ol.layer.Vector({
 		{
 			group: 'Centuries',
 			title: '1000-1099',
-			query: '(nwr[~"^name:10[0-9][0-9]$"~"."]({{bbox}});node(w);<;);out meta;',
+			query: '(nwr[~"^name:10[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#753f4f',
 			style: function (feature) {
@@ -2366,10 +2293,48 @@ var vectorLayer = new ol.layer.Vector({
 				return style;
 			}
 		},
+				
+		{
+			group: 'Test',
+			title: 'InExact Interval of years',
+			query: '(nwr[~"^name:....-..-..--....-..-..$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#0000ff',
+			style: function (feature) {
+				var key_regex = /^name:[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]--[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,0,255,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#0000ff',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name,
+								offsetX : 7,
+								offsetY : -12,
+								fill: new ol.style.Fill({
+                            color: 'rgba(0,0,0,1)'
+                        }),
+						}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},	
 		{
 			group: 'Centuries',
 			title: '1900-1999',
-			query: '(nwr[~"^name:19[0-9][0-9]$"~"."]({{bbox}});node(w);<;);out meta;',
+			query: '(nwr[~"^name:19[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#8e7cff',
 			style: function (feature) {
