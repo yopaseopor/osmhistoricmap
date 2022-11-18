@@ -921,9 +921,14 @@ var config = {
 						stroke: stroke,
 						radius: 5
 					}),
-						text: new ol.style.Text({
-						text: name
-							}),
+							text: new ol.style.Text({
+								text: name,
+								offsetX : 7,
+								offsetY : -12,
+								fill: new ol.style.Fill({
+                            color: 'rgba(0,0,0,1)'
+                        }),
+						}),
 					fill: fill,
 					stroke: stroke
 				});
@@ -953,9 +958,14 @@ var config = {
 						stroke: stroke,
 						radius: 5
 					}),
-						text: new ol.style.Text({
-						text: name
-							}),
+							text: new ol.style.Text({
+								text: name,
+								offsetX : 7,
+								offsetY : -12,
+								fill: new ol.style.Fill({
+                            color: 'rgba(0,0,0,1)'
+                        }),
+						}),
 					fill: fill,
 					stroke: stroke
 				});
@@ -1017,9 +1027,14 @@ var config = {
 						stroke: stroke,
 						radius: 5
 					}),
-						text: new ol.style.Text({
-						text: name
-							}),
+							text: new ol.style.Text({
+								text: name,
+								offsetX : 7,
+								offsetY : -12,
+								fill: new ol.style.Fill({
+                            color: 'rgba(0,0,0,1)'
+                        }),
+						}),
 					fill: fill,
 					stroke: stroke
 				});
@@ -1049,9 +1064,14 @@ var config = {
 						stroke: stroke,
 						radius: 5
 					}),
-						text: new ol.style.Text({
-						text: name
-							}),
+							text: new ol.style.Text({
+								text: name,
+								offsetX : 7,
+								offsetY : -12,
+								fill: new ol.style.Fill({
+                            color: 'rgba(0,0,0,1)'
+                        }),
+						}),
 					fill: fill,
 					stroke: stroke
 				});
@@ -1171,9 +1191,14 @@ var config = {
 						stroke: stroke,
 						radius: 5
 					}),
-						text: new ol.style.Text({
-						text: name
-							}),
+							text: new ol.style.Text({
+								text: name,
+								offsetX : 7,
+								offsetY : -12,
+								fill: new ol.style.Fill({
+                            color: 'rgba(0,0,0,1)'
+                        }),
+						}),
 					fill: fill,
 					stroke: stroke
 				});
@@ -1203,9 +1228,14 @@ var config = {
 						stroke: stroke,
 						radius: 5
 					}),
-						text: new ol.style.Text({
-						text: name
-							}),
+							text: new ol.style.Text({
+								text: name,
+								offsetX : 7,
+								offsetY : -12,
+								fill: new ol.style.Fill({
+                            color: 'rgba(0,0,0,1)'
+                        }),
+						}),
 					fill: fill,
 					stroke: stroke
 				});
@@ -1235,9 +1265,14 @@ var config = {
 						stroke: stroke,
 						radius: 5
 					}),
-						text: new ol.style.Text({
-						text: name
-							}),
+							text: new ol.style.Text({
+								text: name,
+								offsetX : 7,
+								offsetY : -12,
+								fill: new ol.style.Fill({
+                            color: 'rgba(0,0,0,1)'
+                        }),
+						}),
 					fill: fill,
 					stroke: stroke
 				});
