@@ -900,11 +900,11 @@ var config = {
 			{
 			group: 'Per date',
 			title: 'Start date',
-			query: '(nwr["start_date"]({{bbox}});node(w););out meta;',
+			query: '(nwr[~"^start_date$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#00ff00',
 			style: function (feature) {
-				var key_regex = /^start_date$/
+				var key_regex = /^name$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
