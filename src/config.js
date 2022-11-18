@@ -897,7 +897,43 @@ var config = {
 
 		
 				
-		
+			{
+			group: 'Per date',
+			title: 'Start date',
+			query: '(nwr["start_date"]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#00ff00',
+			style: function (feature) {
+				var key_regex = /^start_date$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,255,0,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#0000ff',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name,
+								offsetX : 7,
+								offsetY : -12,
+								fill: new ol.style.Fill({
+                            color: 'rgba(0,0,0,1)'
+                        }),
+						}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},	
 		{
 			group: 'Per date',
 			title: 'Exact date',
@@ -2365,7 +2401,7 @@ var vectorLayer = new ol.layer.Vector({
 		},
 		{
 			group: 'Centuries',
-			title: '2000-2020',
+			title: '2000-2099',
 			query: '(nwr[~"^name:20[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#ef7cff',
@@ -2395,6 +2431,7 @@ var vectorLayer = new ol.layer.Vector({
 				return style;
 			}
 		},
+
 		{
 			group: 'Test',
 			title: '1900-1909',
