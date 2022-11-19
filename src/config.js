@@ -4172,7 +4172,7 @@ var vectorLayer = new ol.layer.Vector({
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#ef7cff',
 			style: function (feature) {
-				var key_regex = /^building:-[0-4][0-4][0-4][0-4]$/
+				var key_regex = /^building:[0-4][0-4][0-4][0-4]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
