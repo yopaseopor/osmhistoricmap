@@ -4166,6 +4166,70 @@ var vectorLayer = new ol.layer.Vector({
 		},
 		{
 			group: 'Type',
+			title: 'Way:xxxx',
+			query: '(nwr[~"^....way:[0-4][0-4][0-4][0-4]$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#ef7cff',
+			style: function (feature) {
+				var key_regex = /^....way:[0-4][0-4][0-4][0-4]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,0,255,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#ef7cff',
+					width: 5
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name
+							}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		{
+			group: 'Type',
+			title: 'Way:< xxxx',
+			query: '(nwr[~"^....way:-[0-4][0-4][0-4][0-4]$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#ef7cff',
+			style: function (feature) {
+				var key_regex = /^....way:-[0-4][0-4][0-4][0-4]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,0,255,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#ef7cff',
+					width: 5
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name
+							}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		{
+			group: 'Type',
 			title: 'Name:xxxx',
 			query: '(nwr[~"^name:[0-4][0-4][0-4][0-4]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
