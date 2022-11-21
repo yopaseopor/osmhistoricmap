@@ -4457,11 +4457,11 @@ var vectorLayer = new ol.layer.Vector({
 		{
 			group: 'Type',
 			title: 'Tourism:< xxxx',
-			query: '(nwr[~"^shop:-[0-4][0-4][0-4][0-4]$"~"."]({{bbox}});node(w););out meta;',
+			query: '(nwr[~"^tourism:-[0-4][0-4][0-4][0-4]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#ef7cff',
 			style: function (feature) {
-				var key_regex = /^name:-[0-4][0-4][0-4][0-4]$/
+				var key_regex = /^tourism:-[0-4][0-4][0-4][0-4]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
