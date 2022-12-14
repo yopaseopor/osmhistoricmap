@@ -2528,7 +2528,7 @@ var vectorLayer = new ol.layer.Vector({
 },
 		{
 			group: 'Centuries',
-			title: 'ST < 1899',
+			title: 'STD < 1899',
 			query: '(nwr["start_date"~"18[0-9][0-9]$"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#7ca0ff',
@@ -2560,12 +2560,12 @@ var vectorLayer = new ol.layer.Vector({
 		},	
 		{
 			group: 'Centuries',
-			title: '< 1999',
-			query: '(nwr[~"^name:-19[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
+			title: 'STD < 1999',
+			query: '(nwr["start_date"~"19[0-9][0-9]$"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#8e7cff',
 			style: function (feature) {
-				var key_regex = /^name:-19[0-9][0-9]$/
+				var key_regex = /^start_date/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
@@ -2592,12 +2592,12 @@ var vectorLayer = new ol.layer.Vector({
 		},
 		{
 			group: 'Centuries',
-			title: '< 2099',
-			query: '(nwr[~"^name:-20[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
+			title: 'STD < 2099',
+			query: '("start_date"~"20[0-9][0-9]$"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#ef7cff',
 			style: function (feature) {
-				var key_regex = /^name:-20[0-9][0-9]$/
+				var key_regex = /^start_date/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
