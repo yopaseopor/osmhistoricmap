@@ -2626,7 +2626,7 @@ var vectorLayer = new ol.layer.Vector({
 		{
 			group: 'Centuries',
 			title: 'STD < 2099',
-			query: '("start_date"~"20[0-9][0-9]$"]({{bbox}});node(w););out meta;',
+			query: '(nwr["start_date"~"20[0-9][0-9]$"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#ef7cff',
 			style: function (feature) {
@@ -3907,11 +3907,11 @@ var vectorLayer = new ol.layer.Vector({
 		{
 			group: 'Decades',
 			title: 'STD < 2029',
-			query: '(nwr[~"-202[0-9]$"~"."]({{bbox}});node(w););out meta;',
+			query: '(nwr["start_date"~"^202[0-9]$"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#BCA9F5',
 			style: function (feature) {
-				var key_regex = /-202[0-9]$/
+				var key_regex = /^start_date/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
