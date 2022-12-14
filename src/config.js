@@ -42,12 +42,11 @@ var config = {
 			source: new ol.source.OSM()
 		}),
 		new ol.layer.Tile({
-			title: 'OpenStreetMap B&W',
-			iconSrc: imgSrc + 'osmbw_logo-layer.png',
+			title: 'OpenStreetMap HOT',
+			iconSrc: imgSrc + 'logo_hotosm.png',
 			source: new ol.source.XYZ({
-				attributions: '&copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap</a>',
-				//url: 'https://toolserver.org/tiles/bw-mapnik/{z}/{x}/{y}.png'
-				url: 'https://tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png'
+				attributions: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Tiles style by <a href="https://www.hotosm.org/" target="_blank">Humanitarian OpenStreetMap Team</a> hosted by <a href="https://openstreetmap.fr/" target="_blank">OpenStreetMap France</a>',
+				url: 'https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png'
 			}),
 			visible: false
 		}),
