@@ -26,11 +26,11 @@ var config = {
 	},
 	overpassApi: function(){
 		// https://overpass-turbo.eu/
-		var proxyOverpassApi = false;
+		var proxyOverpassApi = true;
 		var overpassApi = 'https://overpass-api.de/api/interpreter';
 		if (proxyOverpassApi)
 		{
-			overpassApi = 'https://mijndev.openstreetmap.nl/~ligfietser/fiets/api/interpreter/';
+			overpassApi = 'https://overpass.kumi.systems/api/interpreter';
 		}
 		return overpassApi;
 	},
@@ -2526,6 +2526,39 @@ var vectorLayer = new ol.layer.Vector({
 				return style;
 			}
 },
+		{
+			group: 'Centuries',
+			title: 'STD < 1799',
+			query: '(nwr["start_date"~"18[0-9][0-9]$"]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#7cfff5',
+			style: function (feature) {
+				var key_regex = /^start_date/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,0,255,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#7cfff5',
+					width: 5
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name,
+								placement: 'line'
+							}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
 		{
 			group: 'Centuries',
 			title: 'STD < 1899',
