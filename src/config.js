@@ -3555,11 +3555,11 @@ var vectorLayer = new ol.layer.Vector({
 		{
 			group: 'Decades',
 			title: 'STD < 1919',
-			query: '(nwr[~"^name:-191[0-9]$"~"."]({{bbox}});node(w););out meta;',
+			query: '(nwr["start_date"~"^191[0-9]$"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#CECEF6',
 			style: function (feature) {
-				var key_regex = /^name:-191[0-9]$/
+				var key_regex = /^start_date/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
@@ -3587,11 +3587,11 @@ var vectorLayer = new ol.layer.Vector({
 		{
 			group: 'Decades',
 			title: 'STD < 1929',
-			query: '(nwr[~"-192[0-9]$"~"."]({{bbox}});node(w););out meta;',
+			query: '(nwr["start_date"~"^192[0-9]$"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#A9A9F5',
 			style: function (feature) {
-				var key_regex = /192[0-9]$/
+				var key_regex = /^start_date/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
@@ -3619,11 +3619,11 @@ var vectorLayer = new ol.layer.Vector({
 		{
 			group: 'Decades',
 			title: 'STD < 1939',
-			query: '(nwr[~"-193[0-9]$"~"."]({{bbox}});node(w););out meta;',
+			query: '(nwr["start_date"~"^193[0-9]$"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#8181F7',
 			style: function (feature) {
-				var key_regex = /-193[0-9]$/
+				var key_regex = /^start_date/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
@@ -3651,11 +3651,11 @@ var vectorLayer = new ol.layer.Vector({
 		{
 			group: 'Decades',
 			title: 'STD < 1949',
-			query: '(nwr[~"-194[0-9]$"~"."]({{bbox}});node(w););out meta;',
+			query: '(nwr["start_date"~"^194[0-9]$"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#5858FA',
 			style: function (feature) {
-				var key_regex = /-194[0-9]$/
+				var key_regex = /^start_date/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
@@ -3683,11 +3683,11 @@ var vectorLayer = new ol.layer.Vector({
 		{
 			group: 'Decades',
 			title: 'STD < 1959',
-			query: '(nwr[~"-195[0-9]$"~"."]({{bbox}});node(w););out meta;',
+			query: '(nwr["start_date"~"^195[0-9]$"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#2E2EFE',
 			style: function (feature) {
-				var key_regex = /-195[0-9]$/
+				var key_regex = /^start_date/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
@@ -3715,11 +3715,11 @@ var vectorLayer = new ol.layer.Vector({
 		{
 			group: 'Decades',
 			title: 'STD < 1969',
-			query: '(nwr[~"-196[0-9]$"~"."]({{bbox}});node(w););out meta;',
+			query: '(nwr["start_date"~"^196[0-9]$"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#0000ff',
 			style: function (feature) {
-				var key_regex = /-196[0-9]$/
+				var key_regex = /^start_date/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
@@ -3747,11 +3747,11 @@ var vectorLayer = new ol.layer.Vector({
 		{
 			group: 'Decades',
 			title: 'STD < 1979',
-			query: '(nwr[~"-197[0-9]$"~"."]({{bbox}});node(w););out meta;',
+			query: '(nwr["start_date"~"^197[0-9]$"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#0101DF',
 			style: function (feature) {
-				var key_regex = /-197[0-9]$/
+				var key_regex = /^start_date/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
@@ -3779,11 +3779,11 @@ var vectorLayer = new ol.layer.Vector({
 		{
 			group: 'Decades',
 			title: 'STD < 1989',
-			query: '(nwr[~"-198[0-9]$"~"."]({{bbox}});node(w););out meta;',
+			query: '(nwr["start_date"~"^198[0-9]$"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#0404B4',
 			style: function (feature) {
-				var key_regex = /-198[0-9]$/
+				var key_regex = /^start_date/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
@@ -3811,11 +3811,11 @@ var vectorLayer = new ol.layer.Vector({
 		{
 			group: 'Decades',
 			title: 'STD < 1999',
-			query: '(nwr[~"-199[0-9]$"~"."]({{bbox}});node(w););out meta;',
+			query: '(nwr["start_date"~"^199[0-9]$"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#08088A',
 			style: function (feature) {
-				var key_regex = /-199[0-9]$/
+				var key_regex = /^start_date/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
@@ -3843,11 +3843,11 @@ var vectorLayer = new ol.layer.Vector({
 		{
 			group: 'Decades',
 			title: 'STD < 2009',
-			query: '(nwr[~"-200[0-9]$"~"."]({{bbox}});node(w););out meta;',
+			query: '(nwr["start_date"~"^200[0-9]$"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#E6E0F8',
 			style: function (feature) {
-				var key_regex = /-200[0-9]$/
+				var key_regex = /^start_date/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
@@ -3875,11 +3875,11 @@ var vectorLayer = new ol.layer.Vector({
 		{
 			group: 'Decades',
 			title: 'STD < 2019',
-			query: '(nwr[~"-201[0-9]$"~"."]({{bbox}});node(w););out meta;',
+			query: '(nwr["start_date"~"^201[0-9]$"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#D8CEF6',
 			style: function (feature) {
-				var key_regex = /-201[0-9]$/
+				var key_regex = /^start_date/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var fill = new ol.style.Fill({
