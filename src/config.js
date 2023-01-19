@@ -411,7 +411,7 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '2020 ES_IGN-PNOA',
+			title: '2020 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
