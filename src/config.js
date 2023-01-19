@@ -416,7 +416,7 @@ var config = {
 			source: new ol.source.TileWMS({
 				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'https://www.ign.es/wms/pnoa-historico?',
-				params: {'LAYERS': 'PNOA2020'}
+				params: {'LAYERS': 'PNOA2020', 'VERSION': '1.3.0'}
 			}),
 			visible: false
 		}),
