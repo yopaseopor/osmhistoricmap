@@ -411,12 +411,12 @@ var config = {
 			visible: false
 		}),
 		new ol.layer.Tile({
-			title: '2020 ES_IGN- PNOA',
+			title: '2020 ES_IGN - PNOA',
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
-				url: 'https://www.ign.es/wms/pnoa-historico?',
-				params: {'LAYERS': 'PNOA2020', 'VERSION': '1.3.0'}
+				url: 'http://www.ign.es/wms-inspire/pnoa-ma?',
+				params: {'LAYERS': 'OI.OrthoimageCoverage', 'VERSION': '1.3.0'}
 			}),
 			visible: false
 		}),
