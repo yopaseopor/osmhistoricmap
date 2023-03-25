@@ -5991,11 +5991,11 @@ var vectorLayer = new ol.layer.Vector({
 		{
 			group: 'Topics',
 			title: 'ES_1939-1975 Spanish Dictatorship names_interval',
-			query: '(nwr[~"^name:193[0-9]-197[0-9]$"~"."]({{bbox}});node(w););out meta;',
+			query: '(nwr[~"^name:193[6-9]-197[0-5]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#714601',
 			style: function (feature) {
-				var key_regex = /^name:193[0-9]-197[0-9]$/
+				var key_regex = /^name:193[6-9]-197[0-5]$/
 				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
 				var name = feature.get(name_key) || '';
 				var styles = {
