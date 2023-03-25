@@ -2,7 +2,6 @@
  * OSM Cat config
  */
 
-
 var imgSrc = 'src/img/';
 
 var config = {
