@@ -6180,7 +6180,7 @@ var vectorLayer = new ol.layer.Vector({
 							})
 						})
 					},
-					'place:1966': {
+					'place:19[4-7][0-9]': {
 						'.*': new ol.style.Style({
 							zIndex: 100,
 							stroke: new ol.style.Stroke({
@@ -6311,7 +6311,7 @@ var vectorLayer = new ol.layer.Vector({
 							})
 						})
 					},
-					'highway:1966': {
+					'highway:19[4-7][0-9]': {
 						'residential': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(255, 255, 255, 1.0)',
@@ -6426,7 +6426,7 @@ var vectorLayer = new ol.layer.Vector({
 							})
 						})
 					},
-					'natural:1966': {
+					'natural:19[4-7][0-9]': {
 						'beach': new ol.style.Style({
 							stroke: new ol.style.Stroke({
 								color: 'rgba(214, 196, 152, 1.0)',
