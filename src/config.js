@@ -6163,7 +6163,7 @@ var vectorLayer = new ol.layer.Vector({
 		{
 			group: 'Topics',
 			title: 'ES_1939-1975 Spanish Dictatorship names_date',
-			query: '(r[~"^name:19[4-7][0-9]$"~"."]({{bbox}});way(r)({{bbox}});node(w););out body;>;out meta qt;',
+			query: '(nwr[~"^name:19[4-7][0-9]$"~"."]({{bbox}});way(r);)node(w););out body;>;out meta qt;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#714601',
 			style: function (feature) {
