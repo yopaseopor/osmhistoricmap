@@ -6458,6 +6458,36 @@ var vectorLayer = new ol.layer.Vector({
 							})
 						})
 					},
+					'tourism': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(246, 99, 79, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(246, 99, 79, 0.3)'
+							}),
+							text: new ol.style.Text({
+								text: name
+							})
+						})
+					},
+					'tourism:19[4-7][0-9]': {
+						'.*': new ol.style.Style({
+							zIndex: 100,
+							stroke: new ol.style.Stroke({
+								color: 'rgba(246, 99, 79, 1.0)',
+								width: 1
+							}),
+							fill: new ol.style.Fill({
+								color: 'rgba(246, 99, 79, 0.3)'
+							}),
+							text: new ol.style.Text({
+								text: name
+							})
+						})
+					},
 					'natural:19[4-7][0-9]': {
 						'beach': new ol.style.Style({
 							stroke: new ol.style.Stroke({
