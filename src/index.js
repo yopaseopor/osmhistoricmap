@@ -189,13 +189,7 @@ $(function () {
 
     	$.each(layerGroup.layers, function(indexLayer, layer) {
 
-	    	let sourceParams = {};
-	    	if (layer.source.attributions)
-	    		sourceParams.attributions = layer.source.attributions;
-	    	if (layer.source.url)
-					sourceParams.url = layer.source.url;
-	    	if (layer.source.params)
-					sourceParams.params = layer.source.params;
+	    	
 
 	    	let source = null;
 	    	if (layer.source.type = "OSM") {
@@ -207,6 +201,14 @@ $(function () {
 	    	else if (layer.source.type = "TileWMS") {
 	    		source = new ol.source.TileWMS(sourceParams)
 	    	}
+			
+			let sourceParams = {};
+	    	if (layer.source.attributions)
+	    		sourceParams.attributions = layer.source.attributions;
+	    	if (layer.source.url)
+					sourceParams.url = layer.source.url;
+	    	if (layer.source.params)
+					sourceParams.params = layer.source.params;
 
 		    let newLayer = new ol.layer.Tile({
 					title: layer.title,
