@@ -12,12 +12,12 @@
 				"visible": true
 			},
 			{
-				"title": "OpenStreetMap B&W",
-				"iconSrc": "osmbw_logo-layer.png",
+				"title": "OpenStreetMap HOT",
+				"iconSrc": "logo_hotosm.png",
 				"source": {
 					"type": "XYZ",
-					"attributions": "&copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap</a>",
-					"url": "https://tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png"
+					"attributions": "&copy; <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> contributors, Tiles style by <a href='https://www.hotosm.org/' target='_blank'>Humanitarian OpenStreetMap Team</a> hosted by <a href='https://openstreetmap.fr/' target='_blank'>OpenStreetMap France</a>",
+					"url": "https://{a-c}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png"
 				}
 			},
 			{
@@ -30,12 +30,12 @@
 				}
 			},
 			{
-				"title": "OpenMapSurfer",
-				"iconSrc": "openroute_logo_layer.png",
+				"title": "Stadia Alidade smooth",
+				"iconSrc": "logo_stadiamaps.svg",
 				"source": {
 					"type": "XYZ",
-					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>, powered by <a href='https://mapsurfernet.com/' target='_blank'>MapSurfer.NET</a>",
-					"url": "https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/{z}/{x}/{y}.png"
+					"attributions": "&copy; <a href='https://stadiamaps.com/'>Stadia Maps</a>, &copy; <a href='https://openmaptiles.org/'>OpenMapTiles</a> &copy; <a href='http://openstreetmap.org'>OpenStreetMap</a> contributors",
+					"url": "https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}.png"
 				}
 			},
 			{
