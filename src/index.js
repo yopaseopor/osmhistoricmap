@@ -177,6 +177,59 @@ $(function () {
 		zoom: config.initialConfig.zoom
 	});
 
+	let layerGroups = [];
+
+	$.getJSON("src/layers.json")
+  .done(function(data) {
+
+    $.each(data, function(indexLayerGroup, layerGroup) {
+    	console.log(indexLayerGroup, layerGroup.title);
+
+    	layerGroups.push(layerGroup.title);
+
+    	$.each(layerGroup.layers, function(indexLayer, layer) {
+
+	    	let sourceParams = {};
+	    	if (layer.source.attributions)
+	    		sourceParams.attributions = layer.source.attributions;
+	    	if (layer.source.url)
+					sourceParams.url = layer.source.url;
+	    	if (layer.source.params)
+					sourceParams.params = layer.source.params;
+
+	    	let source = null;
+	    	if (layer.source.type = "OSM") {
+	    		source = new ol.source.OSM(sourceParams)
+	    	}
+	    	else if (layer.source.type = "XYZ") {
+	    		source = new ol.source.XYZ(sourceParams)
+	    	}
+	    	else if (layer.source.type = "TileWMS") {
+	    		source = new ol.source.TileWMS(sourceParams)
+	    	}
+
+		    let newLayer = new ol.layer.Tile({
+					title: layer.title,
+					iconSrc: imgSrc + layer.iconSrc,
+					source: source,
+					layerGroup: indexLayerGroup,
+					visible: layer.visible || false
+				});
+
+				map.addLayer(newLayer);
+	    	config.layers.push(newLayer);
+	    });
+    });
+
+		$('#menu').append(layersControlBuild());
+
+		$('.layer').hide();
+		$('.layerGroup0').show();
+  })
+  .fail(function() {
+    console.log("error loading layers.json");
+  })
+
 	const map = new ol.Map({
 		layers: config.layers,
 		target: 'map',
@@ -190,6 +243,12 @@ $(function () {
 			overlayIndex = 0,
 			container = $('<div>').addClass('osmcat-menu'),
 			layerDiv = $('<div>').addClass('osmcat-layer'),
+			layerSelect = $('<select>').addClass('osmcat-select').on('change', function () {
+				var layerSelected = $(this).find('option:selected');
+
+				container.find('.layer').hide();
+				container.find('.' + layerSelected.val()).show();
+			}),
 			overlaySelect = $('<select>').addClass('osmcat-select').on('change', function () {
 				var overlaySelected = $(this).find('option:selected');
 
@@ -259,6 +318,8 @@ $(function () {
 						updatePermalink();
 					});
 
+					layerButton.addClass('layer layerGroup'+layer.get('layerGroup'));
+
 					layer.set('layerIndex', layerIndex);
 
 				content.append(layerButton);
@@ -281,14 +342,17 @@ $(function () {
 				layerIndex++;
 			}
 		});
-		layerDiv.append(label, content);
+
+		$.each(layerGroups, function(indexLayerGroup, layerGroupTitle) {
+			layerSelect.append($('<option>').val('layerGroup' + indexLayerGroup).text(layerGroupTitle));
+		});
+
+		layerDiv.append(label, layerSelect, content);
 		container.append(layerDiv, overlayDiv);
 		overlaySelect.trigger('change');
 
 		return container;
 	};
-
-	$('#menu').append(layersControlBuild());
 
 	map.addControl(new ol.control.MousePosition({
 		coordinateFormat: function (coordinate) {

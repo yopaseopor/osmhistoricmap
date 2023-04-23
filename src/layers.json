@@ -1,0 +1,817 @@
+[
+	{
+		"title": "OpenStreetMap",
+		"iconSrc": "osm_logo-layer.svg",
+		"layers": [
+			{
+				"title": "OpenStreetMap",
+				"iconSrc": "osm_logo-layer.svg",
+				"source": {
+					"type": "OSM"
+				},
+				"visible": true
+			},
+			{
+				"title": "OpenStreetMap B&W",
+				"iconSrc": "osmbw_logo-layer.png",
+				"source": {
+					"type": "XYZ",
+					"attributions": "&copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap</a>",
+					"url": "https://tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png"
+				}
+			},
+			{
+				"title": "OpenStreetMap France",
+				"iconSrc": "osmfr_logo-layer.png",
+				"source": {
+					"type": "OSM",
+					"attributions": "&copy; <a href='https://www.openstreetmap.fr/'' target='_blank'>OpenStreetMap France</a>",
+					"url": "https://{a-c}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png"
+				}
+			},
+			{
+				"title": "OpenMapSurfer",
+				"iconSrc": "openroute_logo_layer.png",
+				"source": {
+					"type": "XYZ",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>, powered by <a href='https://mapsurfernet.com/' target='_blank'>MapSurfer.NET</a>",
+					"url": "https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/{z}/{x}/{y}.png"
+				}
+			},
+			{
+				"title": "OpenCycleMap",
+				"iconSrc": "opencycle_logo_layer.png",
+				"source": {
+					"type": "XYZ",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap</a>, powered by &copy; <a href='http://www.thunderforest.com/' target='_blank'>Thunderforest</a>",
+					"url": "https://{a-c}.tile.thunderforest.com/cycle/{z}/{x}/{y}.png?apikey=a5dd6a2f1c934394bce6b0fb077203eb"
+				}
+			}
+		]
+	},
+	{
+		"title": "IGN",
+		"iconSrc": "logo_ign.png",
+		"layers": [
+			{
+				"title": "1870-1950 ES_IGN 0 Planimetrías (Minutas cartográficas)",
+				"iconSrc": "logo_ign.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN",
+					"url": "https://www.ign.es/wms/minutas-cartograficas?",
+					"params": {"LAYERS": "Minutas"}
+				}
+			},
+			{
+				"title": "1915 ES_IGN 0 Edición MTN50 (Catastrones)",
+				"iconSrc": "logo_ign.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN",
+					"url": "https://www.ign.es/wms/primera-edicion-mtn?",
+					"params": {"LAYERS": "catastrones"}
+				}
+			}
+		]
+	},
+	{
+		"title": "Otros",
+		"iconSrc": "logo_ign.png",
+		"layers": [
+			{
+				"title": "Topotresc",
+				"iconSrc": "topotresc_layer.png",
+				"source": {
+					"type": "XYZ",
+					"attributions": "Map data <a href='https://www.topotresc.com/' target='_blank'>TopoTresk</a> by <a href='https://github.com/aresta/topotresc' target='_blank'>aresta</a>",
+					"url": "https://api.topotresc.com/tiles/{z}/{x}/{y}"
+				}
+			},
+			{
+				"title": "ArcGIS World Topo",
+				"iconSrc": "worldtopomap_logo_layer.png",
+				"source": {
+					"type": "XYZ",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap</a> contributors, &copy; <a href='https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer' target='_blank'>ArcGIS</a>",
+					"url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}"
+				}
+			},
+			{
+				"title": "Positron (CartoDB)",
+				"iconSrc": "cartodb_logo_layer.png",
+				"source": {
+					"type": "XYZ",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap</a> contributors, &copy; <a href='https://cartodb.com/attributions' target='_blank'>CartoDB</a>",
+					"url": "https://s.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"
+				}
+			},
+			{
+				"title": "Dark Matter (CartoDB)",
+				"iconSrc": "cartodb_logo_layer.png",
+				"source": {
+					"type": "XYZ",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap</a> contributors, &copy; <a href='https://cartodb.com/attributions' target='_blank'>CartoDB</a>",
+					"url": "https://s.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png"
+				}
+			},
+			{
+				"title": "Esri Sat",
+				"iconSrc": "esri_logo_layer.png",
+				"source": {
+					"type": "XYZ",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community",
+					"url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+				}
+			},
+			{
+				"title": "Ortoimágenes 1956 JCyL",
+				"iconSrc": "jcyl.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; JCyL &mdash; Source: JCyL",
+					"url": "http://orto.wms.itacyl.es/erdas-iws/ogc/wms/p1?",
+					"params": {"LAYERS": "Ortofoto_1956", "VERSION": "1.3.0"}
+				}
+			},
+			{
+				"title": "Ortoimágenes 2021 JCyL",
+				"iconSrc": "jcyl.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; JCyL &mdash; Source: JCyL",
+					"url": "http://orto.wms.itacyl.es/erdas-iws/ogc/wms/p1?",
+					"params": {"LAYERS": "Ortofoto_CyL", "VERSION": "1.3.0"}
+				}
+			},
+			{
+				"title": "1870-1950 ES_IGN 0 Planimetrías (Minutas cartográficas)",
+				"iconSrc": "logo_ign.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN",
+					"url": "https://www.ign.es/wms/minutas-cartograficas?",
+					"params": {"LAYERS": "Minutas"}
+				}
+			},
+			{
+				"title": "1915 ES_IGN 0 Edición MTN50 (Catastrones)",
+				"iconSrc": "logo_ign.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN",
+					"url": "https://www.ign.es/wms/primera-edicion-mtn?",
+					"params": {"LAYERS": "catastrones"}
+				}
+			},
+			{
+				"title": "ES_IGN 1a Edición MTN25",
+				"iconSrc": "logo_ign.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN",
+					"url": "https://www.ign.es/wms/primera-edicion-mtn?",
+					"params": {"LAYERS": "MTN25"}
+				}
+			},
+			{
+				"title": "ES_IGN 1a Edición MTN50",
+				"iconSrc": "logo_ign.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN",
+					"url": "https://www.ign.es/wms/primera-edicion-mtn?",
+					"params": {"LAYERS": "MTN50"}
+				}
+			},
+			{
+				"title": "1945-1946 ES_IGN - Vol AMS Sèrie A",
+				"iconSrc": "logo_ign.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN",
+					"url": "https://fototeca.cnig.es/wms/fototeca.dll?",
+					"params": {"LAYERS": "americano_serie_a"}
+				}
+			},
+			{
+				"title": "1956-1957 ES_IGN - Vol AMS Sèrie B",
+				"iconSrc": "logo_ign.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN",
+					"url": "https://www.ign.es/wms/pnoa-historico?",
+					"params": {"LAYERS": "AMS_1956-1957"}
+				}
+			},
+			{
+				"title": "1973-1986 ES_IGN - Interministerial",
+				"iconSrc": "logo_ign.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN",
+					"url": "https://www.ign.es/wms/pnoa-historico?",
+					"params": {"LAYERS": "Interministerial_1973-1986"}
+				}
+			},
+			{
+				"title": "1981-1986 ES_IGN - Nacional",
+				"iconSrc": "logo_ign.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN",
+					"url": "https://www.ign.es/wms/pnoa-historico?",
+					"params": {"LAYERS": "Nacional_1981-1986"}
+				}
+			},
+			{
+				"title": "1997-1998 ES_IGN - Olistat",
+				"iconSrc": "logo_ign.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN",
+					"url": "https://www.ign.es/wms/pnoa-historico?",
+					"params": {"LAYERS": "OLISTAT"}
+				}
+			},
+			{
+				"title": "1997-2003 ES_IGN - Sigpac",
+				"iconSrc": "logo_ign.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN",
+					"url": "https://www.ign.es/wms/pnoa-historico?",
+					"params": {"LAYERS": "SIGPAC"}
+				}
+			},
+			{
+				"title": "2004 ES_IGN - PNOA",
+				"iconSrc": "logo_ign.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN",
+					"url": "https://www.ign.es/wms/pnoa-historico?",
+					"params": {"LAYERS": "PNOA2004"}
+				}
+			},
+			{
+				"title": "2005 ES_IGN - PNOA",
+				"iconSrc": "logo_ign.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN",
+					"url": "https://www.ign.es/wms/pnoa-historico?",
+					"params": {"LAYERS": "PNOA2005"}
+				}
+			},
+			{
+				"title": "2006 ES_IGN - PNOA",
+				"iconSrc": "logo_ign.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN",
+					"url": "https://www.ign.es/wms/pnoa-historico?",
+					"params": {"LAYERS": "PNOA2006"}
+				}
+			},
+			{
+				"title": "2007 ES_IGN - PNOA",
+				"iconSrc": "logo_ign.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN",
+					"url": "https://www.ign.es/wms/pnoa-historico?",
+					"params": {"LAYERS": "PNOA2007"}
+				}
+			},
+			{
+				"title": "2008 ES_IGN - PNOA",
+				"iconSrc": "logo_ign.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN",
+					"url": "https://www.ign.es/wms/pnoa-historico?",
+					"params": {"LAYERS": "PNOA2008"}
+				}
+			},
+			{
+				"title": "2009 ES_IGN - PNOA",
+				"iconSrc": "logo_ign.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN",
+					"url": "https://www.ign.es/wms/pnoa-historico?",
+					"params": {"LAYERS": "PNOA2009"}
+				}
+			},
+			{
+				"title": "2010 ES_IGN - PNOA",
+				"iconSrc": "logo_ign.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN",
+					"url": "https://www.ign.es/wms/pnoa-historico?",
+					"params": {"LAYERS": "PNOA2010"}
+				}
+			},
+			{
+				"title": "2011 ES_IGN - PNOA",
+				"iconSrc": "logo_ign.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN",
+					"url": "https://www.ign.es/wms/pnoa-historico?",
+					"params": {"LAYERS": "PNOA2011"}
+				}
+			},
+			{
+				"title": "2012 ES_IGN - PNOA",
+				"iconSrc": "logo_ign.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN",
+					"url": "https://www.ign.es/wms/pnoa-historico?",
+					"params": {"LAYERS": "PNOA2012"}
+				}
+			},
+			{
+				"title": "2013 ES_IGN - PNOA",
+				"iconSrc": "logo_ign.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN",
+					"url": "https://www.ign.es/wms/pnoa-historico?",
+					"params": {"LAYERS": "PNOA2013"}
+				}
+			},
+			{
+				"title": "2014 ES_IGN - PNOA",
+				"iconSrc": "logo_ign.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN",
+					"url": "https://www.ign.es/wms/pnoa-historico?",
+					"params": {"LAYERS": "PNOA2014"}
+				}
+			},
+			{
+				"title": "2015 ES_IGN - PNOA",
+				"iconSrc": "logo_ign.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN",
+					"url": "https://www.ign.es/wms/pnoa-historico?",
+					"params": {"LAYERS": "PNOA2015"}
+				}
+			},
+			{
+				"title": "2016 ES_IGN - PNOA",
+				"iconSrc": "logo_ign.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN",
+					"url": "https://www.ign.es/wms/pnoa-historico?",
+					"params": {"LAYERS": "PNOA2016"}
+				}
+			},
+			{
+				"title": "2017 ES_IGN - PNOA",
+				"iconSrc": "logo_ign.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN",
+					"url": "https://www.ign.es/wms/pnoa-historico?",
+					"params": {"LAYERS": "PNOA2017"}
+				}
+			},
+			{
+				"title": "2018 ES_IGN - PNOA",
+				"iconSrc": "logo_ign.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN",
+					"url": "https://www.ign.es/wms/pnoa-historico?",
+					"params": {"LAYERS": "PNOA2018"}
+				}
+			},
+			{
+				"title": "2019 ES_IGN - PNOA",
+				"iconSrc": "logo_ign.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN",
+					"url": "https://www.ign.es/wms/pnoa-historico?",
+					"params": {"LAYERS": "PNOA2019"}
+				}
+			},
+			{
+				"title": "1945-1946 ES_CAT_ICGC - Vol AMS Sèrie A",
+				"iconSrc": "logo_icgc.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC",
+					"url": "https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?",
+					"params": {"LAYERS": "ovaa10m", "VERSION": "1.1.1"}
+				}
+			},
+			{
+				"title": "1984 ES_CAT_ICGC - 1:5000",
+				"iconSrc": "logo_icgc.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC",
+					"url": "https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?",
+					"params": {"LAYERS": "orto5m1984", "VERSION": "1.1.1"}
+				}
+			},
+			{
+				"title": "1986 ES_CAT_ICGC - 1:5000",
+				"iconSrc": "logo_icgc.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC",
+					"url": "https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?",
+					"params": {"LAYERS": "orto5m1986", "VERSION": "1.1.1"}
+				}
+			},
+			{
+				"title": "1987 ES_CAT_ICGC - 1:5000",
+				"iconSrc": "logo_icgc.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC",
+					"url": "https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?",
+					"params": {"LAYERS": "orto5m1987", "VERSION": "1.1.1"}
+				}
+			},
+			{
+				"title": "1988 ES_CAT_ICGC - 1:5000",
+				"iconSrc": "logo_icgc.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC",
+					"url": "https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?",
+					"params": {"LAYERS": "orto5m1988", "VERSION": "1.1.1"}
+				}
+			},
+			{
+				"title": "1989 ES_CAT_ICGC - 1:5000",
+				"iconSrc": "logo_icgc.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC",
+					"url": "https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?",
+					"params": {"LAYERS": "orto5m1989", "VERSION": "1.1.1"}
+				}
+			},
+			{
+				"title": "1990 ES_CAT_ICGC - 1:5000",
+				"iconSrc": "logo_icgc.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC",
+					"url": "https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?",
+					"params": {"LAYERS": "orto5m1990", "VERSION": "1.1.1"}
+				}
+			},
+			{
+				"title": "1991 ES_CAT_ICGC - 1:5000",
+				"iconSrc": "logo_icgc.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC",
+					"url": "https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?",
+					"params": {"LAYERS": "orto5m1991", "VERSION": "1.1.1"}
+				}
+			},
+			{
+				"title": "1992 ES_CAT_ICGC - 1:5000",
+				"iconSrc": "logo_icgc.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC",
+					"url": "https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?",
+					"params": {"LAYERS": "orto5m1992", "VERSION": "1.1.1"}
+				}
+			},
+			{
+				"title": "1994 ES_CAT_ICGC - 1:5000",
+				"iconSrc": "logo_icgc.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC",
+					"url": "https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?",
+					"params": {"LAYERS": "orto5m1994", "VERSION": "1.1.1"}
+				}
+			},
+			{
+				"title": "1995 ES_CAT_ICGC - 1:5000",
+				"iconSrc": "logo_icgc.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC",
+					"url": "https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?",
+					"params": {"LAYERS": "orto5m1995", "VERSION": "1.1.1"}
+				}
+			},
+			{
+				"title": "1996 ES_CAT_ICGC - 1:5000",
+				"iconSrc": "logo_icgc.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC",
+					"url": "https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?",
+					"params": {"LAYERS": "orto5m1996", "VERSION": "1.1.1"}
+				}
+			},
+			{
+				"title": "1997 ES_CAT_ICGC - 1:5000",
+				"iconSrc": "logo_icgc.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC",
+					"url": "https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?",
+					"params": {"LAYERS": "orto5m1997", "VERSION": "1.1.1"}
+				}
+			},
+			{
+				"title": "1998 ES_CAT_ICGC - 1:5000",
+				"iconSrc": "logo_icgc.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC",
+					"url": "https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?",
+					"params": {"LAYERS": "orto5m1998", "VERSION": "1.1.1"}
+				}
+			},
+			{
+				"title": "1999 ES_CAT_ICGC - 1:5000",
+				"iconSrc": "logo_icgc.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC",
+					"url": "https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?",
+					"params": {"LAYERS": "orto5m1999", "VERSION": "1.1.1"}
+				}
+			},
+			{
+				"title": "2000 ES_CAT_ICGC - 1:5000",
+				"iconSrc": "logo_icgc.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC",
+					"url": "https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?",
+					"params": {"LAYERS": "orto5m2000", "VERSION": "1.1.1"}
+				}
+			},
+			{
+				"title": "2001 ES_CAT_ICGC - 1:5000",
+				"iconSrc": "logo_icgc.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC",
+					"url": "https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?",
+					"params": {"LAYERS": "orto5m2001", "VERSION": "1.1.1"}
+				}
+			},
+			{
+				"title": "2002 ES_CAT_ICGC - 1:5000",
+				"iconSrc": "logo_icgc.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC",
+					"url": "https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?",
+					"params": {"LAYERS": "orto5m2002", "VERSION": "1.1.1"}
+				}
+			},
+			{
+				"title": "2003 ES_CAT_ICGC - 1:5000",
+				"iconSrc": "logo_icgc.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC",
+					"url": "https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?",
+					"params": {"LAYERS": "orto5m2003", "VERSION": "1.1.1"}
+				}
+			},
+			{
+				"title": "2004 ES_CAT_ICGC - 1:5000",
+				"iconSrc": "logo_icgc.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC",
+					"url": "https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?",
+					"params": {"LAYERS": "orto5m2004", "VERSION": "1.1.1"}
+				}
+			},
+			{
+				"title": "1712 - Plano de la ciudad, castillo - Zaragoza",
+				"iconSrc": "osmbw_logo-layer.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; Archivo Municipal del <a href='https://www.zaragoza.es/' target='_blank'>Ayuntamiento de Zaragoza</a>",
+					"url": "http://idezar.zaragoza.es/geoserver/historicos/wms?",
+					"params": {"LAYERS": "AMZ_4-2_0024", "VERSION": "1.3.0"}
+				}
+			},
+			{
+				"title": "1769 - Vista de Zaragoza por Septentrión - Carlos Casanova - Zaragoza",
+				"iconSrc": "osmbw_logo-layer.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; Archivo Municipal del <a href='https://www.zaragoza.es/' target='_blank'>Ayuntamiento de Zaragoza</a>",
+					"url": "http://idezar.zaragoza.es/geoserver/historicos/wms?",
+					"params": {"LAYERS": "AMZ_4-2_0005", "VERSION": "1.3.0"}
+				}
+			},
+			{
+				"title": "1809 - Plano topográfico - Clemente Noguera - Zaragoza",
+				"iconSrc": "osmbw_logo-layer.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; Archivo Municipal del <a href='https://www.zaragoza.es/' target='_blank'>Ayuntamiento de Zaragoza</a>",
+					"url": "http://idezar.zaragoza.es/geoserver/historicos/wms?",
+					"params": {"LAYERS": "AMZ_4-2_0024", "VERSION": "1.3.0"}
+				}
+			},
+			{
+				"title": "1852 - Plano de Zaragoza - Yarza y Gironza - Zaragoza",
+				"iconSrc": "osmbw_logo-layer.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; Archivo Municipal del <a href='https://www.zaragoza.es/' target='_blank'>Ayuntamiento de Zaragoza</a>",
+					"url": "http://idezar.zaragoza.es/geoserver/historicos/wms?",
+					"params": {"LAYERS": "AMZ_4-2_0275", "VERSION": "1.3.0"}
+				}
+			},
+			{
+				"title": "1861 - Plano de Zaragoza - Yarza y Gironza - Zaragoza",
+				"iconSrc": "osmbw_logo-layer.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; Archivo Municipal del <a href='https://www.zaragoza.es/' target='_blank'>Ayuntamiento de Zaragoza</a>",
+					"url": "http://idezar.zaragoza.es/geoserver/historicos/wms?",
+					"params": {"LAYERS": "AMZ_4-2_0274", "VERSION": "1.3.0"}
+				}
+			},
+			{
+				"title": "1863 - Plano de Zaragoza - Imprenta y litografía de Agustín Peiró - Zaragoza",
+				"iconSrc": "osmbw_logo-layer.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; Archivo Municipal del <a href='https://www.zaragoza.es/' target='_blank'>Ayuntamiento de Zaragoza</a>",
+					"url": "http://idezar.zaragoza.es/geoserver/historicos/wms?",
+					"params": {"LAYERS": "AMZ_4-2_0697", "VERSION": "1.3.0"}
+				}
+			},
+			{
+				"title": "1872 - Plano de Zaragoza - Estado Mayor del Ejército - Zaragoza",
+				"iconSrc": "osmbw_logo-layer.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; Archivo Municipal del <a href='https://www.zaragoza.es/' target='_blank'>Ayuntamiento de Zaragoza</a>",
+					"url": "http://idezar.zaragoza.es/geoserver/historicos/wms?",
+					"params": {"LAYERS": "AMZ_4-2_0075", "VERSION": "1.3.0"}
+				}
+			},
+			{
+				"title": "1880 - Plano de Zaragoza - Dionisio Casañal y Zapatero - Zaragoza",
+				"iconSrc": "osmbw_logo-layer.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; Archivo Municipal del <a href='https://www.zaragoza.es/' target='_blank'>Ayuntamiento de Zaragoza</a>",
+					"url": "http://idezar.zaragoza.es/geoserver/historicos/wms?",
+					"params": {"LAYERS": "AMZ_4-2_0075", "VERSION": "1.3.0"}
+				}
+			},
+			{
+				"title": "1899 - Plano de Zaragoza - Dionisio Casañal y Zapatero - Zaragoza",
+				"iconSrc": "osmbw_logo-layer.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; Archivo Municipal del <a href='https://www.zaragoza.es/' target='_blank'>Ayuntamiento de Zaragoza</a>",
+					"url": "http://idezar.zaragoza.es/geoserver/historicos/wms?",
+					"params": {"LAYERS": "AMZ_4-2_0072", "VERSION": "1.3.0"}
+				}
+			},
+			{
+				"title": "1900 - Plano de Zaragoza - A. Martín editor - Zaragoza",
+				"iconSrc": "osmbw_logo-layer.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; Archivo Municipal del <a href='https://www.zaragoza.es/' target='_blank'>Ayuntamiento de Zaragoza</a>",
+					"url": "http://idezar.zaragoza.es/geoserver/historicos/wms?",
+					"params": {"LAYERS": "AMZ_4-2_0751", "VERSION": "1.3.0"}
+				}
+			},
+			{
+				"title": "1908 - Plano de Zaragoza - Dionisio Casañal y Zapatero - Zaragoza",
+				"iconSrc": "osmbw_logo-layer.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; Archivo Municipal del <a href='https://www.zaragoza.es/' target='_blank'>Ayuntamiento de Zaragoza</a>",
+					"url": "http://idezar.zaragoza.es/geoserver/historicos/wms?",
+					"params": {"LAYERS": "AMZ_4-2_0080", "VERSION": "1.3.0"}
+				}
+			},
+			{
+				"title": "1925 - Plano parcelario de Zaragoza - Miguel Ángel Navarro y Pérez - Zaragoza",
+				"iconSrc": "osmbw_logo-layer.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; Archivo Municipal del <a href='https://www.zaragoza.es/' target='_blank'>Ayuntamiento de Zaragoza</a>",
+					"url": "http://idezar.zaragoza.es/geoserver/historicos/wms?",
+					"params": {"LAYERS": "AMZ_4-2_0476", "VERSION": "1.3.0"}
+				}
+			},
+			{
+				"title": "1935 - Plano-guía de plano parcelario de Zaragoza - Instituto Geográfico y Catastral - Zaragoza",
+				"iconSrc": "osmbw_logo-layer.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; Archivo Municipal del <a href='https://www.zaragoza.es/' target='_blank'>Ayuntamiento de Zaragoza</a>",
+					"url": "http://idezar.zaragoza.es/geoserver/historicos/wms?",
+					"params": {"LAYERS": "AMZ_4-2_0451", "VERSION": "1.3.0"}
+				}
+			},
+			{
+				"title": "1938 - Plano de Zaragoza - Regino Borobio y José Beltrán - Zaragoza",
+				"iconSrc": "osmbw_logo-layer.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; Archivo Municipal del <a href='https://www.zaragoza.es/' target='_blank'>Ayuntamiento de Zaragoza</a>",
+					"url": "http://idezar.zaragoza.es/geoserver/historicos/wms?",
+					"params": {"LAYERS": "AMZ_4-2_0565", "VERSION": "1.3.0"}
+				}
+			},
+			{
+				"title": "1950 - Plano gráfico informativo - Ayuntamiento y Antonio Margalé - Zaragoza",
+				"iconSrc": "osmbw_logo-layer.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; Archivo Municipal del <a href='https://www.zaragoza.es/' target='_blank'>Ayuntamiento de Zaragoza</a>",
+					"url": "http://idezar.zaragoza.es/geoserver/historicos/wms?",
+					"params": {"LAYERS": "Planimetria-42", "VERSION": "1.3.0"}
+				}
+			},
+			{
+				"title": "1958 - Plano Guía del plano de Zaragoza - José Beltrán Navarro - Zaragoza",
+				"iconSrc": "osmbw_logo-layer.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; Archivo Municipal del <a href='https://www.zaragoza.es/' target='_blank'>Ayuntamiento de Zaragoza</a>",
+					"url": "http://idezar.zaragoza.es/geoserver/historicos/wms?",
+					"params": {"LAYERS": "AMZ_4-2_0421", "VERSION": "1.3.0"}
+				}
+			},
+			{
+				"title": "1977 - Plano-Guía de arquitectura - Juan Antonio Carmona - Zaragoza",
+				"iconSrc": "osmbw_logo-layer.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; Archivo Municipal del <a href='https://www.zaragoza.es/' target='_blank'>Ayuntamiento de Zaragoza</a>",
+					"url": "http://idezar.zaragoza.es/geoserver/historicos/wms?",
+					"params": {"LAYERS": "BMZ_F00021-38_0001", "VERSION": "1.3.0"}
+				}
+			},
+			{
+				"title": "1993 - Callejero - Ayuntamiento - Zaragoza",
+				"iconSrc": "osmbw_logo-layer.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; Archivo Municipal del <a href='https://www.zaragoza.es/' target='_blank'>Ayuntamiento de Zaragoza</a>",
+					"url": "http://idezar.zaragoza.es/geoserver/historicos/wms?",
+					"params": {"LAYERS": "AMZ_4-2_0649", "VERSION": "1.3.0"}
+				}
+			},
+			{
+				"title": "2004 - Callejero - Ayuntamiento - Zaragoza",
+				"iconSrc": "osmbw_logo-layer.png",
+				"source": {
+					"type": "TileWMS",
+					"attributions": "Map data &copy; Archivo Municipal del <a href='https://www.zaragoza.es/' target='_blank'>Ayuntamiento de Zaragoza</a>",
+					"url": "http://idezar.zaragoza.es/geoserver/historicos/wms?",
+					"params": {"LAYERS": "AMZ_4-2_0926", "VERSION": "1.3.0"}
+				}
+			},
+			{
+				"title": "Google Maps",
+				"iconSrc": "gmaps_logo_layer.png",
+				"source": {
+					"type": "XYZ",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,&copy; <a href='https://www.google.com/maps/' target='_blank'>Google Maps</a>",
+					"url": "https://mt{0-3}.google.com/vt/lyrs=m&z={z}&x={x}&y={y}"
+				}
+			},
+			{
+				"title": "Google Sat",
+				"iconSrc": "gmaps_logo_layer.png",
+				"source": {
+					"type": "XYZ",
+					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,&copy; <a href='https://www.google.com/maps/' target='_blank'>Google Maps</a>",
+					"url": "https://mt{0-3}.google.com/vt/lyrs=s&z={z}&x={x}&y={y}"
+				}
+			}
+		]
+	}
+]
