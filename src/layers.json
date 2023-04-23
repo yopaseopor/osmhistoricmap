@@ -123,7 +123,13 @@
 					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community",
 					"url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
 				}
-			},
+			}
+		]
+	},
+	{
+		"title": "ES_JCyL",
+		"iconSrc": "jcyl.png",
+		"layers": [
 			{
 				"title": "Ortoimágenes 1956 JCyL",
 				"iconSrc": "jcyl.png",
@@ -403,7 +409,13 @@
 					"url": "https://www.ign.es/wms/pnoa-historico?",
 					"params": {"LAYERS": "PNOA2019"}
 				}
-			},
+			}
+		]
+	},
+	{
+		"title": "ES_CAT_ICGC",
+		"iconSrc": "logo_icgc.png",
+		"layers": [
 			{
 				"title": "1945-1946 ES_CAT_ICGC - Vol AMS Sèrie A",
 				"iconSrc": "logo_icgc.png",
@@ -603,7 +615,13 @@
 					"url": "https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?",
 					"params": {"LAYERS": "orto5m2004", "VERSION": "1.1.1"}
 				}
-			},
+			}
+		]
+	},
+	{
+		"title": "ES_ARA_Ay.Zaragoza",
+		"iconSrc": "osmbw_logo-layer.png",
+		"layers": [
 			{
 				"title": "1712 - Plano de la ciudad, castillo - Zaragoza",
 				"iconSrc": "osmbw_logo-layer.png",
@@ -793,7 +811,13 @@
 					"url": "http://idezar.zaragoza.es/geoserver/historicos/wms?",
 					"params": {"LAYERS": "AMZ_4-2_0926", "VERSION": "1.3.0"}
 				}
-			},
+			}
+		]
+	},
+	{
+		"title": "Otros actuales",
+		"iconSrc": "gmaps_logo_layer.png",
+		"layers": [
 			{
 				"title": "Google Maps",
 				"iconSrc": "gmaps_logo_layer.png",
