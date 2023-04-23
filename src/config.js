@@ -34,9 +34,9 @@ var config = {
 		return overpassApi;
 	},
 	// Base layers
-	layers: [],
+	layers: [
 	
-	/*	new ol.layer.Tile({
+	new ol.layer.Tile({
 			title: 'OpenStreetMap',
 			iconSrc: imgSrc + 'osm_logo-layer.svg',
 			source: new ol.source.OSM()
@@ -890,7 +890,7 @@ var config = {
 			}),
 			visible: false
 		}) 
-	], */
+	], 
 	/**
 	* @type Array
 	* Overlay
