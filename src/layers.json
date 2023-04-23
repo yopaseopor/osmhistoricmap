@@ -60,7 +60,7 @@
 					"type": "TileWMS",
 					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN",
 					"url": "https://www.ign.es/wms/minutas-cartograficas?",
-					"params": {'LAYERS': 'Minutas'}
+					"params": {"LAYERS": "Minutas"}
 				}
 			},
 			{
@@ -70,7 +70,7 @@
 					"type": "TileWMS",
 					"attributions": "Map data &copy; <a href='https://www.openstreetmap.org/' target='_blank'>OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN",
 					"url": "https://www.ign.es/wms/primera-edicion-mtn?",
-					"params": {'LAYERS': 'catastrones'}
+					"params": {"LAYERS": "catastrones"}
 				}
 			},
 			{
