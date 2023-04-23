@@ -35,6 +35,7 @@ var config = {
 	},
 	// Base layers
 	layers: [],
+	
 	/*	new ol.layer.Tile({
 			title: 'OpenStreetMap',
 			iconSrc: imgSrc + 'osm_logo-layer.svg',
