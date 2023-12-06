@@ -415,6 +415,36 @@ var config = {
 			iconSrc: imgSrc + 'logo_ign.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
+				url: 'https://www.ign.es/wms/pnoa-historico?',
+				params: {'LAYERS': 'PNOA2020'}
+			}),
+			visible: false
+		}),
+		new ol.layer.Tile({
+			title: '2021 ES_IGN - PNOA',
+			iconSrc: imgSrc + 'logo_ign.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
+				url: 'https://www.ign.es/wms/pnoa-historico?',
+				params: {'LAYERS': 'PNOA2021'}
+			}),
+			visible: false
+		}),
+		new ol.layer.Tile({
+			title: '2022 ES_IGN - PNOA',
+			iconSrc: imgSrc + 'logo_ign.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
+				url: 'https://www.ign.es/wms/pnoa-historico?',
+				params: {'LAYERS': 'PNOA2022'}
+			}),
+			visible: false
+		}),
+		new ol.layer.Tile({
+			title: '2023 ES_IGN - PNOA',
+			iconSrc: imgSrc + 'logo_ign.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; IGN &mdash; Source: IGN',
 				url: 'http://www.ign.es/wms-inspire/pnoa-ma?',
 				params: {'LAYERS': 'OI.OrthoimageCoverage', 'VERSION': '1.3.0'}
 			}),
