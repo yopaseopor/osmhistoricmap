@@ -701,6 +701,17 @@ var config = {
 			}),
 			visible: false
 		}),
+		
+				new ol.layer.Tile({
+			title: 'Provisional ES_CAT_ICGC - 1:5000',
+			iconSrc: imgSrc + 'logo_icgc.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
+				url: 'https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms/service?',
+				params: {'LAYERS': 'ortofoto_color_provisional', 'VERSION': '1.1.1'}
+			}),
+			visible: false
+		}),
 
 				new ol.layer.Tile({
 			title: '1712 - Plano de la ciudad, castillo - Zaragoza',
