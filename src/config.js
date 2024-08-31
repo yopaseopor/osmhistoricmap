@@ -1717,6 +1717,22 @@ var vectorLayer = new ol.layer.Vector({
 		},
 		{
 			group: 'Per year',
+			title: 'Wheelchair=limited',
+			query: '[date:"2013-05-06T00:00:00Z"];(node[amenity]({{bbox}}););out meta;',
+			iconSrc: imgSrc + 'accessibilitat/wheelchair_limited_shop.svg',
+			iconStyle: 'background-color:#714601',
+			scale: 0.0004,
+			style: function () {
+				var style = new ol.style.Style({
+					image: new ol.style.Icon({
+						src: imgSrc + 'accessibilitat/wheelchair_limited_shop.svg'
+					})
+				});
+				return style;
+			}
+		},
+		{
+			group: 'Per year',
 			title: '0-99',
 			query: '[date:"2013-05-06T00:00:00Z"];( node({{bbox}}); <; >; );out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
