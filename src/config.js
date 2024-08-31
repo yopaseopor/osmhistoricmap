@@ -1718,7 +1718,7 @@ var vectorLayer = new ol.layer.Vector({
 		{
 			group: 'Per year',
 			title: '0-99',
-			query: '[date:"2013-05-06T00:00:00Z"];( nwr["amenity"]({{bbox}}); <; >; );out meta;',
+			query: '[date:"2013-05-06T00:00:00Z"];( node({{bbox}}); <; >; );out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#753f4f',
 			style: function (feature) {
