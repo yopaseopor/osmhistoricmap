@@ -1716,6 +1716,38 @@ var vectorLayer = new ol.layer.Vector({
 
 		},
 		{
+			group: 'Per year',
+			title: '0-99',
+			query: '[date:"2013-05-06T00:00:00Z"];(nwr["amenity"]({{bbox}}); <; >; );out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#753f4f',
+			style: function (feature) {
+				var key_regex = /^name$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,0,255,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#753f4f',
+					width: 5
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name
+							}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		{
 			group: 'Centuries',
 			title: '0-99',
 			query: '(nwr[~"^name:0[0-9][0-9]$"~"."]({{bbox}});node(w););out meta;',
