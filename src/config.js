@@ -1734,7 +1734,40 @@ var vectorLayer = new ol.layer.Vector({
 		{
 			group: 'Per year',
 			title: '0-99',
-			query: '[date:"2013-05-06T00:00:00Z"];( node({{bbox}}); <; >; );out meta;',
+			query: '%5Bdate%3A%222014-05-06T00%3A00%3A00Z%22%5D%3B%0A%28%20node%2840.02228857029561%2C32.923327088356025%2C40.02403035741985%2C32.926813960075386%29%3B%20%3C%3B%20%3E%3B%20%29%3B%0Aout%20meta%3B
+			[date:"2013-05-06T00:00:00Z"];( node({{bbox}}); <; >; );out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#753f4f',
+			style: function (feature) {
+				var key_regex = /^name$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,0,255,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#753f4f',
+					width: 5
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name
+							}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		{
+			group: 'Per year',
+			title: '0-98',
+			query: '[date:"2013-05-06T00:00:00Z"];(nwr[~"^name$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#753f4f',
 			style: function (feature) {
