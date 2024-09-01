@@ -1716,7 +1716,7 @@ var vectorLayer = new ol.layer.Vector({
 
 		},
 		{
-			group: 'Per year',
+			group: 'Test - Per year',
 			title: 'Wheelchair=limited',
 			query: '[date:"2013-05-06T00:00:00Z"];(node[amenity]({{bbox}}););out meta;',
 			iconSrc: imgSrc + 'accessibilitat/wheelchair_limited_shop.svg',
@@ -1732,7 +1732,7 @@ var vectorLayer = new ol.layer.Vector({
 			}
 		},
 		{
-			group: 'Per year',
+			group: 'Test - Per year',
 			title: '0-98',
 			query: '[date:"2013-05-06T00:00:00Z"];(nwr[~"^name$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
