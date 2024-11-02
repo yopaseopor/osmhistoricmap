@@ -11263,7 +11263,10 @@ var vectorLayer = new ol.layer.Vector({
 						radius: 2
 					}),
 					fill: fill,
-					stroke: stroke
+					stroke: stroke,
+					text: new ol.style.Text({
+								text: name
+							})
 				});
 				return style;
 			}
