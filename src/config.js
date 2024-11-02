@@ -42,6 +42,15 @@ var config = {
 			source: new ol.source.OSM()
 		}),
 		new ol.layer.Tile({
+			title: 'OpenAerialMap DANA 2024 (Maxar)',
+			iconSrc: imgSrc + 'logo_hotosm.png',
+			source: new ol.source.XYZ({
+				attributions: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Tiles from <a href="https://www.maxar.com/" target="_blank">Maxar </a> linked in <a href="https://openaerialmap.org/" target="_blank">OpenAerialMap</a>',
+				url: 'https://tiles.openaerialmap.org/6725e2bb12636c00010d7137/0/6725e2bb12636c00010d7138/{z}/{x}/{y}.png'
+			}),
+			visible: false
+		}),
+		new ol.layer.Tile({
 			title: 'OpenStreetMap HOT',
 			iconSrc: imgSrc + 'logo_hotosm.png',
 			source: new ol.source.XYZ({
