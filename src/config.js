@@ -5721,8 +5721,8 @@ var vectorLayer = new ol.layer.Vector({
 		// Overlay: Generic
 		{
 			group: 'Generic',
-			title: 'Damaged',
-			query: '(nwr[~"^damaged(:.*)?$"~"."]({{bbox}});node(w););out meta;',
+			title: 'Damage',
+			query: '(nwr[~"^damage(:.*)?$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#bb2ecc',
 			style: function () {
@@ -11215,8 +11215,8 @@ var vectorLayer = new ol.layer.Vector({
 		// Overlay: DANA2024
 		{
 			group: 'DANA2024',
-			title: 'Damaged',
-			query: '(nwr[~"^damaged(:.*)?$"~"."]({{bbox}});node(w););out meta;',
+			title: 'Damage',
+			query: '(nwr[~"^damage(:.*)?$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#bb2ecc',
 			style: function () {
