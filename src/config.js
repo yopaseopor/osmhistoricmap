@@ -11244,7 +11244,7 @@ var vectorLayer = new ol.layer.Vector({
 		// Overlay: DANA2024
 		{
 			group: '2024-10-29 DANA',
-			title: 'Destroyed2',
+			title: 'Destroyed',
 			query: '(nwr[~"^destroyed(:.*)?$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#D00B67',
