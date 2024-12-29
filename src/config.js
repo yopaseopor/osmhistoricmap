@@ -4412,6 +4412,40 @@ var vectorLayer = new ol.layer.Vector({
 				// Overlay: 5 years
 		{
 			group: '5-years 50',
+			title: '2025-2029',
+			query: '(nwr[~"^name:202[5-9]$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#753f4f',
+			style: function (feature) {
+				var key_regex = /^name:202[5-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,0,255,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#753f4f',
+					width: 5
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name
+							}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		
+				// Overlay: 5 years
+		{
+			group: '5-years 50',
 			title: '< 1974',
 			query: '(nwr[~"-197[0-4]$"~"."]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -4745,6 +4779,40 @@ var vectorLayer = new ol.layer.Vector({
 				});
 				var stroke = new ol.style.Stroke({
 					color: '#ef7cff',
+					width: 5
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+							text: new ol.style.Text({
+								text: name
+							}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+		},
+		
+				// Overlay: 5 years
+		{
+			group: '5-years 50',
+			title: '< 2029',
+			query: '(nwr[~"-202[5-9]$"~"."]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:#753f4f',
+			style: function (feature) {
+				var key_regex = /-202[5-9]$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(0,0,255,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: '#753f4f',
 					width: 5
 				});
 				var style = new ol.style.Style({
@@ -7086,7 +7154,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 		},
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-10-22',
 		    geojson:  imgSrc + 'base/lapalma/2021_10_22_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -7166,7 +7234,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 },
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-10-21',
 		    geojson:  imgSrc + 'base/lapalma/2021_10_21_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -7246,7 +7314,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 },
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-10-20',
 		    geojson:  imgSrc + 'base/lapalma/2021_10_20_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -7326,7 +7394,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 },
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-10-19',
 		    geojson:  imgSrc + 'base/lapalma/2021_10_19_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -7406,7 +7474,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 },
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-10-18',
 		    geojson:  imgSrc + 'base/lapalma/2021_10_18_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -7486,7 +7554,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 },
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-10-17',
 		    geojson:  imgSrc + 'base/lapalma/2021_10_17_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -7566,7 +7634,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 },
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-10-16',
 		    geojson:  imgSrc + 'base/lapalma/2021_10_16_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -7646,7 +7714,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 },
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-10-15',
 		    geojson:  imgSrc + 'base/lapalma/2021_10_15_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -7726,7 +7794,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 },
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-10-14',
 		    geojson:  imgSrc + 'base/lapalma/2021_10_14_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -7806,7 +7874,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 },
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-10-13',
 		    geojson:  imgSrc + 'base/lapalma/2021_10_13_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -7886,7 +7954,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 },
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-10-12',
 		    geojson:  imgSrc + 'base/lapalma/2021_10_12_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -7966,7 +8034,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 },
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-10-11',
 		    geojson:  imgSrc + 'base/lapalma/2021_10_11_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -8046,7 +8114,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 },
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-10-10',
 		    geojson:  imgSrc + 'base/lapalma/2021_10_10_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -8126,7 +8194,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 },
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-10-09',
 		    geojson:  imgSrc + 'base/lapalma/2021_10_09_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -8206,7 +8274,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 },
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-10-08',
 		    geojson:  imgSrc + 'base/lapalma/2021_10_08_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -8286,7 +8354,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 },
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-10-07',
 		    geojson:  imgSrc + 'base/lapalma/2021_10_07_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -8366,7 +8434,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 },
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-10-06',
 		    geojson:  imgSrc + 'base/lapalma/2021_10_06_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -8446,7 +8514,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 },
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-10-05',
 		    geojson:  imgSrc + 'base/lapalma/2021_10_05_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -8526,7 +8594,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 },
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-10-04',
 		    geojson:  imgSrc + 'base/lapalma/2021_10_04_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -8606,7 +8674,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 },
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-10-03',
 		    geojson:  imgSrc + 'base/lapalma/2021_10_03_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -8686,7 +8754,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 },
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-10-02',
 		    geojson:  imgSrc + 'base/lapalma/2021_10_02_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -8766,7 +8834,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 },
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-10-01',
 		    geojson:  imgSrc + 'base/lapalma/2021_10_01_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -8846,7 +8914,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 },
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-09-30',
 		    geojson:  imgSrc + 'base/lapalma/2021_09_30_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -8926,7 +8994,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 },
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-09-29',
 		    geojson:  imgSrc + 'base/lapalma/2021_09_29_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -9006,7 +9074,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 },
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-09-28',
 		    geojson:  imgSrc + 'base/lapalma/2021_09_28_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -9086,7 +9154,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 },
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-09-27',
 		    geojson:  imgSrc + 'base/lapalma/2021_09_27_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -9166,7 +9234,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 },
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-09-26',
 		    geojson:  imgSrc + 'base/lapalma/2021_09_26_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -9246,7 +9314,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 },
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-09-25',
 		    geojson:  imgSrc + 'base/lapalma/2021_09_25_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -9326,7 +9394,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 },
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-09-24',
 		    geojson:  imgSrc + 'base/lapalma/2021_09_24_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -9406,7 +9474,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 },
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-09-23',
 		    geojson:  imgSrc + 'base/lapalma/2021_09_23_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -9486,7 +9554,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 },
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-09-22',
 		    geojson:  imgSrc + 'base/lapalma/2021_09_22_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -9566,7 +9634,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 },
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-09-21',
 		    geojson:  imgSrc + 'base/lapalma/2021_09_21_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
@@ -9646,7 +9714,7 @@ var vectorLayer = new ol.layer.Vector({
 		 
 },
 		{
-			group: 'La Palma',
+			group: '2021-09-20 La Palma',
 			title: '2021-09-20',
 		    geojson:  imgSrc + 'base/lapalma/2021_09_20_Perimetro_para_osm.geojson',
 			iconSrc: imgSrc + 'base/circle.svg',
