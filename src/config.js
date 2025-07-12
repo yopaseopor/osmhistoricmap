@@ -479,8 +479,7 @@ var config = {
 			}),
 			visible: false
 		}),
-		
-				}),
+
 		new ol.layer.Tile({
 			title: '1956 ES_CAT_ICGC - Vol AMS Sèrie B',
 			iconSrc: imgSrc + 'logo_icgc.png',
