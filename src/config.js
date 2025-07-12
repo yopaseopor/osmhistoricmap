@@ -469,14 +469,13 @@ var config = {
 			}),
 			visible: false
 		}),
-		
-				new ol.layer.Tile({
-			title: '1945-1946 ES_CAT_ICGC - Vol AMS Sèrie A',
+		new ol.layer.Tile({
+			title: '1945 ES_CAT_ICGC - Vol AMS Sèrie A',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
-				params: {'LAYERS': 'ovaa10m', 'VERSION': '1.1.1'}
+				url: 'https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms?',
+				params: {'LAYERS': 'ortofoto_color_serie_anual', 'VERSION': '1.3.0', 'FORMAT': 'JPEG', 'TIME': '1945'}
 			}),
 			visible: false
 		}),
