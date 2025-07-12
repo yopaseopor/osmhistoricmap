@@ -533,15 +533,169 @@ var config = {
 				params: {'LAYERS': 'ortofoto_color_serie_anual', 'VERSION': '1.3.0', 'FORMAT': 'JPEG', 'TIME': '1994-1997'}
 			}),
 			visible: false
-		}),
+				}),
 		
 				new ol.layer.Tile({
-			title: '1986 ES_CAT_ICGC - 1:5000',
+			title: '2000-2003 ES_CAT_ICGC - 1:5000',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
-				params: {'LAYERS': 'orto5m1986', 'VERSION': '1.1.1'}
+				url: 'https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms?',
+				params: {'LAYERS': 'ortofoto_color_serie_anual', 'VERSION': '1.3.0', 'FORMAT': 'JPEG', 'TIME': '2000-2003'}
+			}),
+			visible: false
+		}),
+		
+				new ol.layer.Tile({
+			title: '2004-2005 ES_CAT_ICGC - 1:5000',
+			iconSrc: imgSrc + 'logo_icgc.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
+				url: 'https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms?',
+				params: {'LAYERS': 'ortofoto_color_serie_anual', 'VERSION': '1.3.0', 'FORMAT': 'JPEG', 'TIME': '2004-2005'}
+			}),
+			visible: false
+		}),
+		
+				new ol.layer.Tile({
+			title: '2006-2007 ES_CAT_ICGC - 1:5000',
+			iconSrc: imgSrc + 'logo_icgc.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
+				url: 'https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms?',
+				params: {'LAYERS': 'ortofoto_color_serie_anual', 'VERSION': '1.3.0', 'FORMAT': 'JPEG', 'TIME': '2006-2007'}
+			}),
+			visible: false
+				}),
+		
+				new ol.layer.Tile({
+			title: '2008 ES_CAT_ICGC - 1:5000',
+			iconSrc: imgSrc + 'logo_icgc.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
+				url: 'https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms?',
+				params: {'LAYERS': 'ortofoto_color_serie_anual', 'VERSION': '1.3.0', 'FORMAT': 'JPEG', 'TIME': '2008'}
+			}),
+			visible: false
+				}),
+		
+				new ol.layer.Tile({
+			title: '2009 ES_CAT_ICGC - 1:5000',
+			iconSrc: imgSrc + 'logo_icgc.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
+				url: 'https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms?',
+				params: {'LAYERS': 'ortofoto_color_serie_anual', 'VERSION': '1.3.0', 'FORMAT': 'JPEG', 'TIME': '2009'}
+			}),
+			visible: false
+				}),
+		
+				new ol.layer.Tile({
+			title: '2010 ES_CAT_ICGC - 1:5000',
+			iconSrc: imgSrc + 'logo_icgc.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
+				url: 'https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms?',
+				params: {'LAYERS': 'ortofoto_color_serie_anual', 'VERSION': '1.3.0', 'FORMAT': 'JPEG', 'TIME': '2010'}
+			}),
+			visible: false
+				}),
+		
+				new ol.layer.Tile({
+			title: '2011 ES_CAT_ICGC - 1:5000',
+			iconSrc: imgSrc + 'logo_icgc.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
+				url: 'https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms?',
+				params: {'LAYERS': 'ortofoto_color_serie_anual', 'VERSION': '1.3.0', 'FORMAT': 'JPEG', 'TIME': '2011'}
+			}),
+			visible: false
+						}),
+		
+				new ol.layer.Tile({
+			title: '2012 ES_CAT_ICGC - 1:5000',
+			iconSrc: imgSrc + 'logo_icgc.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
+				url: 'https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms?',
+				params: {'LAYERS': 'ortofoto_color_serie_anual', 'VERSION': '1.3.0', 'FORMAT': 'JPEG', 'TIME': '2012'}
+			}),
+			visible: false
+						}),
+		
+				new ol.layer.Tile({
+			title: '2013 ES_CAT_ICGC - 1:5000',
+			iconSrc: imgSrc + 'logo_icgc.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
+				url: 'https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms?',
+				params: {'LAYERS': 'ortofoto_color_serie_anual', 'VERSION': '1.3.0', 'FORMAT': 'JPEG', 'TIME': '2013'}
+			}),
+			visible: false
+						}),
+		
+				new ol.layer.Tile({
+			title: '2014 ES_CAT_ICGC - 1:5000',
+			iconSrc: imgSrc + 'logo_icgc.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
+				url: 'https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms?',
+				params: {'LAYERS': 'ortofoto_color_serie_anual', 'VERSION': '1.3.0', 'FORMAT': 'JPEG', 'TIME': '2014'}
+			}),
+			visible: false
+						}),
+		
+				new ol.layer.Tile({
+			title: '2015 ES_CAT_ICGC - 1:5000',
+			iconSrc: imgSrc + 'logo_icgc.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
+				url: 'https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms?',
+				params: {'LAYERS': 'ortofoto_color_serie_anual', 'VERSION': '1.3.0', 'FORMAT': 'JPEG', 'TIME': '2015'}
+			}),
+			visible: false
+						}),
+		
+				new ol.layer.Tile({
+			title: '2016 ES_CAT_ICGC - 1:5000',
+			iconSrc: imgSrc + 'logo_icgc.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
+				url: 'https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms?',
+				params: {'LAYERS': 'ortofoto_color_serie_anual', 'VERSION': '1.3.0', 'FORMAT': 'JPEG', 'TIME': '2016'}
+			}),
+			visible: false
+						}),
+		
+				new ol.layer.Tile({
+			title: '2017 ES_CAT_ICGC - 1:5000',
+			iconSrc: imgSrc + 'logo_icgc.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
+				url: 'https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms?',
+				params: {'LAYERS': 'ortofoto_color_serie_anual', 'VERSION': '1.3.0', 'FORMAT': 'JPEG', 'TIME': '2017'}
+			}),
+			visible: false
+						}),
+		
+				new ol.layer.Tile({
+			title: '2018 ES_CAT_ICGC - 1:5000',
+			iconSrc: imgSrc + 'logo_icgc.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
+				url: 'https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms?',
+				params: {'LAYERS': 'ortofoto_color_serie_anual', 'VERSION': '1.3.0', 'FORMAT': 'JPEG', 'TIME': '2018'}
+			}),
+			visible: false
+						}),
+		
+				new ol.layer.Tile({
+			title: '2019 ES_CAT_ICGC - 1:5000',
+			iconSrc: imgSrc + 'logo_icgc.png',
+			source: new ol.source.TileWMS({
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
+				url: 'https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms?',
+				params: {'LAYERS': 'ortofoto_color_serie_anual', 'VERSION': '1.3.0', 'FORMAT': 'JPEG', 'TIME': '2019'}
 			}),
 			visible: false
 		}),
