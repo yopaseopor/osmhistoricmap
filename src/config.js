@@ -698,201 +698,59 @@ var config = {
 				params: {'LAYERS': 'ortofoto_color_serie_anual', 'VERSION': '1.3.0', 'FORMAT': 'JPEG', 'TIME': '2019'}
 			}),
 			visible: false
-		}),
+								}),
 		
 				new ol.layer.Tile({
-			title: '1987 ES_CAT_ICGC - 1:5000',
+			title: '2020 ES_CAT_ICGC - 1:5000',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
-				params: {'LAYERS': 'orto5m1987', 'VERSION': '1.1.1'}
+				url: 'https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms?',
+				params: {'LAYERS': 'ortofoto_color_serie_anual', 'VERSION': '1.3.0', 'FORMAT': 'JPEG', 'TIME': '2020'}
 			}),
 			visible: false
 		}),
 		
 				new ol.layer.Tile({
-			title: '1988 ES_CAT_ICGC - 1:5000',
+			title: '2021 ES_CAT_ICGC - 1:5000',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
-				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
-				params: {'LAYERS': 'orto5m1988', 'VERSION': '1.1.1'}
+				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
+				url: 'https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms?',
+				params: {'LAYERS': 'ortofoto_color_serie_anual', 'VERSION': '1.3.0', 'FORMAT': 'JPEG', 'TIME': '2021'}
 			}),
 			visible: false
 		}),
 		
 				new ol.layer.Tile({
-			title: '1989 ES_CAT_ICGC - 1:5000',
+			title: '2022 ES_CAT_ICGC - 1:5000',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
-				params: {'LAYERS': 'orto5m1989', 'VERSION': '1.1.1'}
+				url: 'https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms?',
+				params: {'LAYERS': 'ortofoto_color_serie_anual', 'VERSION': '1.3.0', 'FORMAT': 'JPEG', 'TIME': '2022'}
 			}),
 			visible: false
 		}),
 		
 				new ol.layer.Tile({
-			title: '1990 ES_CAT_ICGC - 1:5000',
+			title: '2023 ES_CAT_ICGC - 1:5000',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
-				params: {'LAYERS': 'orto5m1990', 'VERSION': '1.1.1'}
+				url: 'https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms?',
+				params: {'LAYERS': 'ortofoto_color_serie_anual', 'VERSION': '1.3.0', 'FORMAT': 'JPEG', 'TIME': '2023'}
 			}),
 			visible: false
 		}),
 		
 				new ol.layer.Tile({
-			title: '1991 ES_CAT_ICGC - 1:5000',
+			title: '2024 ES_CAT_ICGC - 1:5000',
 			iconSrc: imgSrc + 'logo_icgc.png',
 			source: new ol.source.TileWMS({
 				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
-				params: {'LAYERS': 'orto5m1991', 'VERSION': '1.1.1'}
-			}),
-			visible: false
-		}),
-		
-				new ol.layer.Tile({
-			title: '1992 ES_CAT_ICGC - 1:5000',
-			iconSrc: imgSrc + 'logo_icgc.png',
-			source: new ol.source.TileWMS({
-				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
-				params: {'LAYERS': 'orto5m1992', 'VERSION': '1.1.1'}
-			}),
-			visible: false
-		}),
-		
-				new ol.layer.Tile({
-			title: '1994 ES_CAT_ICGC - 1:5000',
-			iconSrc: imgSrc + 'logo_icgc.png',
-			source: new ol.source.TileWMS({
-				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
-				params: {'LAYERS': 'orto5m1994', 'VERSION': '1.1.1'}
-			}),
-			visible: false
-		}),
-		
-				new ol.layer.Tile({
-			title: '1995 ES_CAT_ICGC - 1:5000',
-			iconSrc: imgSrc + 'logo_icgc.png',
-			source: new ol.source.TileWMS({
-				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
-				params: {'LAYERS': 'orto5m1995', 'VERSION': '1.1.1'}
-			}),
-			visible: false
-		}),
-		
-				new ol.layer.Tile({
-			title: '1996 ES_CAT_ICGC - 1:5000',
-			iconSrc: imgSrc + 'logo_icgc.png',
-			source: new ol.source.TileWMS({
-				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
-				params: {'LAYERS': 'orto5m1996', 'VERSION': '1.1.1'}
-			}),
-			visible: false
-		}),
-		
-				new ol.layer.Tile({
-			title: '1997 ES_CAT_ICGC - 1:5000',
-			iconSrc: imgSrc + 'logo_icgc.png',
-			source: new ol.source.TileWMS({
-				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
-				params: {'LAYERS': 'orto5m1997', 'VERSION': '1.1.1'}
-			}),
-			visible: false
-		}),
-		
-				new ol.layer.Tile({
-			title: '1998 ES_CAT_ICGC - 1:5000',
-			iconSrc: imgSrc + 'logo_icgc.png',
-			source: new ol.source.TileWMS({
-				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
-				params: {'LAYERS': 'orto5m1998', 'VERSION': '1.1.1'}
-			}),
-			visible: false
-		}),
-		
-				new ol.layer.Tile({
-			title: '1999 ES_CAT_ICGC - 1:5000',
-			iconSrc: imgSrc + 'logo_icgc.png',
-			source: new ol.source.TileWMS({
-				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
-				params: {'LAYERS': 'orto5m1999', 'VERSION': '1.1.1'}
-			}),
-			visible: false
-		}),
-		
-				new ol.layer.Tile({
-			title: '2000 ES_CAT_ICGC - 1:5000',
-			iconSrc: imgSrc + 'logo_icgc.png',
-			source: new ol.source.TileWMS({
-				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
-				params: {'LAYERS': 'orto5m2000', 'VERSION': '1.1.1'}
-			}),
-			visible: false
-		}),
-		
-				new ol.layer.Tile({
-			title: '2000 ES_CAT_ICGC - 1:5000',
-			iconSrc: imgSrc + 'logo_icgc.png',
-			source: new ol.source.TileWMS({
-				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
-				params: {'LAYERS': 'orto5m2000', 'VERSION': '1.1.1'}
-			}),
-			visible: false
-		}),
-		
-				new ol.layer.Tile({
-			title: '2001 ES_CAT_ICGC - 1:5000',
-			iconSrc: imgSrc + 'logo_icgc.png',
-			source: new ol.source.TileWMS({
-				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
-				params: {'LAYERS': 'orto5m2001', 'VERSION': '1.1.1'}
-			}),
-			visible: false
-		}),
-		
-				new ol.layer.Tile({
-			title: '2002 ES_CAT_ICGC - 1:5000',
-			iconSrc: imgSrc + 'logo_icgc.png',
-			source: new ol.source.TileWMS({
-				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
-				params: {'LAYERS': 'orto5m2002', 'VERSION': '1.1.1'}
-			}),
-			visible: false
-		}),
-		
-				new ol.layer.Tile({
-			title: '2003 ES_CAT_ICGC - 1:5000',
-			iconSrc: imgSrc + 'logo_icgc.png',
-			source: new ol.source.TileWMS({
-				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
-				params: {'LAYERS': 'orto5m2003', 'VERSION': '1.1.1'}
-			}),
-		}),
-		
-				new ol.layer.Tile({
-			title: '2004 ES_CAT_ICGC - 1:5000',
-			iconSrc: imgSrc + 'logo_icgc.png',
-			source: new ol.source.TileWMS({
-				attributions: 'Map data &copy; <a href="https://www.openstreetmap.org/" target="_blank">OpenStreetMap Contributors</a>,Tiles &copy; ICGC &mdash; Source: ICGC',
-				url: 'https://geoserveis.icgc.cat/icc_ortohistorica/wms/service?',
-				params: {'LAYERS': 'orto5m2004', 'VERSION': '1.1.1'}
+				url: 'https://geoserveis.icgc.cat/servei/catalunya/orto-territorial/wms?',
+				params: {'LAYERS': 'ortofoto_color_serie_anual', 'VERSION': '1.3.0', 'FORMAT': 'JPEG', 'TIME': '2024'}
 			}),
 			visible: false
 		}),
